@@ -87,7 +87,7 @@ colorscheme vimtom
 "
 
 "MACVIM CONFIG
-set guifont=Menlo:h18
+"set guifont=Menlo:h18
 
 "LINUX GVIM CONFIG
 "set guioptions-=T
