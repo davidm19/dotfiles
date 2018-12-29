@@ -1,0 +1,45 @@
+set nocompatible
+
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+Plugin 'Raimondi/delimitMate'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-fugitive'
+Plugin 'ervandew/supertab'
+Plugin 'tpope/vim-surround'
+call vundle#end()
+filetype plugin indent on
+
+" ----- Raimondi/delimitMate settings -----
+let delimitMate_expand_cr = 1
+augroup mydelimitMate
+  au!
+  au FileType markdown let b:delimitMate_nesting_quotes = ["`"]
+  au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
+augroup END
+
+" ----- key remappings -----
+nmap <silent> <leader>wq :wq<CR>
+nmap <silent> <leader>w :w<CR>
+nmap <silent> <leader>W :wa<CR>
+nmap <silent> <leader>q :q<CR>
+nmap <silent> <leader>q! :q!<CR>
+nmap <silent> <leader>Q :qa<CR>
+nmap <silent> <leader>Q! :qa!<CR>
+nmap <silent> <leader>ga :Gwrite<CR>
+nmap <silent> <leader>gc :Gcommit<CR>
+nmap <silent> <leader>gp :Gpush<CR>
+nmap <silent> <leader>gP :Gpull<CR>
+
+
+" ----- General (non-plugin) settings -----
+syntax on
+set number
+set backspace=indent,eol,start
+set laststatus=2
+set tabstop=4
+highlight LineNr ctermfg=grey
+
+set background=dark
