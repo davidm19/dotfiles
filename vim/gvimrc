@@ -15,6 +15,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-surround'
+Plugin 'larsbs/vimtom'
 call vundle#end()
 filetype plugin indent on
 
@@ -75,7 +76,7 @@ set tabstop=4
 highlight LineNr ctermfg=grey
 
 set background=dark
-colorscheme flattened_dark
+colorscheme vimtom
 
 " WINDOWS CONFIG
 "set guioptions-=T
