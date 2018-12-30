@@ -86,6 +86,7 @@ set incsearch
 set hlsearch
 set laststatus=2
 set mouse=a
+set encoding=UTF-8
 
 if (empty($TMUX))
   if (has("nvim"))
