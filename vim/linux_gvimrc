@@ -6,16 +6,17 @@ call vundle#begin()
 " ----- VUNDLE PLUGINS -----
 Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-syntastic/syntastic'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Raimondi/delimitMate'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'tpope/vim-commentary'
-Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-commentary' 
+Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'ervandew/supertab'
-Plugin 'tpope/vim-surround'
 Plugin 'larsbs/vimtom'
 call vundle#end()
 filetype plugin indent on
