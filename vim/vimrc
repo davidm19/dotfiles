@@ -7,8 +7,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'Raimondi/delimitMate'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
-Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-surround'
+Plugin 'ervandew/supertab'
 call vundle#end()
 filetype plugin indent on
 
