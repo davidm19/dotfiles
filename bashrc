@@ -115,6 +115,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
 source ~/.git-completion.bash
 
 yellow="\[\033[0;33m\]"
