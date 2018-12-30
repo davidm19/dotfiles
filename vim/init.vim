@@ -65,6 +65,9 @@ augroup END
 " ----- ctrlpvim/ctrlp.vim settings -----
 nmap <C-c> :CtrlPBuffer<CR>
 
+" ----- tpope/vim-vinegar settings -----
+let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+'
+
 " ----- key remappings -----
 nmap <silent> <leader>wq :wq<CR>
 nmap <silent> <leader>w :w<CR>
