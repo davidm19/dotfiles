@@ -3,19 +3,20 @@ set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+" ----- VUNDLE PLUGINS
 Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-syntastic/syntastic'
-Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Raimondi/delimitMate'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'tpope/vim-commentary' 
+Plugin 'tpope/vim-commentary'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-surround'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'ervandew/supertab'
-Plugin 'joshdick/onedark.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'larsbs/vimtom'
 call vundle#end()
 filetype plugin indent on
 
@@ -24,21 +25,6 @@ filetype plugin indent on
 nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
 " To have NERDTree always open on startup
 let g:nerdtree_tabs_open_on_console_startup = 0
-
-" ----- xolox/vim-easytags settings -----
-" Where to look for tags files
-set tags=./tags;,~/.vimtags
-" Sensible defaults
-let g:easytags_events = ['BufReadPost', 'BufWritePost']
-let g:easytags_async = 1
-let g:easytags_dynamic_files = 2
-let g:easytags_resolve_links = 1
-let g:easytags_suppress_ctags_warning = 1
- " ----- majutsushi/tagbar settings -----
-" Open/close tagbar with \b
-nmap <silent> <leader>b :TagbarToggle<CR>
-" Uncomment to open tagbar automatically whenever possible
-"autocmd BufEnter * nested :call tagbar#autoopen(0)
 
 hi clear SignColumn
 
@@ -56,8 +42,6 @@ let delimitMate_expand_cr = 1
 augroup mydelimitMate
   au!
   au FileType markdown let b:delimitMate_nesting_quotes = ["`"]
-  au FileType tex let b:delimitMate_quotes = ""
-  au FileType tex let b:delimitMate_matchpairs = "(:),[:],{:},`:'"
   au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
 augroup END
 
@@ -69,7 +53,9 @@ nmap <silent> <leader>wq :wq<CR>
 nmap <silent> <leader>w :w<CR>
 nmap <silent> <leader>W :wa<CR>
 nmap <silent> <leader>q :q<CR>
+nmap <silent> <leader>q! :q!<CR>
 nmap <silent> <leader>Q :qa<CR>
+nmap <silent> <leader>Q! :qa!<CR>
 nmap <silent> <leader>ga :Gwrite<CR>
 nmap <silent> <leader>gc :Gcommit<CR>
 nmap <silent> <leader>gp :Gpush<CR>
@@ -85,28 +71,28 @@ set showcmd
 set incsearch
 set hlsearch
 set laststatus=2
-set showtabline=2
 set mouse=a
+set tabstop=4
 
-if (empty($TMUX))
-  if (has("nvim"))
-    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-  else
-	colorscheme flattened_dark
-  endif
-  if (has("termguicolors"))
-    set termguicolors
-  endif
-endif
+highlight LineNr ctermfg=grey
 
-set t_Co=256
-colorscheme onedark
+set background=dark
+colorscheme vimtom
 
-" set termguicolors
-" set t_Co=256
-" let g:solarized_termtrans = 1
-" let g:solarized_termcolors=256
-" highlight LineNr ctermfg=grey
+" WINDOWS CONFIG
+"set guioptions-=T
+"set guioptions-=m
+"set guifont=Consolas:h16 (FONT SIZE IS ALSO DEPENDENT ON SCREEN SIZE!
+" CHOOSE ONE THAT YOU'LL BE ABLE TO SEE CLEARLY)
+"colorscheme solarized (DO THIS INSTEAD OF IMPORTING THE FLATTENED THEMES)
+"
 
-" set background=dark
-" colorscheme flattened_dark
+"MACVIM CONFIG
+set guifont=Menlo:h18
+
+"LINUX GVIM CONFIG
+"set guioptions-=T
+"set guioptions-=m
+"set guifont=Monospace\ 14 
+"(FONT SIZE IS ALSO DEPENDENT ON SCREEN SIZE!
+" CHOOSE ONE THAT YOU'LL BE ABLE TO SEE CLEARLY)
