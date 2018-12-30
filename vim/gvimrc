@@ -3,7 +3,6 @@ set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" ----- VUNDLE PLUGINS -----
 Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'scrooloose/nerdtree'
@@ -88,11 +87,10 @@ colorscheme vimtom
 "
 
 "MACVIM CONFIG
-"set guifont=Menlo:h18
+set guifont=Menlo:h18
 
 "LINUX GVIM CONFIG
-set guioptions-=T
-set guioptions-=m
-set guifont=Monospace\ 14 
-"(FONT SIZE IS ALSO DEPENDENT ON SCREEN SIZE!
+"set guioptions-=T
+"set guioptions-=m
+"set guifont=Monospace\ 14 (FONT SIZE IS ALSO DEPENDENT ON SCREEN SIZE!
 " CHOOSE ONE THAT YOU'LL BE ABLE TO SEE CLEARLY)
