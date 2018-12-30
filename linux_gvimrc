@@ -1,0 +1,99 @@
+set nocompatible
+
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" ----- VUNDLE PLUGINS -----
+Plugin 'gmarik/Vundle.vim'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'Raimondi/delimitMate'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'tpope/vim-commentary' 
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-fugitive'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'ervandew/supertab'
+Plugin 'larsbs/vimtom'
+call vundle#end()
+filetype plugin indent on
+
+" ----- jistr/vim-nerdtree-tabs -----
+" Open/close NERDTree Tabs with \t
+nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
+" To have NERDTree always open on startup
+let g:nerdtree_tabs_open_on_console_startup = 0
+
+hi clear SignColumn
+
+let g:syntastic_error_symbol = '✘'
+let g:syntastic_warning_symbol = "▲"
+augroup mySyntastic
+  au!
+  au FileType tex let b:syntastic_mode = "passive"
+augroup END
+
+let g:airline#extensions#hunks#non_zero_only = 1
+
+" ----- Raimondi/delimitMate settings -----
+let delimitMate_expand_cr = 1
+augroup mydelimitMate
+  au!
+  au FileType markdown let b:delimitMate_nesting_quotes = ["`"]
+  au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
+augroup END
+
+" ----- ctrlpvim/ctrlp.vim settings -----
+nmap <C-c> :CtrlPBuffer<CR>
+
+" ----- key remappings -----
+nmap <silent> <leader>wq :wq<CR>
+nmap <silent> <leader>w :w<CR>
+nmap <silent> <leader>W :wa<CR>
+nmap <silent> <leader>q :q<CR>
+nmap <silent> <leader>q! :q!<CR>
+nmap <silent> <leader>Q :qa<CR>
+nmap <silent> <leader>Q! :qa!<CR>
+nmap <silent> <leader>ga :Gwrite<CR>
+nmap <silent> <leader>gc :Gcommit<CR>
+nmap <silent> <leader>gp :Gpush<CR>
+nmap <silent> <leader>gP :Gpull<CR>
+
+" ----- General (non-plugin) settings -----
+syntax on
+set number
+set backspace=indent,eol,start
+set ruler
+set number
+set showcmd
+set incsearch
+set hlsearch
+set laststatus=2
+set mouse=a
+set tabstop=4
+
+highlight LineNr ctermfg=grey
+
+set background=dark
+colorscheme vimtom
+
+" WINDOWS CONFIG
+"set guioptions-=T
+"set guioptions-=m
+"set guifont=Consolas:h16 (FONT SIZE IS ALSO DEPENDENT ON SCREEN SIZE!
+" CHOOSE ONE THAT YOU'LL BE ABLE TO SEE CLEARLY)
+"colorscheme solarized (DO THIS INSTEAD OF IMPORTING THE FLATTENED THEMES)
+"
+
+"MACVIM CONFIG
+"set guifont=Menlo:h18
+
+"LINUX GVIM CONFIG
+set guioptions-=T
+set guioptions-=m
+set guifont=Monospace\ 14 
+"(FONT SIZE IS ALSO DEPENDENT ON SCREEN SIZE!
+" CHOOSE ONE THAT YOU'LL BE ABLE TO SEE CLEARLY)
