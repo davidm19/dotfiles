@@ -85,7 +85,6 @@ set showcmd
 set incsearch
 set hlsearch
 set laststatus=2
-set showtabline=2
 set mouse=a
 
 if (empty($TMUX))
