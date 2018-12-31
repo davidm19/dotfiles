@@ -16,6 +16,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'ervandew/supertab'
+" Plugin 'aserebryakov/vim-todo-lists'
 Plugin 'joshdick/onedark.vim'
 call vundle#end()
 filetype plugin indent on
@@ -64,9 +65,6 @@ augroup END
 
 " ----- ctrlpvim/ctrlp.vim settings -----
 nmap <C-c> :CtrlPBuffer<CR>
-
-" ----- tpope/vim-vinegar settings -----
-let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+'
 
 " ----- key remappings -----
 nmap <silent> <leader>wq :wq<CR>
