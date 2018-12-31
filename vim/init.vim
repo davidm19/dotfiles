@@ -7,7 +7,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
+" Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Raimondi/delimitMate'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-commentary' 
@@ -94,8 +94,6 @@ set encoding=UTF-8
 if (empty($TMUX))
   if (has("nvim"))
     let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-  else
-	colorscheme flattened_dark
   endif
   if (has("termguicolors"))
     set termguicolors
