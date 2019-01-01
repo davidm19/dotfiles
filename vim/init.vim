@@ -4,17 +4,20 @@ Plug 'airblade/vim-gitgutter'
 Plug 'vim-syntastic/syntastic'
 Plug 'tpope/vim-commentary' 
 Plug 'tpope/vim-fugitive'
-Plug 'scrooloose/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'justinmk/vim-dirvish'
+Plug 'kristijanhusak/vim-dirvish-git'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
-" Plug 'bilalq/lite-dfm'
+Plug 'aserebryakov/vim-todo-lists'
 Plug 'rakr/vim-one'
 call plug#end()
 
-" ----- jistr/vim-nerdtree-tabs -----
+" ----- scrooloose/nerdtree-tabs -----
 nmap <silent> <leader>t :NERDTreeToggle<CR>
+
+" ----- justinmk/vim-dirvish -----
+nmap = <CR>
 
 " ----- vim-syntastic/syntastic -----
 let g:syntastic_error_symbol = '✘'
@@ -38,17 +41,32 @@ nmap <silent> <leader>b :CtrlPBuffer<CR>
 nmap <silent> <leader>g :Goyo 60x75-40%<CR>
 let g:goyo_linenr = 1
 
+" ----- aserebryakov/vim-todo-lists -----
+let g:VimTodoListsMoveItems = 0
+
 " ----- key remappings -----
 nmap <silent> <leader>wq :wq<CR>
 nmap <silent> <leader>w :w<CR>
 nmap <silent> <leader>W :wa<CR>
 nmap <silent> <leader>q :q<CR>
 nmap <silent> <leader>Q :qa<CR>
+nmap <silent> <leader>h :sp<CR>
+nmap <silent> <leader>v :vsp<CR>
 nmap <silent> <leader>ga :Gwrite<CR>
 nmap <silent> <leader>gc :Gcommit<CR>
 nmap <silent> <leader>gp :Gpush<CR>
 nmap <silent> <leader>gP :Gpull<CR>
 nmap <TAB> <C-W>
+
+" Remove arrow keys
+inoremap <Left> <NOP>
+inoremap <Right> <NOP>
+inoremap <Up> <NOP>
+inoremap <Down> <NOP>
+nnoremap <Left> <NOP>
+nnoremap <Right> <NOP>
+nnoremap <Up> <NOP>
+nnoremap <Down> <NOP>
 
 " ----- General (non-plugin) settings -----
 syntax on
