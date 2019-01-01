@@ -56,6 +56,7 @@ nmap <silent> <leader>ga :Gwrite<CR>
 nmap <silent> <leader>gc :Gcommit<CR>
 nmap <silent> <leader>gp :Gpush<CR>
 nmap <silent> <leader>gP :Gpull<CR>
+nmap <silent> <leader>gs :Gstatus<CR>
 nmap <TAB> <C-W>
 
 " Remove arrow keys
