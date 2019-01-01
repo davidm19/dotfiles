@@ -125,7 +125,7 @@ white="\[\033[0;97m\]"
 redbold="\[\033[1;91m\]"
 reset="\[\033[0m\]"
 
-alias vim="nvim"
+# alias vim="nvim"
 alias l="ls"
 alias cal="calz"
 alias tmux="tmux -2"
