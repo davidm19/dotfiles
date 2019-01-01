@@ -10,6 +10,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'itchyny/lightline.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ervandew/supertab'
+Plug 'junegunn/goyo.vim'
 Plug 'larsbs/vimtom'
 call plug#end()
 filetype plugin indent on
@@ -34,6 +35,9 @@ augroup END
 
 " ----- ctrlpvim/ctrlp.vim settings -----
 nmap <silent> <leader>b :CtrlPBuffer<CR>
+
+" ----- junegunn/goyo.vim -----
+nmap <silent> <leader>g :Goyo<CR>
 
 " ----- key remappings -----
 nmap <silent> <leader>wq :wq<CR>
