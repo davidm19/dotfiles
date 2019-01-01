@@ -35,7 +35,7 @@ augroup mydelimitMate
 augroup END
 
 " ----- ctrlpvim/ctrlp.vim settings -----
-nmap <silent> <leader>b :CtrlPBuffer<CR>
+nmap <C-c> :CtrlPBuffer<CR>
 
 " ----- junegunn/goyo.vim -----
 nmap <silent> <leader>g :Goyo 60x75-40%<CR>
