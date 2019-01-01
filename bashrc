@@ -130,6 +130,7 @@ alias l="ls"
 alias cal="calz"
 alias tmux="tmux -2"
 alias config="bash ~/.update_dotfiles.sh"
+alias grv="bash ~/.grv"
 
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxbxegedabagaced
