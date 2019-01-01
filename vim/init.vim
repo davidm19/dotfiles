@@ -9,6 +9,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
+" Plug 'bilalq/lite-dfm'
 Plug 'rakr/vim-one'
 call plug#end()
 
@@ -34,7 +35,8 @@ augroup END
 nmap <silent> <leader>b :CtrlPBuffer<CR>
 
 " ----- junegunn/goyo.vim -----
-nmap <silent> <leader>g :Goyo<CR>
+nmap <silent> <leader>g :Goyo 60x75-40%<CR>
+let g:goyo_linenr = 1
 
 " ----- key remappings -----
 nmap <silent> <leader>wq :wq<CR>
