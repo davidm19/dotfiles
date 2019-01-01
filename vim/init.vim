@@ -8,6 +8,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ervandew/supertab'
+Plug 'junegunn/goyo.vim'
 Plug 'rakr/vim-one'
 call plug#end()
 
@@ -31,6 +32,9 @@ augroup END
 
 " ----- ctrlpvim/ctrlp.vim settings -----
 nmap <silent> <leader>b :CtrlPBuffer<CR>
+
+" ----- junegunn/goyo.vim -----
+nmap <silent> <leader>g :Goyo<CR>
 
 " ----- key remappings -----
 nmap <silent> <leader>wq :wq<CR>
