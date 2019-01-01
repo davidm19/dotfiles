@@ -92,5 +92,7 @@ set guifont=Menlo:h18
 " Load Plugins on startup because gVim doesn't do it already
 autocmd VimEnter * PlugInstall
 autocmd VimEnter * q
+
+" Start gVim in fullscreen
 set fuoptions=maxvert,maxhorz
 au GUIEnter * set fullscreen

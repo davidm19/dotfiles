@@ -90,9 +90,13 @@ colorscheme vimtom
 set guioptions-=T
 set guioptions-=m
 set guifont=Iosevka\ 18
-"(FONT SIZE IS ALSO DEPENDENT ON SCREEN SIZE!
+" (FONT SIZE IS ALSO DEPENDENT ON SCREEN SIZE!
 " CHOOSE ONE THAT YOU'LL BE ABLE TO SEE CLEARLY)
 
 " Load Plugins on startup because gVim doesn't do it already
 autocmd VimEnter * PlugInstall
 autocmd VimEnter * q
+
+" Start gVim in fullscreen
+set fuoptions=maxvert,maxhorz
+au GUIEnter * set fullscreen
