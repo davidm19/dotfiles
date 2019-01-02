@@ -12,6 +12,7 @@ Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
 Plug 'aserebryakov/vim-todo-lists'
 Plug 'rakr/vim-one'
+Plug 'romainl/flattened'
 call plug#end()
 
 " Remap Leader key
@@ -82,6 +83,9 @@ set hlsearch
 set laststatus=2
 set mouse=a
 set encoding=UTF-8
+highlight LineNr ctermfg=grey
+
+" colorscheme flattened_light
 
 " ---- Enable OneDark colorscheme and True Colors for tmux
 if (empty($TMUX))
@@ -95,4 +99,8 @@ endif
 
 set t_Co=256
 colorscheme one
-set background=dark
+if strftime("%H") >= 8 && strftime("%H") <= 17
+  set background=light
+else
+  set background=dark
+endif
