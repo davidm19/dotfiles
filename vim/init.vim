@@ -4,6 +4,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'vim-syntastic/syntastic'
 Plug 'tpope/vim-commentary' 
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 Plug 'justinmk/vim-dirvish'
 Plug 'kristijanhusak/vim-dirvish-git'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -13,8 +14,8 @@ Plug 'aserebryakov/vim-todo-lists'
 Plug 'rakr/vim-one'
 call plug#end()
 
-" ----- scrooloose/nerdtree-tabs -----
-nmap <silent> <leader>t :NERDTreeToggle<CR>
+" Remap Leader key
+let mapleader = ";"
 
 " ----- justinmk/vim-dirvish -----
 nmap = <CR>
@@ -58,6 +59,7 @@ nmap <silent> <leader>gp :Gpush<CR>
 nmap <silent> <leader>gP :Gpull<CR>
 nmap <silent> <leader>gs :Gstatus<CR>
 nmap <TAB> <C-W>
+inoremap jj <ESC>
 
 " Remove arrow keys
 inoremap <Left> <NOP>
