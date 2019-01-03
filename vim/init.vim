@@ -26,7 +26,7 @@ nnoremap <Right> <NOP>
 nnoremap <Up> <NOP>
 nnoremap <Down> <NOP>
 
-" ----- General (non-plugin) settings -----
+" ----- General settings -----
 syntax on
 set number
 set backspace=indent,eol,start
@@ -38,23 +38,6 @@ set laststatus=2
 set mouse=a
 set encoding=UTF-8
 highlight LineNr ctermfg=grey
-
-" colorscheme flattened_light
-
-" ----- Enable True Colors for tmux
-" if (empty($TMUX))
-"   if (has("nvim"))
-"     let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-"   endif
-"   if (has("termguicolors"))
-"     set termguicolors
-"   endif
-" endif
-" if exists('+termguicolors')
-"   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-"   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-"   set termguicolors
-" endif
 
 " ----- If it's between 8:00AM and 5:00PM, let the colorscheme be light
 set termguicolors
