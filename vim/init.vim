@@ -24,6 +24,7 @@ nmap = <CR>
 " ----- vim-syntastic/syntastic -----
 let g:syntastic_error_symbol = '✘'
 let g:syntastic_warning_symbol = "▲"
+" let g:syntastic_python_checkers = ['pycodestyle']
 
 " ----- airblade/vim-gitgutter -----
 let g:airline#extensions#hunks#non_zero_only = 1
