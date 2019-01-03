@@ -1,51 +1,4 @@
-call plug#begin('~/.local.share/nvim/plugged')
-Plug 'Raimondi/delimitMate'
-Plug 'airblade/vim-gitgutter'
-Plug 'vim-syntastic/syntastic'
-Plug 'tpope/vim-commentary' 
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-surround'
-Plug 'justinmk/vim-dirvish'
-Plug 'kristijanhusak/vim-dirvish-git'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'ervandew/supertab'
-Plug 'junegunn/goyo.vim'
-Plug 'aserebryakov/vim-todo-lists'
-Plug 'rakr/vim-one'
-Plug 'romainl/flattened'
-call plug#end()
-
-" Remap Leader key
-let mapleader = ";"
-
-" ----- justinmk/vim-dirvish -----
-nmap = <CR>
-
-" ----- vim-syntastic/syntastic -----
-let g:syntastic_error_symbol = '✘'
-let g:syntastic_warning_symbol = "▲"
-" let g:syntastic_python_checkers = ['pycodestyle']
-
-" ----- airblade/vim-gitgutter -----
-let g:airline#extensions#hunks#non_zero_only = 1
-
-" ----- Raimondi/delimitMate settings -----
-let delimitMate_expand_cr = 1
-augroup mydelimitMate
-  au!
-  au FileType markdown let b:delimitMate_nesting_quotes = ["`"]
-  au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
-augroup END
-
-" ----- ctrlpvim/ctrlp.vim settings -----
-nmap <C-c> :CtrlPBuffer<CR>
-
-" ----- junegunn/goyo.vim -----
-nmap <silent> <leader>g :Goyo 60x75-40%<CR>
-let g:goyo_linenr = 1
-
-" ----- aserebryakov/vim-todo-lists -----
-let g:VimTodoListsMoveItems = 0
+source $HOME/.dotfiles/vim/plugins.vim
 
 " ----- key remappings -----
 nmap <silent> <leader>wq :wq<CR>
@@ -88,7 +41,7 @@ highlight LineNr ctermfg=grey
 
 " colorscheme flattened_light
 
-" ---- Enable OneDark colorscheme and True Colors for tmux
+" ----- Enable OneDark colorscheme and True Colors for tmux
 if (empty($TMUX))
   if (has("nvim"))
     let $NVIM_TUI_ENABLE_TRUE_COLOR=1
@@ -98,10 +51,10 @@ if (empty($TMUX))
   endif
 endif
 
+" ----- If it's between 8:00AM and 5:00PM, let the colorscheme be light
 set t_Co=256
-colorscheme one
 if strftime("%H") > 8 && strftime("%H") < 17
-  set background=light
+  colorscheme flattened_light
 else
-  set background=dark
+  colorscheme flattened_dark
 endif
