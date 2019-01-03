@@ -3,7 +3,7 @@ source $HOME/.dotfiles/vim/keybindings.vim
 source $HOME/.dotfiles/vim/gen_settings.vim
 
 " ----- MacVim Screen Config
-set guifont=Menlo:h18
+set guifont=Inconsolata:h18 " IF IT'S NOT INSTALLED THEN INSTALL IT!
 
 " ----- Load Plugins on startup because gVim doesn't do it already
 autocmd VimEnter * PlugInstall
