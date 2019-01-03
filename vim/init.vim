@@ -41,20 +41,26 @@ highlight LineNr ctermfg=grey
 
 " colorscheme flattened_light
 
-" ----- Enable OneDark colorscheme and True Colors for tmux
-if (empty($TMUX))
-  if (has("nvim"))
-    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-  endif
-  if (has("termguicolors"))
-    set termguicolors
-  endif
-endif
+" ----- Enable True Colors for tmux
+" if (empty($TMUX))
+"   if (has("nvim"))
+"     let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+"   endif
+"   if (has("termguicolors"))
+"     set termguicolors
+"   endif
+" endif
+" if exists('+termguicolors')
+"   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+"   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+"   set termguicolors
+" endif
 
 " ----- If it's between 8:00AM and 5:00PM, let the colorscheme be light
-set t_Co=256
+set termguicolors
+colorscheme solarized8_flat
 if strftime("%H") > 8 && strftime("%H") < 17
-  colorscheme flattened_light
+  set background=light
 else
-  colorscheme flattened_dark
+  set background=dark
 endif

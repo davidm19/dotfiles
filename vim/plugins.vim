@@ -12,8 +12,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
 Plug 'aserebryakov/vim-todo-lists'
-Plug 'rakr/vim-one'
-Plug 'romainl/flattened'
+Plug 'lifepillar/vim-solarized8'
 call plug#end()
 
 " ----- Remap Leader key to ;
