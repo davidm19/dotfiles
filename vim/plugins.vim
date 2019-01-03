@@ -13,6 +13,9 @@ Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
 Plug 'aserebryakov/vim-todo-lists'
 Plug 'lifepillar/vim-solarized8'
+if has("gui_running")
+	Plug 'itchyny/lightline.vim'
+endif
 call plug#end()
 
 " ----- Remap Leader key to ;
