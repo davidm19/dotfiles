@@ -99,7 +99,7 @@ endif
 
 set t_Co=256
 colorscheme one
-if strftime("%H") >= 8 && strftime("%H") <= 17
+if strftime("%H") > 8 && strftime("%H") < 17
   set background=light
 else
   set background=dark
