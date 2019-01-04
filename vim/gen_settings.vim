@@ -9,11 +9,14 @@ set hlsearch
 set laststatus=2
 set mouse=a
 set encoding=UTF-8
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
-" ----- If it's between 8:00AM and 5:00PM, let the colorscheme be light
+" ----- If it's between 8:00AM and 4:00PM, let the colorscheme be light
 set termguicolors
 colorscheme solarized8_flat
-if strftime("%H") > 8 && strftime("%H") < 17
+if strftime("%H") > 8 && strftime("%H") < 16
   set background=light
 else
   set background=dark
