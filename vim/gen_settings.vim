@@ -12,12 +12,13 @@ set encoding=UTF-8
 set tabstop=4
 set shiftwidth=4
 set expandtab
+highlight LineNr ctermfg=grey
 
 " ----- If it's between 8:00AM and 4:00PM, let the colorscheme be light
-set termguicolors
-colorscheme solarized8_flat
-if strftime("%H") > 8 && strftime("%H") < 16
-  set background=light
-else
-  set background=dark
-endif
+" set termguicolors
+" colorscheme solarized8_flat
+" if strftime("%H") > 8 && strftime("%H") < 16
+"   set background=light
+" else
+"   set background=dark
+" endif
