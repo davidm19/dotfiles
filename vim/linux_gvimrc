@@ -1,6 +1,6 @@
 source $HOME/.dotfiles/vim/plugins.vim
 source $HOME/.dotfiles/vim/keybindings.vim
-source $HOME/.dotfiles/vim/keybindings.vim
+source $HOME/.dotfiles/vim/gen_settings.vim
 
 " ----- Linux gVim Screen Config
 set guioptions-=T
