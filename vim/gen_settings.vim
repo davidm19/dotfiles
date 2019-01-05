@@ -22,3 +22,4 @@ if strftime("%H") > 8 && strftime("%H") < 16
 else
   set background=dark
 endif
+" HEY the default NeoVim colorscheme is also good!
