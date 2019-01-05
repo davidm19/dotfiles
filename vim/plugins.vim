@@ -12,10 +12,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
 Plug 'aserebryakov/vim-todo-lists'
-" Plug 'nathanaelkane/vim-indent-guides'
 Plug 'lifepillar/vim-solarized8'
-if has("gui_running")
-	Plug 'itchyny/lightline.vim'
 endif
 call plug#end()
 
