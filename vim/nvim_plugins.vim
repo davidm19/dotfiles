@@ -6,6 +6,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'tpope/vim-commentary' 
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+" MAYBE CONSIDER USING VIM-VINEGAR??
 Plug 'justinmk/vim-dirvish'
 Plug 'kristijanhusak/vim-dirvish-git'
 Plug 'ctrlpvim/ctrlp.vim'
