@@ -1,0 +1,56 @@
+URxvt.font: xft:Inconsolata:size=14
+URxvt.scrollBar: false
+
+! Colors
+
+! to match gnome-terminal "Linux console" scheme
+! foreground/background
+URxvt*background: #000000
+URxvt*foreground: #ffffff
+! black
+URxvt.color0  : #000000
+URxvt.color8  : #555555
+! red
+URxvt.color1  : #AA0000
+URxvt.color9  : #FF5555
+! green
+URxvt.color2  : #00AA00
+URxvt.color10 : #55FF55
+! yellow
+URxvt.color3  : #AA5500
+URxvt.color11 : #FFFF55
+! blue
+URxvt.color4  : #0000AA
+URxvt.color12 : #5555FF
+! magenta
+URxvt.color5  : #AA00AA
+URxvt.color13 : #FF55FF
+! cyan
+URxvt.color6  : #00AAAA
+URxvt.color14 : #55FFFF
+! white
+URxvt.color7  : #AAAAAA
+URxvt.color15 : #FFFFFF
+
+URxvt.transparent:   true
+URxvt.shading:       30
+
+Xft.dpi:                    96
+Xft.antialias:              true
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+! ROFI
+rofi.lines: 3
+rofi.font: Inconsolata 20
+rofi.padding: 100
+rofi.location: 0
+rofi.terminal: urxvt
+rofi.opacity: 70
+rofi.color-enabled: true
+!rofi.color-window: #1D2021, #5F819D, #1D2021
+!rofi.color-normal: #1D2021, #A5B6BC, #1D2021, #5F819D, #C5C8C6
+!rofi.color-urgent: #1D2021, #A5B6BC, #1D2021, #5F819D, #C5C8C6
+!rofi.color-active: #1D2021, #A5B6BC, #1D2021, #5F819D, #C5C8C6
+rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
