@@ -5,7 +5,7 @@ source $HOME/.dotfiles/vim/gen_settings.vim
 " ----- Linux gVim Screen Config
 set guioptions-=T
 set guioptions-=m
-set guifont=Iosevka\ 18
+set guifont=Inconsolata\ 20
 " (FONT SIZE IS ALSO DEPENDENT ON SCREEN SIZE!
 " CHOOSE ONE THAT YOU'LL BE ABLE TO SEE CLEARLY)
 
