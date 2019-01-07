@@ -1,13 +1,13 @@
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-vinegar'
 Plug 'Raimondi/delimitMate'
 Plug 'ervandew/supertab'
-if (has("gui_running"))
+if (has("gui_running")) 
     Plug 'airblade/vim-gitgutter'
     Plug 'vim-syntastic/syntastic'
     Plug 'tpope/vim-surround'
-    Plug 'tpope/vim-vinegar'
     Plug 'ctrlpvim/ctrlp.vim'
     Plug 'junegunn/goyo.vim'
     Plug 'aserebryakov/vim-todo-lists'
@@ -27,10 +27,10 @@ augroup mydelimitMate
   au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
 augroup END
 
-if (has("gui_running"))
-    " ----- tpope/vim-vinegar -----
-    nmap = <CR>
+" ----- tpope/vim-vinegar -----
+nmap = <CR>
 
+if (has("gui_running"))
     " ----- vim-syntastic/syntastic -----
     let g:syntastic_error_symbol = '✘'
     let g:syntastic_warning_symbol = "▲"
