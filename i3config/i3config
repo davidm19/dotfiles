@@ -186,13 +186,9 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
-# ALL DEPENDENT ON WHAT SCREENLOCKED YOU USE!
-# bindsym F6 exec xsecurelock
-# bindsym F7 exec systemctl suspend && xsecurelock
-
-gaps inner 7
-gaps outer 7
-for_window [class="^.*"] border pixel 2
+# ALL DEPENDENT ON WHAT SCREENLOCKER YOU USE!
+bindsym F6 exec physlock -d
+bindsym F7 exec systemctl suspend && physlock -d
 
 exec_always --no-startup-id redshift-gtk -t 6500:2000
 exec_always --no-startup-id compton -b -f
