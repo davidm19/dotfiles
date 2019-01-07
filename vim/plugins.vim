@@ -15,6 +15,7 @@ if (has("gui_running"))
     Plug 'vim-syntastic/syntastic'
     Plug 'tpope/vim-surround'
     Plug 'ctrlpvim/ctrlp.vim'
+    Plug 'Yggdroot/indentLine'
     Plug 'junegunn/goyo.vim'
     Plug 'aserebryakov/vim-todo-lists'
     Plug 'lifepillar/vim-solarized8'
@@ -25,7 +26,7 @@ call plug#end()
 " ----- Remap Leader key to ;
 let mapleader = ";"
 
-" ----- Raimondi/delimitMate settings -----
+" ----- Raimondi/delimitMate -----
 let delimitMate_expand_cr = 1
 augroup mydelimitMate
   au!
@@ -45,8 +46,12 @@ if (has("gui_running"))
     let g:airline#extensions#hunks#non_zero_only = 1
 
 
-    " ----- ctrlpvim/ctrlp.vim settings -----
+    " ----- ctrlpvim/ctrlp.vim -----
     nmap <C-c> :CtrlPBuffer<CR>
+
+    " ----- Yggdroot/indentLine -----
+    let g:indentLine_char = "|"
+
 
     " ----- junegunn/goyo.vim -----
     nmap <silent> <leader>z :Goyo 60x75-40%<CR>

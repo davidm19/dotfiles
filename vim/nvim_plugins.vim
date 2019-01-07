@@ -10,6 +10,7 @@ Plug 'tpope/vim-surround'
 Plug 'justinmk/vim-dirvish'
 Plug 'kristijanhusak/vim-dirvish-git'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'Yggdroot/indentLine'
 Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
 Plug 'aserebryakov/vim-todo-lists'
@@ -31,7 +32,7 @@ let g:syntastic_warning_symbol = "▲"
 " ----- airblade/vim-gitgutter -----
 let g:airline#extensions#hunks#non_zero_only = 1
 
-" ----- Raimondi/delimitMate settings -----
+" ----- Raimondi/delimitMate -----
 let delimitMate_expand_cr = 1
 augroup mydelimitMate
   au!
@@ -39,8 +40,11 @@ augroup mydelimitMate
   au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
 augroup END
 
-" ----- ctrlpvim/ctrlp.vim settings -----
+" ----- ctrlpvim/ctrlp.vim -----
 nmap <C-c> :CtrlPBuffer<CR>
+
+" ----- Yggdroot/indentLine -----
+let g:indentLine_char = "|"
 
 " ----- junegunn/goyo.vim -----
 nmap <silent> <leader>z :Goyo 60x75-40%<CR>
