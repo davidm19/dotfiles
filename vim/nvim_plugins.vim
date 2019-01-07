@@ -14,7 +14,7 @@ Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
 Plug 'aserebryakov/vim-todo-lists'
 Plug 'lifepillar/vim-solarized8'
-Plug 'dylanaraps/wal.vim'
+" Plug 'dylanaraps/wal.vim' ONLY IF YOU'RE IN i3
 call plug#end()
 
 " ----- Remap Leader key to ;
