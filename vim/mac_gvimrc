@@ -1,6 +1,7 @@
 source $HOME/.dotfiles/vim/plugins.vim
 source $HOME/.dotfiles/vim/keybindings.vim
 source $HOME/.dotfiles/vim/gen_settings.vim
+source $HOME/.dotfiles/vim/colorschemes.vim
 
 " ----- MacVim Screen Config
 set guifont=Inconsolata:h23 " IF IT'S NOT INSTALLED THEN INSTALL IT!
