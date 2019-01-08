@@ -1,12 +1,12 @@
-
 Bash:
 - vim-scripts/bash-support.vim
 
 C/C++:
 - octol/vim-cpp-enhanced-highlight
-- Rip-Rip/clang_complete (gotta disable supertab for this one)
+- MAYBE: Rip-Rip/clang_complete (gotta disable supertab for this one)
 - SirVer/ultisnips
 - vim-scripts/a.vim
+- vim-scripts/c.vim
 
 Go:
 - fatih/vim-go
