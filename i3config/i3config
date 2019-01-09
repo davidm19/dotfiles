@@ -203,6 +203,7 @@ exec_always --no-startup-id wal -R
 # - GAPS: BORDER ON AND 2 PIXELS
 # - NO WAL BECAUSE IT DON'T WORK
 # - NO VIM STATUSBAR (also for other colorscheme)
+# - VERY SIMPLE BASH CONFIG: USERNAME AND LOCATION ARE WHITE, GIT PROMPT IS LIGHT BLUE
 
 # GAPS SETTINGS
 # gaps inner 8
