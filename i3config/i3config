@@ -197,10 +197,11 @@ exec_always --no-startup-id compton -b -f
 exec_always --no-startup-id feh --bg-scale ~/Pictures/background.jpg
 exec_always --no-startup-id wal -R
 
-gaps inner 8
-gaps outer 8
+# GAPS SETTINGS
+# gaps inner 8
+# gaps outer 8
 
-for_window [class="^.*"] border pixel 0
+# for_window [class="^.*"] border pixel 0
 
 # Set colors from Xresources
 # Change 'color7' and 'color2' to whatever colors you want i3 to use 
