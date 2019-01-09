@@ -19,7 +19,9 @@ if (has("gui_running"))
     Plug 'junegunn/goyo.vim'
     Plug 'aserebryakov/vim-todo-lists'
     Plug 'lifepillar/vim-solarized8'
-    Plug 'itchyny/lightline.vim'
+    " Plug 'itchyny/lightline.vim'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
 endif
 call plug#end()
 
