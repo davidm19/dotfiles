@@ -6,7 +6,6 @@ Plug 'vim-syntastic/syntastic'
 Plug 'tpope/vim-commentary' 
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
-" MAYBE CONSIDER USING VIM-VINEGAR??
 Plug 'justinmk/vim-dirvish'
 Plug 'kristijanhusak/vim-dirvish-git'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -14,7 +13,6 @@ Plug 'Yggdroot/indentLine'
 Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
 Plug 'aserebryakov/vim-todo-lists'
-Plug 'lifepillar/vim-solarized8'
 " Plug 'dylanaraps/wal.vim' 
 " ONLY IF YOU'RE IN i3
 call plug#end()
