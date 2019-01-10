@@ -6,6 +6,8 @@ source $HOME/.dotfiles/vim/colorschemes.vim
 " ----- Linux gVim Screen Config
 set guioptions-=T
 set guioptions-=m
+set guioptions-=r
+set guioptions-=b
 set guifont=Inconsolata\ 20
 " IF POWERLINE: set guifont=Inconsolata\ for\ Powerline\ 20
 " (FONT SIZE IS ALSO DEPENDENT ON SCREEN SIZE!

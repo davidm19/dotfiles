@@ -30,9 +30,8 @@ font pango:Inconsolata 10
 floating_modifier $mod
 
 # start a terminal
-# bindsym $mod+Return exec gnome-terminal
+# bindsym $mod+Return exec gnome-terminal --hide-menubar
 bindsym $mod+Return exec xfce4-terminal --hide-menubar --hide-scrollbar --hide-borders
-# bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -195,6 +194,8 @@ bindsym F7 exec systemctl suspend && physlock -d
 exec_always --no-startup-id redshift-gtk -t 6500:2000
 exec_always --no-startup-id compton -b -f
 exec_always --no-startup-id feh --bg-scale ~/Pictures/background.jpg
+# OTHER WALLPAPERS
+# - kids-see-ghosts-2.jpg
 exec_always --no-startup-id wal -R
 
 # 343b45 COLORSCHEME
