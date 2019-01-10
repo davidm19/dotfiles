@@ -45,7 +45,7 @@ nmap <C-c> :CtrlPBuffer<CR>
 let g:indentLine_char = "|"
 
 " ----- junegunn/goyo.vim -----
-nmap <silent> <leader>z :Goyo 60x75-40%<CR>
+nmap <silent> <leader>g :Goyo 60x75-40%<CR>
 let g:goyo_linenr = 1
 
 " ----- aserebryakov/vim-todo-lists -----
