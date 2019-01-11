@@ -1,3 +1,6 @@
+ALL LANGUAGES:
+- sheerun/vim-polyglot
+
 Bash:
 - vim-scripts/bash-support.vim
 
