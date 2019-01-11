@@ -1,5 +1,8 @@
+FULL DISCLOSURE: THIS IS FOR THE SUMMERTIME 
+
 ALL LANGUAGES:
 - sheerun/vim-polyglot
+- w0rp/ale (gotta disable syntastic for this one)
 
 Bash:
 - vim-scripts/bash-support.vim
