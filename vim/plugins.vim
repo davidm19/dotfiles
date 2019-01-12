@@ -12,7 +12,8 @@ if (has("gui_running"))
     Plug 'Yggdroot/indentLine'
     Plug 'junegunn/goyo.vim'
     Plug 'aserebryakov/vim-todo-lists'
-    Plug 'lifepillar/vim-solarized8'
+    " Plug 'lifepillar/vim-solarized8'
+    Plug 'rakr/vim-one'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 endif
