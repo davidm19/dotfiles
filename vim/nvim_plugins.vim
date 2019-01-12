@@ -13,6 +13,10 @@ Plug 'tpope/vim-surround'
 Plug 'vim-syntastic/syntastic'
 Plug 'Yggdroot/indentLine'
 
+" Plug 'lifepillar/vim-solarized8'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+
 " Plug 'dylanaraps/wal.vim' 
 " ONLY IF YOU'RE IN i3
 call plug#end()

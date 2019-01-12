@@ -5,6 +5,12 @@
 " let g:airline_theme="solarized"
 
 " ----- gVim: If it's between 8:00AM and 4:00PM, colorscheme is dark (it's also dark after 4PM)
+" if has("nvim")
+"     set termguicolors
+"     colorscheme solarized8_flat
+"     let g:airline_theme="solarized"
+" endif
+
 if has("gui_running")
     set termguicolors
     " colorscheme solarized8_flat
