@@ -23,4 +23,5 @@ Javascript:
 
 Python:
 - davidhalter/jedi-vim
+- pythonmode/pythonmode
 - vim-scripts/indentpython.vim
