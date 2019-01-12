@@ -9,12 +9,16 @@ if (has("gui_running"))
     Plug 'airblade/vim-gitgutter'
     Plug 'ctrlpvim/ctrlp.vim'
     Plug 'junegunn/goyo.vim'
-    " Plug 'lifepillar/vim-solarized8'
-    Plug 'rakr/vim-one'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'vim-syntastic/syntastic'
     Plug 'Yggdroot/indentLine'
+
+    " ---- COLORSCHEMES ---- "
+    " Plug 'lifepillar/vim-solarized8'
+    Plug 'rakr/vim-one'
+    " Plug 'junegunn/seoul256.vim'
+    " Plug 'morhetz/gruvbox'
 endif
 call plug#end()
 

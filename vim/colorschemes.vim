@@ -13,9 +13,18 @@
 
 if has("gui_running")
     set termguicolors
+    set background=dark
+    " ---- SOLARIZED ---- "
     " colorscheme solarized8_flat
+    " let g:airline_theme="solarized"
+
+    " ---- ONE ---- "
     colorscheme one
     let g:airline_theme="one"
+
+    " ---- GRUVBOX ---- "
+    " colorscheme gruvbox
+    " let g:airline_theme="gruvbox"
 endif
 
 " if has("gui_running")
