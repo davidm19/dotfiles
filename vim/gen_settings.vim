@@ -6,7 +6,10 @@ set ruler
 set showcmd
 set incsearch
 set hlsearch
-set laststatus=2
+set laststatus=0
+if (has("gui_running"))
+    set laststatus=2
+endif
 set mouse=a
 set encoding=UTF-8
 set tabstop=4

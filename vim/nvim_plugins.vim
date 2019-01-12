@@ -1,21 +1,18 @@
 " ----- PLUGINS ----- 
 call plug#begin('~/.local.share/nvim/plugged')
-Plug 'Raimondi/delimitMate'
 Plug 'airblade/vim-gitgutter'
-Plug 'vim-syntastic/syntastic'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'ervandew/supertab'
+Plug 'junegunn/goyo.vim'
+Plug 'justinmk/vim-dirvish'
+Plug 'kristijanhusak/vim-dirvish-git'
+Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary' 
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
-Plug 'justinmk/vim-dirvish'
-Plug 'kristijanhusak/vim-dirvish-git'
-Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-syntastic/syntastic'
 Plug 'Yggdroot/indentLine'
-Plug 'ervandew/supertab'
-Plug 'junegunn/goyo.vim'
-" Plug 'lifepillar/vim-solarized8'
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
-Plug 'aserebryakov/vim-todo-lists'
+
 " Plug 'dylanaraps/wal.vim' 
 " ONLY IF YOU'RE IN i3
 call plug#end()

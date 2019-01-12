@@ -1,21 +1,20 @@
 call plug#begin('~/.vim/plugged')
+Plug 'ervandew/supertab'
+Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
-Plug 'Raimondi/delimitMate'
-Plug 'ervandew/supertab'
 if (has("gui_running")) 
     Plug 'airblade/vim-gitgutter'
-    Plug 'vim-syntastic/syntastic'
-    Plug 'tpope/vim-surround'
     Plug 'ctrlpvim/ctrlp.vim'
-    Plug 'Yggdroot/indentLine'
     Plug 'junegunn/goyo.vim'
-    Plug 'aserebryakov/vim-todo-lists'
     " Plug 'lifepillar/vim-solarized8'
     Plug 'rakr/vim-one'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    Plug 'vim-syntastic/syntastic'
+    Plug 'Yggdroot/indentLine'
 endif
 call plug#end()
 
@@ -55,4 +54,7 @@ if (has("gui_running"))
 
     " ----- aserebryakov/vim-todo-lists -----
     let g:VimTodoListsMoveItems = 0
+
+    " ----- vim-airline/vim-airline -----
+    set laststatus=2
 endif
