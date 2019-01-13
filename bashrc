@@ -150,3 +150,9 @@ export PS1="$redbold\u$yellow\$(__git_ps1) $cyan\W $reset$ "
 PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 export PATH
 
+# wal -Rq //MORE WAL
+
+# STARTX
+# if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+#   exec startx
+# fi
