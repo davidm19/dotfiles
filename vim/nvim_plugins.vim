@@ -44,7 +44,7 @@ augroup END
 
 " ----- ctrlpvim/ctrlp.vim -----
 nmap <C-c> :CtrlPBuffer<CR>
-" nmap <silent> <leader>p :CtrlP<CR>
+nmap <C-x> :CtrlP<CR>
 
 " ----- Yggdroot/indentLine -----
 let g:indentLine_char = "|"

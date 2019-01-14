@@ -1,8 +1,12 @@
-FULL DISCLOSURE: THIS IS FOR THE SUMMERTIME 
+FULL DISCLOSURE: THIS IS FOR THE SUMMERTIME (DO A FULL REWORK OF PLUGINS)
+
+IF YOU SOLIDIFY YOUR PLUGIN LIST, THEN MAYBE SWITCH TO PATHOGEN? 
 
 ALL LANGUAGES:
+- junegunn/fzf.vim
+- mileszs/ack.vim
 - sheerun/vim-polyglot
-- w0rp/ale (gotta disable syntastic for this one)
+- w0rp/ale (syntastic replacement)
 
 Bash:
 - vim-scripts/bash-support.vim
