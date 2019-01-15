@@ -2,15 +2,14 @@ FULL DISCLOSURE: THIS IS FOR THE SUMMERTIME (DO A FULL REWORK OF PLUGINS)
 
 IF YOU SOLIDIFY YOUR PLUGIN LIST, THEN MAYBE SWITCH TO PATHOGEN? 
 
+ESSENTIAL PLUGINS:
+- Raimondi/delimitMate
+- tpope/vim-commentary
+
 ALL LANGUAGES:
 - junegunn/fzf.vim
-- mileszs/ack.vim
 - sheerun/vim-polyglot
-- vim-airline/vim-airline
 - w0rp/ale (syntastic replacement)
-
-Bash:
-- vim-scripts/bash-support.vim
 
 C/C++:
 - octol/vim-cpp-enhanced-highlight
