@@ -6,6 +6,7 @@ ALL LANGUAGES:
 - junegunn/fzf.vim
 - mileszs/ack.vim
 - sheerun/vim-polyglot
+- vim-airline/vim-airline
 - w0rp/ale (syntastic replacement)
 
 Bash:
