@@ -12,7 +12,9 @@ if (has("gui_running"))
 endif
 set mouse=a
 set encoding=UTF-8
-set tabstop=4
+set softtabstop=4
 set shiftwidth=4
 set expandtab
+
+set background=light
 highlight LineNr ctermfg=grey

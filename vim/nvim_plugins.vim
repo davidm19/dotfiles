@@ -42,6 +42,9 @@ augroup mydelimitMate
   au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
 augroup END
 
+" --- ack
+nmap <silent> <leader>s :Ack<CR>
+
 " ----- ctrlpvim/ctrlp.vim -----
 nmap <C-c> :CtrlPBuffer<CR>
 nmap <C-x> :CtrlP<CR>

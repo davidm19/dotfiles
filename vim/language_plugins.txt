@@ -3,14 +3,32 @@ FULL DISCLOSURE: THIS IS FOR THE SUMMERTIME (DO A FULL REWORK OF PLUGINS)
 IF YOU SOLIDIFY YOUR PLUGIN LIST, THEN MAYBE SWITCH TO PATHOGEN? 
 
 ESSENTIAL PLUGINS:
+- ervandew/supertab
+- junegunn/fzf.vim
 - Raimondi/delimitMate
 - tpope/vim-commentary
+- w0rp/ale (syntastic replacement) (CONFIGURE: https://github.com/w0rp/ale)
 
-ALL LANGUAGES:
-- junegunn/fzf.vim
+NO FUGITIVE! YOU DON'T NEED IT!
+
+OPTIONAL:
+- airblade/vim-gitgutter
+- junegunn/goyo.vim
+- tpope/vim-surround
+- tpope/vim-vinegar
+- Yggdroot/indentLine
+
+COLORS/AIRLINE (IF YOU'RE PLANNING ON USING TMUX, THEN COLORS AND AIRLINE ARE FOR gVIM ONLY):
+- dylanaraps/wal.vim
+- lifepillar/vim-solarized8
+- rakr/vim-one
+- vim-airline/vim-airline
+- vim-airline/vim-airline-themes
+
+NEW ONES TO TRY OUT (ALL LANGUAGES):
 - sheerun/vim-polyglot
-- w0rp/ale (syntastic replacement)
 
+--- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
 - octol/vim-cpp-enhanced-highlight
 - MAYBE: Rip-Rip/clang_complete (gotta disable supertab for this one)
