@@ -15,7 +15,7 @@ OPTIONAL:
 - airblade/vim-gitgutter
 - junegunn/goyo.vim
 - tpope/vim-surround
-- tpope/vim-vinegar
+- tpope/vim-vinegar (FOR EXPLORATION ONLY; NOT FOR OPENING FILES)
 - Yggdroot/indentLine
 
 COLORS/AIRLINE (IF YOU'RE PLANNING ON USING TMUX, THEN COLORS AND AIRLINE ARE FOR gVIM ONLY):
