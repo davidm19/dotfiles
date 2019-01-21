@@ -50,3 +50,7 @@ Python:
 - davidhalter/jedi-vim
 - pythonmode/pythonmode
 - vim-scripts/indentpython.vim
+
+Rust:
+- racer-rust/vim-racer
+- rust-lang/rust.vim
