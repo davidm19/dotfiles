@@ -35,6 +35,8 @@ COLORS/AIRLINE (IF YOU'RE PLANNING ON USING TMUX, THEN COLORS AND AIRLINE ARE FO
 
 NEW ONES TO TRY OUT (ALL LANGUAGES):
 - sheerun/vim-polyglot
+- terryma/vim-multiple-cursors
+- tpope/vim-eunuch
 - Valloric/YouCompleteMe
 
 --- LANGUAGE SPECIFIC PLUGINS ---
