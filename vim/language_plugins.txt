@@ -2,12 +2,20 @@ FULL DISCLOSURE: THIS IS FOR THE SUMMERTIME (DO A FULL REWORK OF PLUGINS)
 
 IF YOU SOLIDIFY YOUR PLUGIN LIST, THEN MAYBE SWITCH TO PATHOGEN? 
 
+
 ESSENTIAL PLUGINS:
 - ervandew/supertab
 - junegunn/fzf.vim
 - Raimondi/delimitMate
 - tpope/vim-commentary
 - w0rp/ale (syntastic replacement) (CONFIGURE: https://github.com/w0rp/ale)
+
+list2 ideas(from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1):
+-ale
+-ycm/jedi-vim, clang-complete and supertab
+-ctrlp
+-vinegar
+-delimitmate
 
 NO FUGITIVE! YOU DON'T NEED IT!
 
