@@ -1,4 +1,3 @@
-" TARGET IS LESS THAN 30 LINES
 " PLUGINS
 call plug#begin('~/.local.share/nvim/plugged')
 Plug 'ervandew/supertab'
@@ -22,4 +21,5 @@ set encoding=UTF-8
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set background=light
 highlight LineNr ctermfg=grey
