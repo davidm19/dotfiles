@@ -41,6 +41,7 @@ NEW ONES TO TRY OUT (ALL LANGUAGES):
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
+- justinmk/vim-syntax-extra
 - octol/vim-cpp-enhanced-highlight
 - MAYBE: Rip-Rip/clang_complete (gotta disable supertab for this one)
 - vim-scripts/a.vim
