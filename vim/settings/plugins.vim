@@ -1,20 +1,29 @@
 " ----- PLUGINS ----- 
-call plug#begin('~/.local.share/nvim/plugged')
+if has("gui_running")
+    call plug#begin('~/.vim/plugged')
+else
+    call plug#begin('~/.local.share/nvim/plugged')
+endif
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
-Plug 'justinmk/vim-dirvish'
-Plug 'kristijanhusak/vim-dirvish-git'
+if has("gui_running")
+    Plug 'tpope/vim-vinegar'
+else
+    Plug 'justinmk/vim-dirvish'
+    Plug 'kristijanhusak/vim-dirvish-git'
+endif
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary' 
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'vim-syntastic/syntastic'
 Plug 'Yggdroot/indentLine'
-
-" Plug 'lifepillar/vim-solarized8'
-" Plug 'vim-airline/vim-airline'
+Plug 'lifepillar/vim-solarized8'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'rakr/vim-one'
 " Plug 'vim-airline/vim-airline-themes'
 
 " Plug 'dylanaraps/wal.vim' 
@@ -42,9 +51,6 @@ augroup mydelimitMate
   au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
 augroup END
 
-" --- ack
-nmap <silent> <leader>s :Ack<CR>
-
 " ----- ctrlpvim/ctrlp.vim -----
 nmap <C-c> :CtrlPBuffer<CR>
 nmap <C-x> :CtrlP<CR>
@@ -59,3 +65,7 @@ let g:goyo_linenr = 1
 
 " ----- aserebryakov/vim-todo-lists -----
 let g:VimTodoListsMoveItems = 0
+
+" ----- vim-airline/vim-airline -----
+set laststatus=2
+

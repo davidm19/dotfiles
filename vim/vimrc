@@ -1,15 +1,25 @@
-source ~/.dotfiles/vim/plugins.vim
+" PLUGINS
+call plug#begin('~/.vim/plugged')
+Plug 'ervandew/supertab'
+Plug 'Raimondi/delimitMate'
+Plug 'tpope/vim-commentary' 
+call plug#end()
 
-" ----- key remappings -----
-let mapleader=";"
-source $HOME/.dotfiles/vim/keybindings.vim
+" KEYBINDINGS
+let mapleader = ";"
+nmap <silent> <leader>h :sp<CR>
+nmap <silent> <leader>v :vsp<CR>
+inoremap jj <ESC>
 
-" ----- General (non-plugin) settings -----
+" SETTINGS
 syntax on
 set number
 set backspace=indent,eol,start
-set tabstop=4
+set showcmd
+set mouse=a
+set encoding=UTF-8
+set softtabstop=4
+set shiftwidth=4
+set expandtab
 set background=light
 highlight LineNr ctermfg=grey
-
-set background=dark
