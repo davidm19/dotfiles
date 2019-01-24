@@ -9,11 +9,6 @@ ESSENTIAL PLUGINS:
 - tpope/vim-commentary
 
 list2 ideas(from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1):
--ale
--ycm/jedi-vim, clang-complete and supertab
--ctrlp
--vinegar
--delimitmate
 
 NO FUGITIVE! YOU DON'T NEED IT!
 
@@ -37,7 +32,7 @@ NEW ONES TO TRY OUT (ALL LANGUAGES):
 - sheerun/vim-polyglot
 - terryma/vim-multiple-cursors
 - tpope/vim-eunuch
-- Valloric/YouCompleteMe
+- Valloric/YouCompleteMe (pros: ; cons: makes vim (and everything else) VERY SLOW; overall, this doesn't really look like a keeper)
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:

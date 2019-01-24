@@ -1,12 +1,18 @@
 " PLUGINS
 call plug#begin('~/.vim/plugged')
-Plug 'ervandew/supertab'
+" Plug 'ervandew/supertab'
+Plug 'Valloric/YouCompleteMe'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary' 
 call plug#end()
 
 " KEYBINDINGS
 let mapleader = ";"
+nmap <silent> <leader>wq :wq<CR>
+nmap <silent> <leader>w :w<CR>
+nmap <silent> <leader>W :wa<CR>
+nmap <silent> <leader>q :q<CR>
+nmap <silent> <leader>Q :qa<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
 inoremap jj <ESC>
