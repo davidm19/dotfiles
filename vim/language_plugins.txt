@@ -30,9 +30,10 @@ COLORS/AIRLINE (IF YOU'RE PLANNING ON USING TMUX, THEN COLORS AND AIRLINE ARE FO
 
 NEW ONES TO TRY OUT (ALL LANGUAGES):
 - sheerun/vim-polyglot
+*** Shougo/deoplete.nvim
 - terryma/vim-multiple-cursors
 - tpope/vim-eunuch
-- Valloric/YouCompleteMe (pros: ; cons: makes vim (and everything else) VERY SLOW; overall, this doesn't really look like a keeper)
+- Valloric/YouCompleteMe (pros: intelligent and convenient autocompletion, better than that of supertab; cons: makes vim (and everything else) OUTRAGEOUSLY SLOW; the fantastic autocompletion doesn't really outweigh the slow vim uptimes and shit)
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
