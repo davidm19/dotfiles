@@ -16,8 +16,6 @@ nmap <silent> <leader>q :q<CR>
 nmap <silent> <leader>Q :qa<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
-nmap - :E<CR>
-nmap = <CR>
 inoremap jj <ESC>
 
 " SETTINGS
@@ -27,6 +25,7 @@ set backspace=indent,eol,start
 set showcmd
 set mouse=a
 set encoding=UTF-8
+set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab

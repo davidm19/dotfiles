@@ -54,7 +54,6 @@ HTML/CSS:
 - mattn/emmet-vim
 
 Javascript:
-- HerringtonDarkholme/yats.vim
 - leafgarland/typescript-vim
 - pangloss/vim-javascript
 - prettier/vim-prettier
