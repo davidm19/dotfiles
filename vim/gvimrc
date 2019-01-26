@@ -28,9 +28,7 @@ nmap = <CR>
 " ----- w0rp/ale -----
 let g:ale_sign_error = '✘'
 let g:ale_sign_warning = "▲"
-
-" ----- airblade/vim-gitgutter -----
-let g:airline#extensions#hunks#non_zero_only = 1
+let g:airline#extensions#ale#enabled = 1
 
 " ----- Raimondi/delimitMate -----
 let delimitMate_expand_cr = 1

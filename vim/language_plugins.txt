@@ -57,9 +57,6 @@ Javascript:
 - pangloss/vim-javascript
 - prettier/vim-prettier
 
-LaTeX:
-- lervag/vimtex
-
 Python:
 - davidhalter/jedi-vim
 - pythonmode/pythonmode
