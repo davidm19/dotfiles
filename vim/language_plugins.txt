@@ -1,17 +1,18 @@
 FULL DISCLOSURE: THIS IS FOR THE SUMMERTIME (DO A FULL REWORK OF PLUGINS)
 
-IF YOU SOLIDIFY YOUR PLUGIN LIST, THEN MAYBE SWITCH TO PATHOGEN? 
+IF YOU SOLIDIFY YOUR PLUGIN LIST, THEN MAYBE SWITCH TO PATHOGEN?
 
 -------------------------------
 ESSENTIAL PLUGINS:
 - airblade/vim-gitgutter
 SOME SORT OF AUTOCOMPLETION:
     - ervandew/supertab
+    - Valloric/YouCompleteMe
 - Raimondi/delimitMate
 - tpope/vim-commentary
 -------------------------------
 
-list2 ideas(from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1):
+vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
 
 NO FUGITIVE! YOU DON'T NEED IT!
 
@@ -32,12 +33,10 @@ COLORS/AIRLINE (IF YOU'RE PLANNING ON USING TMUX, THEN COLORS AND AIRLINE ARE FO
 
 NEW ONES TO TRY OUT (ALL LANGUAGES):
 *** - ajh17/VimCompletesMe
-- ncm2/ncm2
 - sheerun/vim-polyglot
-- Shougo/deoplete.nvim
 - terryma/vim-multiple-cursors
 - tpope/vim-eunuch
-- Valloric/YouCompleteMe (pros: intelligent and convenient autocompletion, better than that of supertab; cons: makes vim (and everything else) SLOW; the fantastic autocompletion does not outweigh the slow startup times; maybe i'll use this exclusively with gvim? makes sense just because i would use normal vim for something very quick, and youcompleteme would slow it down. but gvim on the otherhand, since it's bigger and more heavy duty, would probably benefit from some heavy duty completion plugin like youcompleteme) 
+- Valloric/YouCompleteMe (pros: intelligent and convenient autocompletion, better than that of supertab; cons: makes vim (and everything else) SLOW; the fantastic autocompletion does not outweigh the slow startup times; i'm gonna use this exclusively with gvim, it makes sense just because i would use normal vim for something very quick, and youcompleteme would slow it down; in this case, i would use supertab. but gvim on the otherhand, since it's bigger and more heavy duty, would probably benefit from some heavy duty completion plugin like youcompleteme)
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
