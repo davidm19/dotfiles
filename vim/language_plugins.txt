@@ -31,21 +31,21 @@ COLORS/AIRLINE (IF YOU'RE PLANNING ON USING TMUX, THEN COLORS AND AIRLINE ARE FO
 - vim-airline/vim-airline-themes
 
 NEW ONES TO TRY OUT (ALL LANGUAGES):
-- ajh17/VimCompletesMe
-- sheerun/vim-polyglot
-*** Shougo/deoplete.nvim
+*** - ajh17/VimCompletesMe
 - ncm2/ncm2
+- sheerun/vim-polyglot
+- Shougo/deoplete.nvim
 - terryma/vim-multiple-cursors
 - tpope/vim-eunuch
-- Valloric/YouCompleteMe (pros: intelligent and convenient autocompletion, better than that of supertab; cons: makes vim (and everything else) OUTRAGEOUSLY SLOW; the fantastic autocompletion doesn't really outweigh the slow vim uptimes and shit)
+- Valloric/YouCompleteMe (pros: intelligent and convenient autocompletion, better than that of supertab; cons: makes vim (and everything else) SLOW; the fantastic autocompletion does not outweigh the slow startup times; maybe i'll use this exclusively with gvim? makes sense just because i would use normal vim for something very quick, and youcompleteme would slow it down. but gvim on the otherhand, since it's bigger and more heavy duty, would probably benefit from some heavy duty completion plugin like youcompleteme) 
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
 - justinmk/vim-syntax-extra
+- LucHermitte/lh-cpp
 - octol/vim-cpp-enhanced-highlight
-- MAYBE: Rip-Rip/clang_complete (gotta disable supertab for this one)
+- rhysd/vim-clang-format
 - vim-scripts/a.vim
-- vim-scripts/c.vim
 
 Go:
 - fatih/vim-go

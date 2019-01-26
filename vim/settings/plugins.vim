@@ -5,25 +5,26 @@ else
     call plug#begin('~/.local.share/nvim/plugged')
 endif
 Plug 'airblade/vim-gitgutter'
-Plug 'ctrlpvim/ctrlp.vim'
+Plug 'Raimondi/delimitMate'
 Plug 'ervandew/supertab'
-Plug 'junegunn/goyo.vim'
+Plug 'tpope/vim-commentary' 
 if has("gui_running")
     Plug 'tpope/vim-vinegar'
 else
     Plug 'justinmk/vim-dirvish'
     Plug 'kristijanhusak/vim-dirvish-git'
 endif
-Plug 'Raimondi/delimitMate'
-Plug 'tpope/vim-commentary' 
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'vim-syntastic/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'lifepillar/vim-solarized8'
+Plug 'rakr/vim-one'
+Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'rakr/vim-one'
 
 " ONLY IF YOU'RE IN i3
 " Plug 'dylanaraps/wal.vim' 

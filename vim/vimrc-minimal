@@ -1,14 +1,3 @@
-" PLUGINS
-call plug#begin('~/.vim/plugged')
-Plug 'airblade/vim-gitgutter'
-" Plug 'ervandew/supertab'
-Plug 'Valloric/YouCompleteMe'
-Plug 'Raimondi/delimitMate'
-Plug 'tpope/vim-commentary' 
-call plug#end()
-
-let g:ycm_global_ycm_extra_conf = "/Users/dm/.vim/plugged/YouCompleteMe/.ycm_extra_conf.py"
-
 " KEYBINDINGS
 let mapleader = ";"
 nmap <silent> <leader>wq :wq<CR>
@@ -18,6 +7,8 @@ nmap <silent> <leader>q :q<CR>
 nmap <silent> <leader>Q :qa<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
+nmap - :E<CR>
+nmap = <CR>
 inoremap jj <ESC>
 
 " SETTINGS
@@ -26,7 +17,6 @@ set number
 set backspace=indent,eol,start
 set showcmd
 set mouse=a
-set encoding=UTF-8
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
