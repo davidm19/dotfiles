@@ -1,13 +1,10 @@
 " PLUGINS
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
-" Plug 'ervandew/supertab'
-Plug 'Valloric/YouCompleteMe'
+Plug 'ervandew/supertab'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary' 
 call plug#end()
-
-let g:ycm_global_ycm_extra_conf = "/Users/dm/.vim/plugged/YouCompleteMe/.ycm_extra_conf.py"
 
 " KEYBINDINGS
 let mapleader = ";"
