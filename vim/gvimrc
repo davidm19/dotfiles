@@ -1,10 +1,7 @@
 " ----- PLUGINS ----- 
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
-" Plug 'Valloric/YouCompleteMe'
-Plug 'Shougo/deoplete.nvim'
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'Valloric/YouCompleteMe'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary' 
 Plug 'w0rp/ale'
@@ -22,9 +19,6 @@ call plug#end()
 " ----- PLUGIN SETTINGS ----- 
 " ----- Remap Leader key to ;
 let mapleader = ";"
-
-" ----- Shougo/deoplete.nvim -----
-let g:deoplete#enable_at_startup = 1
 
 " ----- tpope/vim-vinegar -----
 nmap = <CR>

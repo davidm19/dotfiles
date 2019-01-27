@@ -1,8 +1,7 @@
 " ----- PLUGINS ----- 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'airblade/vim-gitgutter'
-" Plug 'ervandew/supertab'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/deoplete.nvim'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary' 
 Plug 'w0rp/ale'
@@ -21,11 +20,12 @@ call plug#end()
 " ----- Remap Leader key to ;
 let mapleader = ";"
 
-" ----- tpope/vim-vinegar -----
-nmap = <CR>
-
 " ----- Shougo/deoplete.nvim -----
 let g:deoplete#enable_at_startup = 1
+imap <TAB> <C-n>
+
+" ----- tpope/vim-vinegar -----
+nmap = <CR>
 
 " ----- w0rp/ale -----
 let g:ale_sign_error = '✘'

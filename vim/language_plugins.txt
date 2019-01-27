@@ -32,11 +32,8 @@ COLORS/AIRLINE (IF YOU'RE PLANNING ON USING TMUX, THEN COLORS AND AIRLINE ARE FO
 - vim-airline/vim-airline-themes
 
 NEW ONES TO TRY OUT (ALL LANGUAGES):
-- sheerun/vim-polyglot
-- Shougo/deoplete (good enough i guess)
-- terryma/vim-multiple-cursors
-- tpope/vim-eunuch
-- Valloric/YouCompleteMe (annoying error messages during C/C++ programming ruins absolutely any love I had for it)
+Shougo/deoplete (good enough i guess)
+Valloric/YouCompleteMe (annoying error messages during C/C++ programming ruins absolutely any love I had for it)
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
