@@ -1,7 +1,8 @@
 " ----- PLUGINS ----- 
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 Plug 'airblade/vim-gitgutter'
-Plug 'ervandew/supertab'
+" Plug 'ervandew/supertab'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary' 
 Plug 'w0rp/ale'
@@ -10,21 +11,21 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-surround'
 Plug 'Yggdroot/indentLine'
-Plug 'lifepillar/vim-solarized8'
-Plug 'rakr/vim-one'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+" Plug 'lifepillar/vim-solarized8'
+" Plug 'rakr/vim-one'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " ----- PLUGIN SETTINGS ----- 
 " ----- Remap Leader key to ;
 let mapleader = ";"
 
-" ----- Valloric/YouCompleteMe -----
-let g:ycm_global_ycm_extra_conf = "/Users/dm/.vim/plugged/YouCompleteMe/.ycm_extra_conf.py"
-
 " ----- tpope/vim-vinegar -----
 nmap = <CR>
+
+" ----- Shougo/deoplete.nvim -----
+let g:deoplete#enable_at_startup = 1
 
 " ----- w0rp/ale -----
 let g:ale_sign_error = '✘'
@@ -67,16 +68,19 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set laststatus=0
+set background=light
+highlight LineNr ctermfg=grey
 
 " COLORSCHEMES
-set termguicolors
+" set termguicolors
 " colorscheme one
 " let g:airline_theme="one"
-colorscheme solarized8_flat
-if strftime("%H") >= 8 && strftime("%H") < 16
-  set background=light
-  let g:airline_solarized_bg='light'
-else
-  set background=dark
-  let g:airline_solarized_bg='dark'
-endif
+" colorscheme solarized8_flat
+" if strftime("%H") >= 8 && strftime("%H") < 16
+"   set background=light
+"   let g:airline_solarized_bg='light'
+" else
+"   set background=dark
+"   let g:airline_solarized_bg='dark'
+" endif

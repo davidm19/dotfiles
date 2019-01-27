@@ -32,11 +32,11 @@ COLORS/AIRLINE (IF YOU'RE PLANNING ON USING TMUX, THEN COLORS AND AIRLINE ARE FO
 - vim-airline/vim-airline-themes
 
 NEW ONES TO TRY OUT (ALL LANGUAGES):
-*** - ajh17/VimCompletesMe
 - sheerun/vim-polyglot
-- Shougo/deoplete OR neocomplete (whatever the fuck it is)
+- Shougo/deoplete (good enough i guess)
 - terryma/vim-multiple-cursors
 - tpope/vim-eunuch
+- Valloric/YouCompleteMe (annoying error messages during C/C++ programming ruins absolutely any love I had for it)
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
@@ -48,6 +48,7 @@ C/C++:
 
 Go:
 - fatih/vim-go
+- zchee/deoplete-go
 
 HTML/CSS:
 - mattn/emmet-vim
@@ -61,6 +62,7 @@ Python:
 - davidhalter/jedi-vim
 - pythonmode/pythonmode
 - vim-scripts/indentpython.vim
+- zchee/deoplete-jedi
 
 Rust:
 - racer-rust/vim-racer
