@@ -33,7 +33,7 @@ COLORS/AIRLINE (IF YOU'RE PLANNING ON USING TMUX, THEN COLORS AND AIRLINE ARE FO
 
 NEW ONES TO TRY OUT (ALL LANGUAGES):
 Shougo/deoplete (good enough i guess)
-Valloric/YouCompleteMe (annoying error messages during C/C++ programming ruins absolutely any love I had for it)
+Valloric/YouCompleteMe (good enough; i'm just not gonna compile with c/c++ completion. maybe go, but not c/c++.)
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
