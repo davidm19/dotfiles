@@ -10,10 +10,6 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-surround'
 Plug 'Yggdroot/indentLine'
-" Plug 'lifepillar/vim-solarized8'
-" Plug 'rakr/vim-one'
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " ----- PLUGIN SETTINGS ----- 
