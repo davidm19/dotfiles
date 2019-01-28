@@ -1,4 +1,4 @@
-" ----- PLUGINS ----- 
+" PLUGINS 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -12,7 +12,7 @@ Plug 'tpope/vim-surround'
 Plug 'Yggdroot/indentLine'
 call plug#end()
 
-" ----- PLUGIN SETTINGS ----- 
+" PLUGIN SETTINGS 
 " ----- Remap Leader key to ;
 let mapleader = ";"
 
