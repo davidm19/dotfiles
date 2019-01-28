@@ -71,16 +71,3 @@ set expandtab
 set laststatus=0
 set background=light
 highlight LineNr ctermfg=grey
-
-" COLORSCHEMES
-" set termguicolors
-" colorscheme one
-" let g:airline_theme="one"
-" colorscheme solarized8_flat
-" if strftime("%H") >= 8 && strftime("%H") < 16
-"   set background=light
-"   let g:airline_solarized_bg='light'
-" else
-"   set background=dark
-"   let g:airline_solarized_bg='dark'
-" endif
