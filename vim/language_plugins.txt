@@ -1,40 +1,3 @@
-FULL DISCLOSURE: THIS IS FOR THE SUMMERTIME (DO A FULL REWORK OF PLUGINS)
-
-IF YOU SOLIDIFY YOUR PLUGIN LIST, THEN MAYBE SWITCH TO PATHOGEN?
-
--------------------------------
-ESSENTIAL PLUGINS:
-- airblade/vim-gitgutter
-SOME SORT OF AUTOCOMPLETION:
-    - ervandew/supertab
-    - Valloric/YouCompleteMe
-- Raimondi/delimitMate
-- tpope/vim-commentary
--------------------------------
-
-vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
-
-NO FUGITIVE! YOU DON'T NEED IT!
-
-OPTIONAL:
-- junegunn/fzf.vim
-- junegunn/goyo.vim
-- tpope/vim-surround
-- tpope/vim-vinegar (FOR EXPLORATION ONLY; NOT FOR OPENING FILES)
-- w0rp/ale (syntastic replacement) (CONFIGURE: https://github.com/w0rp/ale)
-- Yggdroot/indentLine
-
-COLORS/AIRLINE (IF YOU'RE PLANNING ON USING TMUX, THEN COLORS AND AIRLINE ARE FOR gVIM ONLY):
-- dylanaraps/wal.vim
-- lifepillar/vim-solarized8
-- rakr/vim-one
-- vim-airline/vim-airline
-- vim-airline/vim-airline-themes
-
-NEW ONES TO TRY OUT (ALL LANGUAGES):
-Shougo/deoplete (good enough i guess)
-Valloric/YouCompleteMe (good enough; i'm just not gonna compile with c/c++ completion. maybe go, but not c/c++.)
-
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
 - justinmk/vim-syntax-extra
@@ -64,3 +27,5 @@ Python:
 Rust:
 - racer-rust/vim-racer
 - rust-lang/rust.vim
+
+vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
