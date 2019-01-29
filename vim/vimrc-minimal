@@ -12,14 +12,16 @@ nmap = <CR>
 inoremap jj <ESC>
 
 " SETTINGS
+filetype plugin indent on
+
 syntax on
 set number
+set autoindent
 set backspace=indent,eol,start
 set showcmd
-set mouse=a
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-set expandtab
+set incsearch
+set ruler
+set wildmenu
+
 set background=light
 highlight LineNr ctermfg=grey
