@@ -1,7 +1,9 @@
 " ----- PLUGINS ----- 
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
-Plug 'Valloric/YouCompleteMe'
+Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary' 
 Plug 'w0rp/ale'

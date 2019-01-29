@@ -4,7 +4,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary' 
-" Plug 'w0rp/ale' DO YOU REALLY NEED ALE??
 Plug 'tpope/vim-vinegar'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -22,10 +21,6 @@ imap <TAB> <C-n>
 
 " ----- tpope/vim-vinegar -----
 nmap = <CR>
-
-" ----- w0rp/ale -----
-let g:ale_sign_error = '✘'
-let g:ale_sign_warning = "▲"
 
 " ----- airblade/vim-gitgutter -----
 let g:airline#extensions#hunks#non_zero_only = 1

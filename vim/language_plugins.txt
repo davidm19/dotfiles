@@ -29,3 +29,5 @@ Rust:
 - rust-lang/rust.vim
 
 vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
+
+PATHOGEN FOR MINIMAL PLUGINS (DELIMITMATE, COMMENTARY, SURROUND, SUPERTAB) (CTRLP?? INDENTLINE?)
