@@ -5,6 +5,7 @@ C/C++:
 - octol/vim-cpp-enhanced-highlight
 - rhysd/vim-clang-format
 - vim-scripts/a.vim
+- vim-scripts/c.vim
 
 Go:
 - fatih/vim-go
