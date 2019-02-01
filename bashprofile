@@ -11,7 +11,7 @@ reset="\[\033[0m\]"
 alias l="ls"
 alias cal="calz"
 alias tmux="tmux -2"
-alias config="bash ~/.update_dotfiles.sh"
+alias config="bash ~/.dotfiles/update_dotfiles.sh"
 alias code="open -a 'Visual Studio Code'"
 alias sublime="open -a 'Sublime Text'"
 

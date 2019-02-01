@@ -97,4 +97,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
-alias config="bash ~/.update_dotfiles.sh"
+alias config="bash ~/.dotfiles/update_dotfiles.sh"
