@@ -67,15 +67,15 @@ set expandtab
 
 " COLORSCHEMES
 set termguicolors
-colorscheme one
-let g:airline_theme="one"
-" colorscheme solarized8_flat
+" colorscheme one
+" let g:airline_theme="one"
+colorscheme solarized8_flat
 if strftime("%H") >= 8 && strftime("%H") < 16
   set background=light
-  " let g:airline_solarized_bg='light'
+  let g:airline_solarized_bg='light'
 else
   set background=dark
-  " let g:airline_solarized_bg='dark'
+  let g:airline_solarized_bg='dark'
 endif
 
 " ----- Load Plugins on startup because gVim doesn't do it already

@@ -11,6 +11,10 @@ nmap - :E<CR>
 nmap = <CR>
 inoremap jj <ESC>
 
+" PLUGIN SETTINGS
+nmap <C-c> :CtrlPBuffer<CR>
+nmap <C-x> :CtrlP<CR>
+
 " SETTINGS
 filetype plugin indent on
 
