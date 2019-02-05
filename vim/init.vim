@@ -17,7 +17,7 @@ let mapleader = ";"
 
 " ----- Shougo/deoplete.nvim -----
 let g:deoplete#enable_at_startup = 1
-imap <TAB> <C-n>
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " ----- tpope/vim-vinegar -----
 nmap = <CR>

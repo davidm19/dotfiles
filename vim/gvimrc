@@ -22,6 +22,10 @@ call plug#end()
 " ----- Remap Leader key to ;
 let mapleader = ";"
 
+" ----- Shougo/deoplete.nvim -----
+let g:deoplete#enable_at_startup = 1
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+
 " ----- tpope/vim-vinegar -----
 nmap = <CR>
 
