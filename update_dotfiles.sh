@@ -22,7 +22,7 @@ function push {
     cd $CURRENT_DIR
 }
 
-# Show current git status of directory and check any diffs
+# Show current git status of directory and check any git diffs
 function check {
     cd $DOTFILES_DIR
     git status
@@ -37,7 +37,7 @@ function edit {
     cd $CURRENT_DIR
 }
 
-# parse second parameter and call the corresponding function; if given an unknown parameter, let user know what options are available (yes, i know this explanation if confusing...)
+# Parse second parameter and call the corresponding function; if given an unknown parameter, let user know what options are available (yes, i know this explanation if confusing...)
 case $UPDATE_TYPE in
 	pull)
 		pull
