@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Define constants
+# Define important directories and system argument
 CURRENT_DIR=$(pwd)
 DOTFILES_DIR=$HOME/.dotfiles
 UPDATE_TYPE=$1
 
-# Pull from dotfiles repository
+# Pull new changes from dotfiles repository
 function pull {
     cd $DOTFILES_DIR
     git pull origin master
@@ -22,7 +22,7 @@ function push {
     cd $CURRENT_DIR
 }
 
-# Show current git status of directory and check any git diffs
+# Show current git status of directory and show any git diffs
 function check {
     cd $DOTFILES_DIR
     git status
@@ -30,7 +30,7 @@ function check {
     cd $CURRENT_DIR
 }
 
-# Open a vim session in the dotfiles directory
+# Edit dotfiles (here I'm using vim)
 function edit {
     cd $DOTFILES_DIR
     vim .
