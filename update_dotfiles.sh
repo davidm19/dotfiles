@@ -1,13 +1,18 @@
+#!/bin/bash
+
+# Define constants
 CURRENT_DIR=$(pwd)
 DOTFILES_DIR=$HOME/.dotfiles
 UPDATE_TYPE=$1
 
+# Pull from dotfiles repository
 function pull {
     cd $DOTFILES_DIR
     git pull origin master
     cd $CURRENT_DIR
 }
 
+# Push new changes to dotfiles repository
 function push {
     cd ~/.dotfiles
     cd $DOTFILES_DIR
@@ -17,6 +22,7 @@ function push {
     cd $CURRENT_DIR
 }
 
+# Show current git status of directory and check any diffs
 function check {
     cd $DOTFILES_DIR
     git status
@@ -24,11 +30,19 @@ function check {
     cd $CURRENT_DIR
 }
 
+# Open a vim session in the dotfiles directory
+function edit {
+    cd $DOTFILES_DIR
+    vim .
+    cd $CURRENT_DIR
+}
+
+# parse second parameter and call the corresponding function; if given an unknown parameter, let user know what options are available (yes, i know this explanation if confusing...)
 case $UPDATE_TYPE in
-	get)
+	pull)
 		pull
 		;;
-	pull)
+	get)
 		pull
 		;;
 	push)
@@ -41,9 +55,7 @@ case $UPDATE_TYPE in
         check
         ;;
 	edit)
-	        cd $DOTFILES_DIR
-		vim .
-		cd $CURRENT_DIR
+        edit
 		;;
 	*)
 		echo "Usage: config [OPERATION]..."
