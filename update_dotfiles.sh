@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Define important directories and system argument
+# Define important directories and assign system argument to a variable
 CURRENT_DIR=$(pwd)
 DOTFILES_DIR=$HOME/.dotfiles
 UPDATE_TYPE=$1
