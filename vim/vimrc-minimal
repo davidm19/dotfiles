@@ -16,7 +16,6 @@ inoremap jj <ESC>
 nmap <C-c> :CtrlPBuffer<CR>
 nmap <C-x> :CtrlP<CR>
 nmap = <CR>
-let g:indentLine_char = "|"
 
 " SETTINGS
 filetype plugin indent on

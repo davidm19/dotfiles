@@ -1,4 +1,4 @@
-" PLUGINS
+" PLUGINS call plug#begin('~/.vim/plugged')
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'ervandew/supertab'
