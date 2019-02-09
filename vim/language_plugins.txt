@@ -21,7 +21,6 @@ Javascript:
 
 Python:
 - davidhalter/jedi-vim
-- pythonmode/pythonmode
 - vim-scripts/indentpython.vim
 - zchee/deoplete-jedi
 
@@ -30,12 +29,16 @@ Rust:
 - rust-lang/rust.vim
 
 PLUGINS TO TRY OUT:
+- bronson/vim-trailing-whitespace
 - SirVer/UltiSnips (WATCH VIMCASTS FOR THIS)
 - tpope/vim-dispatch (WATCH VIMCASTS FOR THIS)
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
+- w0rp/ale
 
 vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
 
 vimrc that has plugins based on whether or not a certain language exists: https://github.com/m4ntis/dotfiles/blob/master/vim/main.vim
 
-PATHOGEN FOR MINIMAL PLUGINS (DELIMITMATE, COMMENTARY, SURROUND, SUPERTAB, CTRLP) (PATHOGEN START GUIDE: https://gist.github.com/romainl/9970697)
+USE ALTERNATIVE KEYBINDINGS!
+- Ctrl-[ for ego back to normal mode
+- ZZ for save and quit

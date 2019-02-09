@@ -11,7 +11,6 @@ Plug 'tpope/vim-vinegar'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-surround'
-Plug 'Yggdroot/indentLine'
 Plug 'lifepillar/vim-solarized8'
 Plug 'rakr/vim-one'
 Plug 'vim-airline/vim-airline'
@@ -52,6 +51,7 @@ let g:indentLine_char = "|"
 " KEYBINDINGS
 nmap <silent> <leader>w :w<CR>
 nmap <silent> <leader>W :wa<CR>
+nmap <silent> <leader>Q :qa<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
 nmap <TAB> <C-w>
