@@ -43,10 +43,7 @@ augroup END
 
 " ----- junegunn/fzf.vim -----
 nmap <C-c> :Buffers<CR>
-nmap <C-x> :Files<CR>
-
-" ----- Yggdroot/indentLine -----
-let g:indentLine_char = "|"
+nmap <C-p> :Files<CR>
 
 " KEYBINDINGS
 nmap <silent> <leader>w :w<CR>

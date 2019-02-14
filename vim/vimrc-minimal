@@ -1,21 +1,14 @@
 " KEYBINDINGS
 let mapleader = ";"
-nmap <silent> <leader>wq :wq<CR>
 nmap <silent> <leader>w :w<CR>
 nmap <silent> <leader>W :wa<CR>
-nmap <silent> <leader>q :q<CR>
-nmap <silent> <leader>Q :qa<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
-nmap - :E<CR>
-nmap = <CR>
 nmap <TAB> <C-w>
 inoremap jj <ESC>
 
-" PLUGIN SETTINGS
-nmap <C-c> :CtrlPBuffer<CR>
-nmap <C-x> :CtrlP<CR>
-nmap = <CR>
+" Open buffers easier using ctrl-c
+nmap <C-c> :CtrlPBuffer<CR> 
 
 " SETTINGS
 filetype plugin indent on

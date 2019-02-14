@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Documentation
+read -r -d '' DOCUMENTATION <<EOF
+Usage: config [OPERATION]...
+Operation: get/pull   - get new changes from github repository
+           push       - push all recently made changes to github repository
+           check/show - check current status of dotfiles directory
+           edit       - edit dotfiles in vim
+EOF
+
 # Define important directories and assign system argument to a variable
 CURRENT_DIR=$(pwd)
 DOTFILES_DIR=$HOME/.dotfiles
@@ -58,12 +67,7 @@ case $UPDATE_TYPE in
         edit
 		;;
 	*)
-		echo "Usage: config [OPERATION]..."
-		echo "Operation: get/pull   - get new changes from github repository"
-		echo "           push       - push all recently made changes to github repository"
-		echo "           check/show - check current status of dotfiles directory"
-		echo "           edit       - edit dotfiles in vim"
-		echo
-		echo "Exiting..."
+        echo "$DOCUMENTATION"
+        echo "$UPDATE_TYPE is not a valid operation. Exiting..."
 		;;
 esac

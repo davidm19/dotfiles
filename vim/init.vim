@@ -8,7 +8,6 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'Yggdroot/indentLine'
 call plug#end()
 
 " PLUGIN SETTINGS 
@@ -35,10 +34,7 @@ augroup END
 
 " ----- junegunn/fzf.vim -----
 nmap <C-c> :Buffers<CR>
-nmap <C-x> :Files<CR>
-
-" ----- Yggdroot/indentLine -----
-let g:indentLine_char = "|"
+nmap <C-p> :Files<CR>
 
 " KEYBINDINGS
 nmap <silent> <leader>w :w<CR>
