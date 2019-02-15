@@ -40,5 +40,6 @@ vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf
 vimrc that has plugins based on whether or not a certain language exists: https://github.com/m4ntis/dotfiles/blob/master/vim/main.vim
 
 USE ALTERNATIVE KEYBINDINGS!
-- Ctrl-[ for ego back to normal mode
+- Ctrl-[ for go back to normal mode
 - ZZ for save and quit
+- :e for opening other files
