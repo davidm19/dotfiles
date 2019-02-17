@@ -8,6 +8,9 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+
+Plug 'davidhalter/jedi-vim'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " PLUGIN SETTINGS 

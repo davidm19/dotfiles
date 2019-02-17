@@ -1,12 +1,3 @@
-" PLUGINS 
-call plug#begin('~/.vim/plugged')
-Plug 'airblade/vim-gitgutter'
-Plug 'ervandew/supertab'
-Plug 'Raimondi/delimitMate'
-Plug 'tpope/vim-commentary' 
-Plug 'tpope/vim-surround'
-call plug#end()
-
 " KEYBINDINGS
 let mapleader = ";"
 nmap <silent> <leader>wq :wq<CR>
@@ -15,6 +6,7 @@ nmap <silent> <leader>W :wa<CR>
 nmap <silent> <leader>Q :qa<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
+nmap <TAB> <C-w>
 inoremap jj <ESC>
 
 " SETTINGS
@@ -30,3 +22,6 @@ set shiftwidth=4
 set expandtab
 set background=light
 highlight LineNr ctermfg=grey
+
+filetype plugin indent on
+execute pathogen#infect()
