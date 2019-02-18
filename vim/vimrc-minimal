@@ -11,8 +11,6 @@ inoremap jj <ESC>
 nmap <C-c> :CtrlPBuffer<CR> 
 
 " SETTINGS
-filetype plugin indent on
-
 syntax on
 set number
 set autoindent
@@ -25,3 +23,6 @@ set wildmenu
 set background=light
 highlight LineNr ctermfg=grey
 
+"  PATHOGEN SETUP
+filetype plugin indent on
+execute pathogen#infect()

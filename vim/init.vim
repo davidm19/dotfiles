@@ -6,11 +6,9 @@ Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary' 
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
+Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-
-Plug 'davidhalter/jedi-vim'
-Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " PLUGIN SETTINGS 
