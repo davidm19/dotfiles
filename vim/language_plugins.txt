@@ -33,6 +33,7 @@ PLUGINS TO TRY OUT:
 - SirVer/UltiSnips (WATCH VIMCASTS FOR THIS)
 - tpope/vim-dispatch (WATCH VIMCASTS FOR THIS)
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
+- tpope/vim-unimpaired
 - w0rp/ale
 
 vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
