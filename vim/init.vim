@@ -1,14 +1,18 @@
 " PLUGINS 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'airblade/vim-gitgutter'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'ervandew/supertab'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary' 
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-repeat' 
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
-Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+
+Plug 'davidhalter/jedi-vim'
 call plug#end()
 
 " PLUGIN SETTINGS 
@@ -16,8 +20,8 @@ call plug#end()
 let mapleader = ";"
 
 " ----- Shougo/deoplete.nvim -----
-let g:deoplete#enable_at_startup = 1
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+" let g:deoplete#enable_at_startup = 1
+" inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " ----- tpope/vim-vinegar -----
 nmap = <CR>
