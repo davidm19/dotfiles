@@ -25,6 +25,7 @@ PLUGINS TO TRY OUT:
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
 - tpope/vim-unimpaired
 - Vimjas/vim-python-pep8-indent
+- vivien/vim-linux-coding-style
 
 vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
 
