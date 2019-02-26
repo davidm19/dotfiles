@@ -11,18 +11,9 @@ Go:
 - fatih/vim-go
 - zchee/deoplete-go (BUT DO YOU REALLY NEED THIS? LOOK IF vim-go INCLUDES CODE COMPLETION)
 
-HTML/CSS:
-- mattn/emmet-vim
-
-Javascript:
-- leafgarland/typescript-vim
-- pangloss/vim-javascript
-- prettier/vim-prettier
-
 Python:
 - davidhalter/jedi-vim
 - vim-scripts/indentpython.vim
-- zchee/deoplete-jedi
 
 Rust:
 - racer-rust/vim-racer
@@ -30,15 +21,12 @@ Rust:
 
 PLUGINS TO TRY OUT:
 - bronson/vim-trailing-whitespace
-- SirVer/UltiSnips (WATCH VIMCASTS FOR THIS)
 - tpope/vim-dispatch (WATCH VIMCASTS FOR THIS)
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
 - tpope/vim-unimpaired
-- w0rp/ale
+- Vimjas/vim-python-pep8-indent
 
 vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
-
-vimrc that has plugins based on whether or not a certain language exists: https://github.com/m4ntis/dotfiles/blob/master/vim/main.vim
 
 USE ALTERNATIVE KEYBINDINGS!
 - Ctrl-[ for go back to normal mode
