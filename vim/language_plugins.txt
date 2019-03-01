@@ -27,6 +27,10 @@ PLUGINS TO TRY OUT:
 - Vimjas/vim-python-pep8-indent
 - vivien/vim-linux-coding-style
 
+POTENTIAL NEW COLORSCHEMES:
+- lifepillar/vim-solarized8
+- markvincze/panda-vim (DEUS AIRLINE THEME)
+
 vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
 
 USE ALTERNATIVE KEYBINDINGS!
