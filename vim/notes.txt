@@ -1,0 +1,10 @@
+3-9-2019:
+basic BST API:
+- search
+- insert
+- delete
+- traverse
+- is_balanced
+- height
+- count_leaves
+*** INCLUDE CONSTRUCTORS/TYPEDEF STRUCTS FOR BST AND NODES
