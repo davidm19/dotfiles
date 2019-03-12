@@ -11,8 +11,8 @@ basic BST API:
 
 THIS IS MY FAVORITE SITE FOR THIS: https://aaronjwood.com/articles/binary-search-trees/
 --------------------------------------------------------------------------
-3-11-2019:
+3-11-2019 ~1:00PM:
 EMACS => VIM CONVERSION: https://blog.jeaye.com/2015/10/24/emacs-vim/
 --------------------------------------------------------------------------
-
-
+3-11-2019 9:03PM:
+WHAT IS GPG AND PGP?
