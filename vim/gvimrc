@@ -1,87 +1,6 @@
-" ----- PLUGINS ----- 
-call plug#begin('~/.vim/plugged')
-Plug 'airblade/vim-gitgutter'
-Plug 'Shougo/deoplete.nvim'
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
-Plug 'Raimondi/delimitMate'
-Plug 'tpope/vim-commentary' 
-Plug 'w0rp/ale'
-Plug 'tpope/vim-vinegar'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
-Plug 'tpope/vim-surround'
-Plug 'lifepillar/vim-solarized8'
-Plug 'rakr/vim-one'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-call plug#end()
-
-" ----- PLUGIN SETTINGS ----- 
-" ----- Remap Leader key to ;
-let mapleader = ";"
-
-" ----- Shougo/deoplete.nvim -----
-let g:deoplete#enable_at_startup = 1
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
-
-" ----- tpope/vim-vinegar -----
-nmap = <CR>
-
-" ----- w0rp/ale -----
-let g:ale_sign_error = '✘'
-let g:ale_sign_warning = "▲"
-let g:airline#extensions#ale#enabled = 1
-
-" ----- Raimondi/delimitMate -----
-let delimitMate_expand_cr = 1
-augroup mydelimitMate
-  au!
-  au FileType markdown let b:delimitMate_nesting_quotes = ["`"]
-  au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
-augroup END
-
-" ----- junegunn/fzf.vim -----
-nmap <C-c> :Buffers<CR>
-nmap <C-p> :Files<CR>
-
-" KEYBINDINGS
-nmap <silent> <leader>w :w<CR>
-nmap <silent> <leader>W :wa<CR>
-nmap <silent> <leader>Q :qa<CR>
-nmap <silent> <leader>h :sp<CR>
-nmap <silent> <leader>v :vsp<CR>
-nmap <TAB> <C-w>
-inoremap jj <ESC>
-
-" SETTINGS
-syntax on
-set number
-set backspace=indent,eol,start
-set showcmd
-set mouse=a
-set encoding=UTF-8
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-set expandtab
-
-" COLORSCHEMES
-set termguicolors
-" colorscheme one
-" let g:airline_theme="one"
-colorscheme solarized8_flat
-if strftime("%H") >= 8 && strftime("%H") < 16
-  set background=light
-  let g:airline_solarized_bg='light'
-else
-  set background=dark
-  let g:airline_solarized_bg='dark'
-endif
-
-" ----- Load Plugins on startup because gVim doesn't do it already
-autocmd VimEnter * PlugInstall
-autocmd VimEnter * q
+" LITERALLY EVERYTHING BEFORE THIS POINT SHOULD JUST BE FROM THE NORMAL
+" VIMRC
+" source $HOME/.dotfiles/vim/vimrc
 
 if has("gui_macvim")
     " ----- Start MacVim in fullscreen
@@ -95,4 +14,6 @@ set guioptions-=m
 set guioptions-=r
 set guioptions-=b
 
-" HEY! FONTS ARE DIRECTLY IN THE GVIMRC OF THE COMPUTER, NOT HERE!
+set guifont=Inconsolata:h16
+colorscheme panda 
+" (IF IT ISN'T INSTALLED FIRST THEN INSTALL IT! GET IT HERE: https://github.com/markvincze/panda-vim)

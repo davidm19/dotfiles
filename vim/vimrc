@@ -24,6 +24,11 @@ set expandtab
 set background=light
 highlight LineNr ctermfg=grey
 
+" FZF
+set rtp+=~/.fzf
+nmap <C-c> :Buffers<CR>
+nmap <C-p> :Files<CR>
+
 "  PATHOGEN SETUP
 filetype plugin indent on
 execute pathogen#infect()

@@ -13,7 +13,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
 Plug 'davidhalter/jedi-vim'
-Plug 'markvincze/panda-vim'
+" Plug 'markvincze/panda-vim'
 call plug#end()
 
 " PLUGIN SETTINGS 

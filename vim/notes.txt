@@ -16,3 +16,6 @@ EMACS => VIM CONVERSION: https://blog.jeaye.com/2015/10/24/emacs-vim/
 --------------------------------------------------------------------------
 3-11-2019 9:03PM:
 WHAT IS GPG AND PGP?
+--------------------------------------------------------------------------
+3-18-2019 10:16AM:
+NEED TO FIND A WAY TO SET UP FZF FOR REGULAR VIM, NOT SERVER!
