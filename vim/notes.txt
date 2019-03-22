@@ -28,3 +28,6 @@ ALSO SOMETHING INTERESTING... https://github.com/tom5760/arch-install WHY DON'T 
 --------------------------------------------------------------------------
 3-21-2019 7:45PM:
 FOUND A RANGER CHEAT SHEET: https://ranger.github.io/cheatsheet.png
+--------------------------------------------------------------------------
+3-21-2019 8:07PM:
+ALSO CMUS IS KINDA COOL, JUST GOTTA LEARN THE KEYBINDINGS
