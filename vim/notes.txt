@@ -19,3 +19,9 @@ WHAT IS GPG AND PGP?
 --------------------------------------------------------------------------
 3-18-2019 10:16AM:
 NEED TO FIND A WAY TO SET UP FZF FOR REGULAR VIM, NOT SERVER!
+--------------------------------------------------------------------------
+3-21-2019 5:26PM:
+FIGURED OUT HOW TO SET UP FZF FOR REGULAR VIM A HALF AN HOUR AFTER THE PREVIOUS ENTRY.
+JUST NEEDED TO MANUALLY INSTALL FZF (GIT CLONE => INSTALL.PY) AND DOWNLOAD THE FZF.VIM PLUGIN.
+
+ALSO SOMETHING INTERESTING... https://github.com/tom5760/arch-install WHY DON'T I MOD SOMETHING LIKE THIS FOR MY OWN USE?
