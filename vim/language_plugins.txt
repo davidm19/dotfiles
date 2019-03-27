@@ -1,3 +1,6 @@
+--- OPTIONAL PLUGIN LIST ---
+- davidhalter/jedi-vim
+
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
 - justinmk/vim-syntax-extra
