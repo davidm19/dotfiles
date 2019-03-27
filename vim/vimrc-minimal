@@ -7,19 +7,13 @@ nmap <silent> <leader>v :vsp<CR>
 nmap <TAB> <C-w>
 inoremap jj <ESC>
 
-" Open buffers easier using ctrl-c
-nmap <C-c> :CtrlPBuffer<CR> 
-
 " SETTINGS
 syntax on
 set number
 set autoindent
 set backspace=indent,eol,start
 set showcmd
-set incsearch
-set ruler
-set wildmenu
-
+set encoding=UTF-8
 set background=light
 highlight LineNr ctermfg=grey
 
