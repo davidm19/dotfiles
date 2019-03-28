@@ -28,6 +28,8 @@ PLUGINS TO TRY OUT:
 - tpope/vim-unimpaired
 - Vimjas/vim-python-pep8-indent
 - vivien/vim-linux-coding-style
+- xolox/vim-notes
+- xolox/vim-session
 
 POTENTIAL NEW COLORSCHEMES:
 - lifepillar/vim-solarized8
