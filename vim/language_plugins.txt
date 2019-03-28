@@ -1,5 +1,6 @@
 --- OPTIONAL PLUGIN LIST ---
 - davidhalter/jedi-vim
+- vim-airline/vim-airline (NO THEMES NECESSARY FOR STANDARD VIM)
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:

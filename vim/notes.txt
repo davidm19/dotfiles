@@ -31,3 +31,8 @@ FOUND A RANGER CHEAT SHEET: https://ranger.github.io/cheatsheet.png
 --------------------------------------------------------------------------
 3-21-2019 8:07PM:
 ALSO CMUS IS KINDA COOL, JUST GOTTA LEARN THE KEYBINDINGS
+--------------------------------------------------------------------------
+3-28-2019 4:11PM:
+RANGER IS COOL TOO
+AND ALSO THIS GUY USES COLORS IN HIS INSTALL SCRIPT! https://github.com/dikiaap/dotfiles/blob/master/install.sh 
+--------------------------------------------------------------------------
