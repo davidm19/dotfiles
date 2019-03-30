@@ -37,4 +37,4 @@ RANGER IS COOL TOO
 AND ALSO THIS GUY USES COLORS IN HIS INSTALL SCRIPT! https://github.com/dikiaap/dotfiles/blob/master/install.sh 
 --------------------------------------------------------------------------
 3-29-2019 4:59PM:
-THIS GUY'S VIMRC IS JUST SETTINGS FOR DIFFERENT FILES... MAYBE ADAPT THIS ALONG WITH WOLFGANG'S? https://github.com/notthebee/dotfiles/blob/master/nvim/.vimrc
+THIS GUY'S VIMRC IS JUST SETTINGS FOR DIFFERENT FILES... MAYBE ADAPT THIS ALONG WITH WOLFGANG'S? https://github.com/notthebee/dotfiles/blob/master/nvim/.vimrc (LASO THE COMMIT MESSAGE FILETYPE NAME IS gitcommit)
