@@ -47,4 +47,5 @@ FOR MARKDOWN: COMBINE GOYO (LOOK AT SETTINGS IN PAST VIMRCS) AND LIMELIGHT
 --------------------------------------------------------------------------
 3-31-2019 10:19AM:
 VOID LINUX INSTALLATION GUIDE: http://www.troubleshooters.com/linux/void/quickinst.htm
+VOID LINUX INTERNET GUIDE: https://wiki.voidlinux.org/Network_Configuration
 --------------------------------------------------------------------------
