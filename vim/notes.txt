@@ -37,8 +37,11 @@ RANGER IS COOL TOO
 AND ALSO THIS GUY USES COLORS IN HIS INSTALL SCRIPT! https://github.com/dikiaap/dotfiles/blob/master/install.sh 
 --------------------------------------------------------------------------
 3-29-2019 4:59PM:
-THIS GUY'S VIMRC IS JUST SETTINGS FOR DIFFERENT FILES... MAYBE ADAPT THIS ALONG WITH WOLFGANG'S? https://github.com/notthebee/dotfiles/blob/master/nvim/.vimrc (LASO THE COMMIT MESSAGE FILETYPE NAME IS gitcommit)
+THIS GUY'S VIMRC IS JUST SETTINGS FOR DIFFERENT FILES... MAYBE ADAPT THIS ALONG WITH WOLFGANG'S? https://github.com/notthebee/dotfiles/blob/master/nvim/.vimrc (ALSO THE COMMIT MESSAGE FILETYPE NAME IS gitcommit)
 
 ALSO THIS: https://vi.stackexchange.com/questions/18231/what-is-the-difference-of-using-au-bufnewfile-bufread-py-and-au-filetype-py
 
 AND THIS: https://github.com/AGitBoy/Config/blob/master/vim/.vimrc
+
+FOR MARKDOWN: COMBINE GOYO (LOOK AT SETTINGS IN PAST VIMRCS) AND LIMELIGHT
+--------------------------------------------------------------------------
