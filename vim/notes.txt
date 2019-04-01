@@ -54,3 +54,5 @@ ALSO I HAVE NOW EMBRACED THE POSSIBILITY (MAKE NOTE OF POSSIBILITY) OF MALE PATT
 --------------------------------------------------------------------------
 4-1-2019 2:29PM:
 HERE'S HOW TO UPDATE fzf: cd ~/.fzf && git pull && ./install
+
+ALSO EMACS FILE WITH A BUNCH OF ORG MODE SHIT: https://github.com/NEUDitao/dotfiles/blob/master/.emacs.d/init.el
