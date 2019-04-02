@@ -56,3 +56,5 @@ ALSO I HAVE NOW EMBRACED THE POSSIBILITY (MAKE NOTE OF POSSIBILITY) OF MALE PATT
 HERE'S HOW TO UPDATE fzf: cd ~/.fzf && git pull && ./install
 
 ALSO EMACS FILE WITH A BUNCH OF ORG MODE SHIT: https://github.com/NEUDitao/dotfiles/blob/master/.emacs.d/init.el
+
+AND HOW ABOUT A RICE INSPIRED BY THIS PICTURE OF TOM WAITS? http://eskipaper.com/images/tom-waits-3.jpg
