@@ -59,4 +59,6 @@ ALSO EMACS FILE WITH A BUNCH OF ORG MODE SHIT: https://github.com/NEUDitao/dotfi
 
 AND HOW ABOUT A RICE INSPIRED BY THIS PICTURE OF TOM WAITS? http://eskipaper.com/images/tom-waits-3.jpg (BLACK POLYBAR ON TOP WITH WHITE FONT)
 
-ALSO MAYBE ANOTHER WAY OF RUNNING WPA_SUPPLICANT?
+ALSO MAYBE ANOTHER WAY OF RUNNING WPA_SUPPLICANT? https://github.com/conornewton/dotfiles/blob/master/bin/wifi/restart_wpa
+
+AND A GPG GUIDE? https://kb.iu.edu/d/awio
