@@ -58,3 +58,5 @@ HERE'S HOW TO UPDATE fzf: cd ~/.fzf && git pull && ./install
 ALSO EMACS FILE WITH A BUNCH OF ORG MODE SHIT: https://github.com/NEUDitao/dotfiles/blob/master/.emacs.d/init.el
 
 AND HOW ABOUT A RICE INSPIRED BY THIS PICTURE OF TOM WAITS? http://eskipaper.com/images/tom-waits-3.jpg (BLACK POLYBAR ON TOP WITH WHITE FONT)
+
+ALSO MAYBE ANOTHER WAY OF RUNNING WPA_SUPPLICANT?
