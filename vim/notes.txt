@@ -62,3 +62,6 @@ AND HOW ABOUT A RICE INSPIRED BY THIS PICTURE OF TOM WAITS? http://eskipaper.com
 ALSO MAYBE ANOTHER WAY OF RUNNING WPA_SUPPLICANT? https://github.com/conornewton/dotfiles/blob/master/bin/wifi/restart_wpa
 
 AND A GPG GUIDE? https://kb.iu.edu/d/awio
+--------------------------------------------------------------------------
+4-2-2019 5:28PM:
+PROBLEMS WITH SLSTATUS? https://www.reddit.com/r/suckless/comments/b6htio/please_help_i_am_not_able_to_install_slstatus_by/
