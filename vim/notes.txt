@@ -68,3 +68,6 @@ PROBLEMS WITH SLSTATUS? https://www.reddit.com/r/suckless/comments/b6htio/please
 --------------------------------------------------------------------------
 4-4-2019 2:45PM:
 XMONAD INTRO: https://beginners-guide-to-xmonad.readthedocs.io/intro.html TRY THIS ON A FRESH ARCH/DEBIAN INSTALLATION
+--------------------------------------------------------------------------
+4-6-2019 9:00PM:
+HOW TO PROPERLY ACCESS A USB FROM THE COMMAND LINE: https://askubuntu.com/questions/802672/how-to-properly-copy-files-from-hard-drive-to-usb-flash-drive-in-tty4-terminal
