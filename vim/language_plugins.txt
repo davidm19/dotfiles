@@ -28,6 +28,7 @@ PLUGINS TO TRY OUT:
 - tpope/vim-dispatch (WATCH VIMCASTS FOR THIS)
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
 - tpope/vim-unimpaired
+- Valloric/YouCompleteMe
 - Vimjas/vim-python-pep8-indent
 - vivien/vim-linux-coding-style
 - xolox/vim-notes
