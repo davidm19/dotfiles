@@ -1,19 +1,64 @@
-" LITERALLY EVERYTHING BEFORE THIS POINT SHOULD JUST BE FROM THE NORMAL
-" VIMRC
-" source $HOME/.dotfiles/vim/vimrc
+" KEYBINDINGS
+let mapleader = ";"
+nmap <silent> <leader>wq :wq<CR>
+nmap <silent> <leader>w :w<CR>
+nmap <silent> <leader>W :wa<CR>
+nmap <silent> <leader>q :q<CR>
+nmap <silent> <leader>Q :qa<CR>
+nmap <silent> <leader>h :sp<CR>
+nmap <silent> <leader>v :vsp<CR>
+nmap <TAB> <C-w>
+inoremap jj <ESC>
 
-if has("gui_macvim")
-    " ----- Start MacVim in fullscreen
-    set fuoptions=maxvert,maxhorz
-    au GUIEnter * set fullscreen
-endif
+" SETTINGS
+syntax on
+set number
+set backspace=indent,eol,start
+set showcmd
+set mouse=a
+set encoding=UTF-8
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set background=light
+highlight LineNr ctermfg=grey
 
-" ----- Linux gVim Screen Config
+"  VIM-PLUG SETUP
+call plug#begin('~/.vim/plugged')
+Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'markvincze/panda-vim'
+Plug 'Raimondi/delimitMate'
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-vinegar'
+Plug 'tpope/vim-surround'
+Plug 'airblade/vim-gitgutter'
+" Plug 'davidhalter/jedi-vim'
+Plug 'vim-airline/vim-airline'
+call plug#end()
+
+let g:deoplete#enable_at_startup = 1
+
+" ----- MacVim Screen Config
+" set guifont=Inconsolata:h16
+set guifont=Iosevka:h16
+colorscheme panda
+
+" ----- Start MacVim in fullscreen
+set fuoptions=maxvert,maxhorz
+au GUIEnter * set fullscreen
+
+autocmd VimEnter * PlugInstall
+autocmd VimEnter * q
+
 set guioptions-=T
 set guioptions-=m
 set guioptions-=r
 set guioptions-=b
-
-set guifont=Inconsolata:h16
-colorscheme panda 
-" (IF IT ISN'T INSTALLED FIRST THEN INSTALL IT! GET IT HERE: https://github.com/markvincze/panda-vim)
