@@ -47,13 +47,13 @@ call plug#end()
 let g:deoplete#enable_at_startup = 1
 
 " ----- MacVim Screen Config
+" set guifont=Iosevka:h16
 " set guifont=Inconsolata:h16
-set guifont=Iosevka:h16
 colorscheme panda
 
 " ----- Start MacVim in fullscreen
-set fuoptions=maxvert,maxhorz
-au GUIEnter * set fullscreen
+" set fuoptions=maxvert,maxhorz
+" au GUIEnter * set fullscreen
 
 autocmd VimEnter * PlugInstall
 autocmd VimEnter * q

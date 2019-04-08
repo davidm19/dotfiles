@@ -1,19 +1,22 @@
 --- OPTIONAL PLUGIN LIST ---
+- junegunn/goyo.vim
+- junegunn/limelight.vim
 - Shougo/deoplete.nvim + ANOTHER WRAPPER FOR A CERTAIN LANGUAGE (e.g. davidhalter/jedi-vim FOR PYTHON OR eagletmt/neco-ghc FOR HASKELL OR ANOTHER ONE OF THOSE DEOPLETE (NECO) LANGUAGE WRAPPERS)
 - vim-airline/vim-airline (NO THEMES NECESSARY FOR STANDARD VIM)
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
-- justinmk/vim-syntax-extra
-- LucHermitte/lh-cpp
-- octol/vim-cpp-enhanced-highlight
-- rhysd/vim-clang-format
+- justinmk/vim-syntax-extra (C)
+- octol/vim-cpp-enhanced-highlight (C++)
+- Shougo/deoplete-clangx
 - vim-scripts/a.vim
-- vim-scripts/c.vim
 
 Go:
 - fatih/vim-go
-- zchee/deoplete-go (BUT DO YOU REALLY NEED THIS? LOOK IF vim-go INCLUDES CODE COMPLETION)
+
+Haskell:
+- eagletmt/neco-ghc
+- neovimhaskell/haskell.vim
 
 Python:
 - davidhalter/jedi-vim
@@ -21,15 +24,12 @@ Python:
 
 Rust:
 - racer-rust/vim-racer
-- rust-lang/rust.vim
 
 PLUGINS TO TRY OUT:
-- Shougo/deoplete.nvim
 - tpope/vim-dispatch (WATCH VIMCASTS FOR THIS)
 - tpope/vim-eunuch
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
 - tpope/vim-unimpaired
-- Valloric/YouCompleteMe
 - Vimjas/vim-python-pep8-indent
 - vivien/vim-linux-coding-style
 - xolox/vim-notes
