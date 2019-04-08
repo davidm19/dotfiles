@@ -31,4 +31,5 @@ nmap <C-p> :Files<CR>
 
 "  PATHOGEN SETUP
 filetype plugin indent on
-execute pathogen#infect()
+execute pathogen#infect('~/.vim/bundle/{}')
+" execute pathogen#infect() DO ME WHEN YOU DON'T HAVE GVIM AND VIMPLUG ANYMORE

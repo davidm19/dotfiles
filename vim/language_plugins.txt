@@ -1,5 +1,5 @@
 --- OPTIONAL PLUGIN LIST ---
-- davidhalter/jedi-vim
+- Shougo/deoplete.nvim + ANOTHER WRAPPER FOR A CERTAIN LANGUAGE (e.g. davidhalter/jedi-vim FOR PYTHON OR eagletmt/neco-ghc FOR HASKELL OR ANOTHER ONE OF THOSE DEOPLETE (NECO) LANGUAGE WRAPPERS)
 - vim-airline/vim-airline (NO THEMES NECESSARY FOR STANDARD VIM)
 
 --- LANGUAGE SPECIFIC PLUGINS ---
