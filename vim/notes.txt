@@ -44,6 +44,8 @@ ALSO THIS: https://vi.stackexchange.com/questions/18231/what-is-the-difference-o
 AND THIS: https://github.com/AGitBoy/Config/blob/master/vim/.vimrc
 
 FOR MARKDOWN: COMBINE GOYO (LOOK AT SETTINGS IN PAST VIMRCS) AND LIMELIGHT
+
+GOYO SETTING: :Goyo 75x75-40% and let g:goyo_linenr = 1
 --------------------------------------------------------------------------
 3-31-2019 10:19AM:
 VOID LINUX INSTALLATION GUIDE: http://www.troubleshooters.com/linux/void/quickinst.htm

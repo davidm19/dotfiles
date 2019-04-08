@@ -24,6 +24,7 @@ Rust:
 - rust-lang/rust.vim
 
 PLUGINS TO TRY OUT:
+- Shougo/deoplete.nvim
 - tpope/vim-dispatch (WATCH VIMCASTS FOR THIS)
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
 - tpope/vim-unimpaired
