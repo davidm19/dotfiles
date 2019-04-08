@@ -26,6 +26,7 @@ Rust:
 PLUGINS TO TRY OUT:
 - Shougo/deoplete.nvim
 - tpope/vim-dispatch (WATCH VIMCASTS FOR THIS)
+- tpope/vim-eunuch
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
 - tpope/vim-unimpaired
 - Valloric/YouCompleteMe
