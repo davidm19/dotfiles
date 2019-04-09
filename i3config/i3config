@@ -30,9 +30,8 @@ font pango:Inconsolata 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal --hide-menubar 
 # bindsym $mod+Return exec xfce4-terminal --hide-menubar --hide-scrollbar --hide-borders
-# bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec xfce4-terminal --hide-menubar --hide-scrollbar
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -191,9 +190,9 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym F6 exec physlock -d
 bindsym F7 exec systemctl suspend && physlock -d
 
-exec_always --no-startup-id redshift-gtk -t 6500:2000
-# exec_always --no-startup-id compton -b -f
-# exec_always --no-startup-id feh --bg-scale ~/Pictures/kids-see-ghost-2.jpg
+exec --no-startup-id redshift-gtk -t 6500:2000
+exec_always --no-startup-id compton -f -b
+exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper-188524.jpg
 
 # 343b45 COLORSCHEME
 # - TERMINAL COLOR: #242930
@@ -202,26 +201,3 @@ exec_always --no-startup-id redshift-gtk -t 6500:2000
 # - NO WAL BECAUSE IT DON'T WORK
 # - NO VIM STATUSBAR (also for other colorscheme)
 # - VERY SIMPLE BASH CONFIG: USERNAME AND LOCATION ARE WHITE, GIT PROMPT IS LIGHT BLUE
-
-# GAPS SETTINGS
-# gaps inner 8
-# gaps outer 8
-# for_window [class="^.*"] border pixel 0
-
-# Set colors from Xresources
-# Change 'color7' and 'color2' to whatever colors you want i3 to use 
-# from the generated scheme.
-# NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
-# it fails to get colors from Xresources.
-set_from_resource $fg i3wm.color7 #f0f0f0
-set_from_resource $bg i3wm.color2 #f0f0f0
-
-# class                 border  backgr. text indicator child_border
-client.focused          $bg     $bg     $fg  $bg       $bg
-client.focused_inactive $bg     $bg     $fg  $bg       $bg
-client.unfocused        $bg     $bg     $fg  $bg       $bg
-client.urgent           $bg     $bg     $fg  $bg       $bg
-client.placeholder      $bg     $bg     $fg  $bg       $bg
-
-client.background       $bg
-
