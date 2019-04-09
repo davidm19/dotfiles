@@ -31,7 +31,7 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec xfce4-terminal --hide-menubar --hide-scrollbar --hide-borders
-bindsym $mod+Return exec xfce4-terminal --hide-menubar --hide-scrollbar
+bindsym $mod+Return exec xfce4-terminal --hide-menubar --hide-borders
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -191,7 +191,7 @@ bindsym F6 exec physlock -d
 bindsym F7 exec systemctl suspend && physlock -d
 
 exec --no-startup-id redshift-gtk -t 6500:2000
-exec_always --no-startup-id compton -f -b
+exec_always --no-startup-id compton -f -b #LEVEL OF TRANSPARENCY DETERMINED BY XFCE4-TERMINAL ITSELF; GO TO PERFERENCES --> APPEARANCE
 exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper-188524.jpg
 
 # 343b45 COLORSCHEME
