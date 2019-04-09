@@ -20,6 +20,8 @@ export LSCOLORS=ExFxCxDxbxegedabagaced
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+export TERM=screen-256color
+
 # whoiam=$(whoami)
 # date=$(date)
 # echo "Hello $whoiam. Today's date is: $date"
