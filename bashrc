@@ -141,6 +141,8 @@ export LSCOLORS=ExFxCxDxbxegedabagaced
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1="$redbold\u$yellow\$(__git_ps1) $cyan\W $reset$ "
+
+export TERM=screen-256color
 #if the arrow doesn't work, just use a $
 #HYPERJS FONT SIZE IS 15
 
@@ -152,6 +154,4 @@ export PATH
 # wal -Rq //MORE WAL
 
 # STARTX
-if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
-  exec startx
-fi
+
