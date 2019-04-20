@@ -29,8 +29,10 @@ export TERM=screen-256color
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1="$redbold\u$yellow\$(__git_ps1) $cyan\W $reset$ "
-#export PS1="$yellow\$(__git_ps1) $cyan\W $reset"
-#if the » doesn't work, just use a $
+
+# PS1 ALTERNATIVES! (username:directory gitstatus $)
+# DIRECTORY BASENAME ONLY: export PS1="$redbold\u$reset:$cyan\W$yellow\$(__git_ps1) $reset$ "
+# FULL WORKING DIRECTORY PATH: export PS1="$redbold\u$reset:$cyan\w$yellow\$(__git_ps1) $reset$ "
 
 # Setting PATH for Python 3.7
 # The original version is saved in .bash_profile.pysave

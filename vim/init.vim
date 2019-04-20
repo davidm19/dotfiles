@@ -1,20 +1,23 @@
-" PLUGINS 
-call plug#begin('~/.local/share/nvim/plugged')
-Plug 'airblade/vim-gitgutter'
-" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'ervandew/supertab'
-Plug 'Raimondi/delimitMate'
-Plug 'tpope/vim-commentary' 
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-repeat' 
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-vinegar'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
+" " PLUGINS 
+" call plug#begin('~/.local/share/nvim/plugged')
+" Plug 'airblade/vim-gitgutter'
+" " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Plug 'ervandew/supertab'
+" Plug 'Raimondi/delimitMate'
+" Plug 'tpope/vim-commentary' 
+" Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-repeat' 
+" Plug 'tpope/vim-surround'
+" Plug 'tpope/vim-vinegar'
+" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+" Plug 'junegunn/fzf.vim'
 
-Plug 'davidhalter/jedi-vim'
-" Plug 'markvincze/panda-vim'
-call plug#end()
+" Plug 'davidhalter/jedi-vim'
+" call plug#end()
+filetype plugin indent on
+execute pathogen#infect('~/.local/share/nvim/plugged/{}')
+let g:deoplete#enable_at_startup = 1
+" inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " PLUGIN SETTINGS 
 " ----- Remap Leader key to ;
