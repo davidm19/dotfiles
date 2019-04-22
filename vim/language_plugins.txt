@@ -28,6 +28,10 @@ Python:
 Rust:
 - racer-rust/vim-racer
 
+Typescript:
+- leafgarland/typescript-vim
+- mhartington/nvim-typescript
+
 PLUGINS TO TRY OUT:
 - tpope/vim-dispatch (WATCH VIMCASTS FOR THIS)
 - tpope/vim-eunuch
