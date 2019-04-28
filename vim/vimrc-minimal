@@ -12,6 +12,8 @@ syntax on
 set number
 set autoindent
 set backspace=indent,eol,start
+" set background=light
+" highlight LineNr ctermfg=grey
 set showcmd
 set encoding=UTF-8
 set background=light
