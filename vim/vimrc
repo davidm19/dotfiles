@@ -11,9 +11,14 @@ nmap <TAB> <C-w>
 inoremap jj <ESC>
 
 " SETTINGS
+" Important Settings
 syntax on
 set number
 set backspace=indent,eol,start
+set background=light
+highlight LineNr ctermfg=grey
+
+" Unnecessary Settings
 set showcmd
 set mouse=a
 set encoding=UTF-8
@@ -21,8 +26,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
-set background=light
-highlight LineNr ctermfg=grey
+
 
 " FZF
 set rtp+=~/.fzf
