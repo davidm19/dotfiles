@@ -140,11 +140,10 @@ export LSCOLORS=ExFxCxDxbxegedabagaced
 
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1="$redbold\u$yellow\$(__git_ps1) $cyan\W $reset$ "
+export PS1="$redbold\u$reset:$cyan\w$yellow\$(__git_ps1) $reset$ "
 
 export TERM=screen-256color
 #if the arrow doesn't work, just use a $
-#HYPERJS FONT SIZE IS 15
 
 # Setting PATH for Python 3.7
 # The original version is saved in .bash_profile.pysave

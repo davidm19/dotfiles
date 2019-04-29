@@ -24,39 +24,19 @@ set expandtab
 set background=light
 highlight LineNr ctermfg=grey
 
-"  VIM-PLUG SETUP
-call plug#begin('~/.vim/plugged')
-Plug 'Shougo/deoplete.nvim'
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
-Plug 'Shougo/deoplete-clangx'
-Plug 'markvincze/panda-vim'
-Plug 'Raimondi/delimitMate'
-Plug 'junegunn/fzf.vim'
-Plug 'junegunn/goyo.vim'
-Plug 'junegunn/limelight.vim'
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-vinegar'
-Plug 'tpope/vim-surround'
-Plug 'airblade/vim-gitgutter'
-Plug 'vim-airline/vim-airline'
-call plug#end()
-
-let g:deoplete#enable_at_startup = 1
+execute pathogen#infect('~/.vim/gvim/{}')
 
 " ----- MacVim Screen Config
 " set guifont=Iosevka:h16
 " set guifont=Inconsolata:h16
-colorscheme panda
+" colorscheme panda
 
 " ----- Start MacVim in fullscreen
 " set fuoptions=maxvert,maxhorz
 " au GUIEnter * set fullscreen
 
-autocmd VimEnter * PlugInstall
-autocmd VimEnter * q
+" autocmd VimEnter * PlugInstall
+" autocmd VimEnter * q
 
 set guioptions-=T
 set guioptions-=m

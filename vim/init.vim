@@ -4,17 +4,16 @@ let g:deoplete#enable_at_startup = 1
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
-" PLUGIN SETTINGS 
-" ----- Remap Leader key to ;
+" Remap Leader key to ;
 let mapleader = ";"
 
-" ----- tpope/vim-vinegar -----
+" vim-vinegar settings
 nmap = <CR>
 
-" ----- airblade/vim-gitgutter -----
+" vim-gitgutter settings
 let g:airline#extensions#hunks#non_zero_only = 1
 
-" ----- Raimondi/delimitMate -----
+" delimitMate Settings
 let delimitMate_expand_cr = 1
 augroup mydelimitMate
   au!
