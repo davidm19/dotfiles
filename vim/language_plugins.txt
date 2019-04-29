@@ -33,14 +33,12 @@ Typescript:
 - mhartington/nvim-typescript
 
 PLUGINS TO TRY OUT:
+- junegunn/gv.vim
 - tpope/vim-dispatch (WATCH VIMCASTS FOR THIS)
 - tpope/vim-eunuch
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
 - tpope/vim-unimpaired
 - vimwiki/vimwiki
-- vivien/vim-linux-coding-style
-- xolox/vim-notes
-- xolox/vim-session
 
 POTENTIAL NEW COLORSCHEMES:
 - lifepillar/vim-solarized8
