@@ -1,31 +1,12 @@
-" " PLUGINS 
-" call plug#begin('~/.local/share/nvim/plugged')
-" Plug 'airblade/vim-gitgutter'
-" " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-" Plug 'ervandew/supertab'
-" Plug 'Raimondi/delimitMate'
-" Plug 'tpope/vim-commentary' 
-" Plug 'tpope/vim-fugitive'
-" Plug 'tpope/vim-repeat' 
-" Plug 'tpope/vim-surround'
-" Plug 'tpope/vim-vinegar'
-" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-" Plug 'junegunn/fzf.vim'
-
-" Plug 'davidhalter/jedi-vim'
-" call plug#end()
 filetype plugin indent on
-execute pathogen#infect('~/.local/share/nvim/plugged/{}')
+execute pathogen#infect('~/.config/nvim/bundle/{}')
 let g:deoplete#enable_at_startup = 1
-" inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " PLUGIN SETTINGS 
 " ----- Remap Leader key to ;
 let mapleader = ";"
-
-" ----- Shougo/deoplete.nvim -----
-" let g:deoplete#enable_at_startup = 1
-" inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " ----- tpope/vim-vinegar -----
 nmap = <CR>
@@ -41,13 +22,16 @@ augroup mydelimitMate
   au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
 augroup END
 
-" ----- junegunn/fzf.vim -----
-nmap <C-c> :Buffers<CR>
-nmap <C-p> :Files<CR>
+" CtrlP Settings
+nmap <C-c> :CtrlPBuffer<CR>
 
 " KEYBINDINGS
+let mapleader = ";"
+nmap <silent> <leader>wq :wq<CR>
 nmap <silent> <leader>w :w<CR>
 nmap <silent> <leader>W :wa<CR>
+nmap <silent> <leader>q :q<CR>
+nmap <silent> <leader>Q :qa<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
 nmap <TAB> <C-w>
@@ -60,10 +44,5 @@ set backspace=indent,eol,start
 set showcmd
 set mouse=a
 set encoding=UTF-8
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-set expandtab
-set laststatus=0
 set background=light
 highlight LineNr ctermfg=grey
