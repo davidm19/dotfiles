@@ -73,3 +73,6 @@ XMONAD INTRO: https://beginners-guide-to-xmonad.readthedocs.io/intro.html TRY TH
 --------------------------------------------------------------------------
 4-6-2019 9:00PM:
 HOW TO PROPERLY ACCESS A USB FROM THE COMMAND LINE: https://askubuntu.com/questions/802672/how-to-properly-copy-files-from-hard-drive-to-usb-flash-drive-in-tty4-terminal
+--------------------------------------------------------------------------
+4-29-2019 4:44PM:
+OFFICIALLY A HUSKY!!! SUPER EXCITED!

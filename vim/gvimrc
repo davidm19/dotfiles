@@ -22,9 +22,30 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set background=light
-highlight LineNr ctermfg=grey
+" highlight LineNr ctermfg=grey
 
-execute pathogen#infect('~/.vim/gvim/{}')
+filetype plugin indent on
+call plug#begin('~/.vim/gvim')
+Plug 'Raimondi/delimitMate'
+Plug 'Shougo/deoplete.nvim'
+Plug 'Shougo/deoplete-clangx'
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/gv.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'roxma/nvim-yarp'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-dispatch'
+Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-vinegar'
+Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'vivien/vim-linux-coding-style'
+Plug 'vimwiki/vimwiki'
+call plug#end()
 
 " ----- MacVim Screen Config
 " set guifont=Iosevka:h16
