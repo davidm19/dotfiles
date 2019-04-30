@@ -31,10 +31,6 @@ let g:goyo_linenr = 1
 autocmd! User GoyoLeave
 autocmd  User GoyoLeave nested set background=dark
 
-" Ale settings
-let g:ale_sign_error = '✘'
-let g:ale_sign_warning = "▲"
-
 " KEYBINDINGS
 nmap <silent> <leader>wq :wq<CR>
 nmap <silent> <leader>w :w<CR>
