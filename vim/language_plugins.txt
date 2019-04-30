@@ -7,7 +7,7 @@
 - tpope/vim-dispatch
 - tpope/vim-unimpaired
 - vim-airline/vim-airline (NO THEMES NECESSARY FOR STANDARD VIM)
-- w0rp/ale
+- w0rp/ale (LOOK AT SETTINGS: https://github.com/w0rp/ale)
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
