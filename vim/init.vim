@@ -24,8 +24,18 @@ augroup END
 " CtrlP Settings
 nmap <C-c> :CtrlPBuffer<CR>
 
+" Goyo settings
+nmap <silent> <leader>g :Goyo<CR>
+" nmap <silent> <leader>g :Goyo 75x75-40%<CR>
+let g:goyo_linenr = 1
+autocmd! User GoyoLeave
+autocmd  User GoyoLeave nested set background=dark
+
+" Ale settings
+let g:ale_sign_error = '✘'
+let g:ale_sign_warning = "▲"
+
 " KEYBINDINGS
-let mapleader = ";"
 nmap <silent> <leader>wq :wq<CR>
 nmap <silent> <leader>w :w<CR>
 nmap <silent> <leader>W :wa<CR>
