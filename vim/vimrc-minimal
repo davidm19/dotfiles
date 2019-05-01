@@ -16,13 +16,18 @@ set backspace=indent,eol,start
 " highlight LineNr ctermfg=grey
 set showcmd
 set encoding=UTF-8
-set background=light
-highlight LineNr ctermfg=grey
 
 " FZF
 set rtp+=~/.fzf
 nmap <C-c> :Buffers<CR>
 nmap <C-p> :Files<CR>
+
+" FLAGSHIP
+set laststatus=2
+set showtabline=2
+autocmd User Flags call Hoist("global", "%{&ignorecase ? '[IC]' : ''}")
+let g:tablabel =
+      \ "%N%{flagship#tabmodified()} %{flagship#tabcwds('shorten',',')}"
 
 "  PATHOGEN SETUP
 filetype plugin indent on

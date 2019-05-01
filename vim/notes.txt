@@ -76,3 +76,6 @@ HOW TO PROPERLY ACCESS A USB FROM THE COMMAND LINE: https://askubuntu.com/questi
 --------------------------------------------------------------------------
 4-29-2019 4:44PM:
 OFFICIALLY A HUSKY!!! SUPER EXCITED!
+--------------------------------------------------------------------------
+4-30-2019 5:40PM:
+XRESOURCES FOR SALE: https://github.com/dracula/xresources
