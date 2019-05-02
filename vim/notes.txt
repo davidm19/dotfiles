@@ -41,7 +41,7 @@ THIS GUY'S VIMRC IS JUST SETTINGS FOR DIFFERENT FILES... MAYBE ADAPT THIS ALONG 
 
 ALSO THIS: https://vi.stackexchange.com/questions/18231/what-is-the-difference-of-using-au-bufnewfile-bufread-py-and-au-filetype-py (DON'T USE au BufNewFile,BufRead USE au Filetype <language/format> set) (ALSO THE COMMIT MESSAGE FILETYPE NAME IS gitcommit, IF YOU WANNA KNOW THE FILETYPE FOR A CERTAIN FILE JUST OPEN THAT FILE AND TYPE IN THE COMMAND :set filetype?)
 
-AND THIS: https://github.com/AGitBoy/Config/blob/master/vim/.vimrc
+AND THESE: https://github.com/AGitBoy/Config/blob/master/vim/.vimrc https://github.com/DarkUlixes/dotfiles/blob/master/vimrc
 
 FOR MARKDOWN: COMBINE GOYO (LOOK AT SETTINGS IN PAST VIMRCS) AND LIMELIGHT (YOU CAN STACK COMMANDS ON TOP OF EACH OTHER IN au Filetype LIKE IN THE THIRD EXAMPLE IN THIS THREAD: https://stackoverflow.com/questions/158968/changing-vim-indentation-behavior-by-file-type BUT IF YOU'RE REALLY CAUTIOUS, USE AUTOGROUPS/FTPLUGIN FILES: https://stackoverflow.com/questions/27331467/run-toggle-command-for-certain-filetypes-only ==> https://github.com/jez/vim-as-an-ide/blob/2fe0507039c8eb02b89320e76968385d299d8cd6/vimrc.vim (SEARCH FOR augroup AND/OR LOOK AT THE augroup FOR delimitMate)
 
