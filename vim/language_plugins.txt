@@ -37,10 +37,9 @@ Typescript:
 PLUGINS TO TRY OUT:
 - junegunn/gv.vim
 - tpope/vim-dispatch (WATCH VIMCASTS FOR THIS)
-- tpope/vim-eunuch
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
-- tpope/vim-unimpaired
 - vimwiki/vimwiki
+- snippets + ultisnips (WATCH VIMCASTS FOR THIS)
 
 POTENTIAL NEW COLORSCHEMES:
 - lifepillar/vim-solarized8

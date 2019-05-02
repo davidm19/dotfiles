@@ -123,13 +123,13 @@ cyan="\[\033[0;36m\]"
 red="\[\033[0;31m\]"
 white="\[\033[0;97m\]"
 redbold="\[\033[1;91m\]"
+greenbold="\[\033[1;92m\]"
+whitebold="\[\033[1;97m\]"
+bluebold="\[\033[1;96m\]"
 reset="\[\033[0m\]"
 
 alias l="ls"
-alias cal="calz"
-alias tmux="tmux -2"
 alias config="bash ~/.dotfiles/update_dotfiles.sh"
-alias grv="bash ~/.grv"
 
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxbxegedabagaced
@@ -140,7 +140,8 @@ export LSCOLORS=ExFxCxDxbxegedabagaced
 
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1="$redbold\u$reset:$cyan\w$yellow\$(__git_ps1) $reset$ "
+# export PS1="$redbold\u$reset:$bluebold\w$yellow\$(__git_ps1) $reset$ "
+export PS1="$redbold\u$yellow@$reset$bluebold\h$yellow\$(__git_ps1) $reset$greenbold\w$whitebold%$reset "
 
 export TERM=screen-256color
 #if the arrow doesn't work, just use a $
