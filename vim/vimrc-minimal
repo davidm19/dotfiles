@@ -17,10 +17,8 @@ set backspace=indent,eol,start
 set showcmd
 set encoding=UTF-8
 
-" FZF
-set rtp+=~/.fzf
-nmap <C-c> :Buffers<CR>
-nmap <C-p> :Files<CR>
+" CtrlP Settings
+nmap <C-c> :CtrlPBuffer<CR>
 
 " FLAGSHIP
 set laststatus=2
