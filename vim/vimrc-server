@@ -27,6 +27,9 @@ autocmd User Flags call Hoist("global", "%{&ignorecase ? '[IC]' : ''}")
 let g:tablabel =
       \ "%N%{flagship#tabmodified()} %{flagship#tabcwds('shorten',',')}"
 
+" Deoplete Settings
+let g:deoplete#enable_at_startup = 1
+
 "  PATHOGEN SETUP
 filetype plugin indent on
 execute pathogen#infect()
