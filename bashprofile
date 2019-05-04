@@ -12,11 +12,9 @@ reset="\[\033[0m\]"
 
 # alias vim="nvim"
 alias l="ls"
-alias cal="calz"
 alias tmux="tmux -2"
 alias config="bash ~/.dotfiles/update_dotfiles.sh"
 alias plug="bash ~/.update_plugin.sh"
-alias code="open -a 'Visual Studio Code'"
 
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxbxegedabagaced

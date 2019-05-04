@@ -1,5 +1,21 @@
+call plug#begin('~/.local/share/nvim/plugged')
+	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+	Plug 'junegunn/fzf.vim'
+	Plug 'airblade/vim-gitgutter'
+	Plug 'junegunn/goyo.vim'
+	Plug 'junegunn/gv.vim'
+	Plug 'Raimondi/delimitMate'
+	Plug 'Shougo/deoplete.nvim'
+	Plug 'Shougo/deoplete-clangx'
+	Plug 'tpope/vim-commentary'
+	Plug 'tpope/vim-fugitive'
+	Plug 'tpope/vim-repeat'
+	Plug 'tpope/vim-surround'
+	Plug 'tpope/vim-vinegar'
+	Plug 'vim-airline/vim-airline'
+call plug#end()
+
 filetype plugin indent on
-execute pathogen#infect('~/.config/nvim/bundle/{}')
 let g:deoplete#enable_at_startup = 1
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
@@ -21,12 +37,12 @@ augroup mydelimitMate
   au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
 augroup END
 
-" CtrlP Settings
-nmap <C-c> :CtrlPBuffer<CR>
+" FZF
+nmap <C-c> :Buffers<CR>
+nmap <C-p> :Files<CR>
 
 " Goyo settings
 nmap <silent> <leader>g :Goyo<CR>
-" nmap <silent> <leader>g :Goyo 75x75-40%<CR>
 let g:goyo_linenr = 1
 autocmd! User GoyoLeave
 autocmd  User GoyoLeave nested set background=dark

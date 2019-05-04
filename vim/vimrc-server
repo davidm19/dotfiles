@@ -1,0 +1,32 @@
+" KEYBINDINGS
+let mapleader = ";"
+nmap <silent> <leader>w :w<CR>
+nmap <silent> <leader>W :wa<CR>
+nmap <silent> <leader>h :sp<CR>
+nmap <silent> <leader>v :vsp<CR>
+nmap <TAB> <C-w>
+inoremap jj <ESC>
+
+" SETTINGS
+syntax on
+set number
+set autoindent
+set backspace=indent,eol,start
+" set background=light
+" highlight LineNr ctermfg=grey
+set showcmd
+set encoding=UTF-8
+
+" CtrlP Settings
+nmap <C-c> :CtrlPBuffer<CR>
+
+" FLAGSHIP
+set laststatus=2
+set showtabline=2
+autocmd User Flags call Hoist("global", "%{&ignorecase ? '[IC]' : ''}")
+let g:tablabel =
+      \ "%N%{flagship#tabmodified()} %{flagship#tabcwds('shorten',',')}"
+
+"  PATHOGEN SETUP
+filetype plugin indent on
+execute pathogen#infect()
