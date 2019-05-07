@@ -140,7 +140,7 @@ export LSCOLORS=ExFxCxDxbxegedabagaced
 
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1="$redbold\u$reset:$bluebold\w$yellow\$(__git_ps1) $reset$ "
+export PS1="$bluebold\u$redbold:$greenbold\w$yellow\$(__git_ps1) $reset$ "
 
 export TERM=screen-256color
 #if the arrow doesn't work, just use a $
