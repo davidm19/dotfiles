@@ -26,8 +26,9 @@ let mapleader = ";"
 " vim-vinegar settings
 nmap = <CR>
 
-" vim-gitgutter settings
+" vim-gitgutter/airline settings
 let g:airline#extensions#hunks#non_zero_only = 1
+let g:airline#extensions#tabline#enabled = 1
 
 " delimitMate Settings
 let delimitMate_expand_cr = 1
