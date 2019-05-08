@@ -7,6 +7,7 @@
 - tpope/vim-unimpaired
 - vim-airline/vim-airline
 - w0rp/ale (LOOK AT SETTINGS: https://github.com/w0rp/ale)
+- ftplugin files
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
@@ -25,6 +26,7 @@ Haskell:
 
 Python:
 - davidhalter/jedi-vim
+- Yggdroot/indentLine
 
 Rust:
 - racer-rust/vim-racer
