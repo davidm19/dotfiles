@@ -118,7 +118,8 @@ fi
 
 source ~/.git-completion.bash
 
-yellow="\[\033[1;33m\]"
+yellow="\[\033[0;33m\]"
+yellowbold="\[\033[1;33m\]"
 cyan="\[\033[0;36m\]"
 red="\[\033[0;31m\]"
 white="\[\033[0;97m\]"
