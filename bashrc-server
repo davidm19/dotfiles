@@ -11,10 +11,8 @@ whitebold="\[\033[1;97m\]"
 bluebold="\[\033[1;96m\]"
 reset="\[\033[0m\]"
 
+alias ls="ls --color=auto"
 alias l="ls"
-
-export CLICOLOR=1
-export LSCOLORS=ExFxCxDxbxegedabagaced
 
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
