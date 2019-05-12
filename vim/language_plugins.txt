@@ -37,7 +37,7 @@ Typescript:
 
 PLUGINS TO TRY OUT:
 - junegunn/gv.vim
-- tpope/vim-dispatch (WATCH VIMCASTS FOR THIS)
+- tpope/vim-dispatch (READ ME: https://github.com/tpope/vim-dispatch) (MAKE FILETYPE COMMANDS FOR HOW TO RUN CODE)
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
 - vimwiki/vimwiki
 - snippets + ultisnips (WATCH VIMCASTS FOR THIS)
