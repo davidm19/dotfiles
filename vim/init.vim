@@ -8,6 +8,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'Shougo/deoplete.nvim'
 	Plug 'Shougo/deoplete-clangx'
 	Plug 'tpope/vim-commentary'
+	Plug 'tpope/vim-dispatch'
 	Plug 'tpope/vim-fugitive'
 	Plug 'tpope/vim-repeat'
 	Plug 'tpope/vim-surround'
