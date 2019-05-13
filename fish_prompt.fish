@@ -83,7 +83,7 @@ function fish_prompt --description 'Write out the prompt'
     printf "@"
     set_color cyan --bold
     printf "%s" "$hostname"
-    set_color white --bold
+    set_color normal
     printf "%s" ":"
     set_color green --bold
     echo -n (prompt_pwd)
@@ -98,7 +98,7 @@ function fish_prompt --description 'Write out the prompt'
     end
 
     
-    set_color white --bold
+    set_color normal
     printf "%s" "% "
     set_color normal
 end

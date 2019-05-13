@@ -15,7 +15,6 @@ inoremap jj <ESC>
 syntax on
 set autoindent
 set backspace=indent,eol,start
-set background=light
 highlight LineNr ctermfg=grey
 
 "  PATHOGEN SETUP
