@@ -2,7 +2,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 	Plug 'junegunn/fzf.vim'
 	Plug 'airblade/vim-gitgutter'
-	Plug 'junegunn/goyo.vim'
 	Plug 'junegunn/gv.vim'
 	Plug 'Raimondi/delimitMate'
 	Plug 'Shougo/deoplete.nvim'
@@ -42,12 +41,6 @@ augroup END
 " FZF
 nmap <C-c> :Buffers<CR>
 nmap <C-p> :Files<CR>
-
-" Goyo settings
-nmap <silent> <leader>g :Goyo<CR>
-let g:goyo_linenr = 1
-autocmd! User GoyoLeave
-autocmd  User GoyoLeave nested set background=dark
 
 " KEYBINDINGS
 nmap <silent> <leader>wq :wq<CR>
