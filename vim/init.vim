@@ -4,8 +4,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'airblade/vim-gitgutter'
 	Plug 'junegunn/gv.vim'
 	Plug 'Raimondi/delimitMate'
-	Plug 'Shougo/deoplete.nvim'
-	Plug 'Shougo/deoplete-clangx'
+	" Plug 'Shougo/deoplete.nvim'
+	" Plug 'Shougo/deoplete-clangx'
 	Plug 'tpope/vim-commentary'
 	Plug 'tpope/vim-dispatch'
 	Plug 'tpope/vim-fugitive'
@@ -13,6 +13,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-vinegar'
 	Plug 'vim-airline/vim-airline'
+	Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 filetype plugin indent on
@@ -55,7 +56,7 @@ inoremap jj <ESC>
 
 " SETTINGS
 syntax on
-set number
+set number relativenumber
 set backspace=indent,eol,start
 set showcmd
 set mouse=a
