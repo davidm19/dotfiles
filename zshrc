@@ -59,9 +59,17 @@ git_info() {
 
 }
 
+# Enable oh-my-zsh-style tab highlighting
+zstyle ':completion:*:*:git:*' script /usr/local/etc/bash_completion.d/git-completion.bash
+fpath=(/usr/local/share/zsh-completions $fpath)
+zmodload -i zsh/complist
+zstyle ':completion:*' menu select
+
+# Aliases
 # alias ls='ls --color=auto'
 alias ls='ls -G'
 alias l="ls"
 alias config="bash ~/.dotfiles/update_dotfiles.sh"
 
+# Lucky PS1
 PS1='%{$fg_bold[red]%}%n%{$fg_bold[yellow]%}@%{$fg_bold[cyan]%}%m%{$reset_color%}:%{$fg_bold[green]%}%~%{$reset_color%}$(git_info)% %{$reset_color%}%{$reset_color%}% %% '
