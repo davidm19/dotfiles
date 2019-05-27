@@ -1,11 +1,8 @@
 --- OPTIONAL PLUGIN LIST ---
-- junegunn/goyo.vim
 - ANOTHER WRAPPER FOR A CERTAIN LANGUAGE WITH DEOPLETE (e.g. davidhalter/jedi-vim FOR PYTHON OR eagletmt/neco-ghc FOR HASKELL OR ANOTHER ONE OF THOSE DEOPLETE (NECO) LANGUAGE WRAPPERS)
     - IF YOU'RE USING DEOPLETE-CLANGX, REMEMBER TO INCLUDE THIS COMMAND: set completeopt-=preview
     - YOU MIGHT HAVE TO USE NEOVIM FOR THIS BECAUSE OF ALL THE DEPENDENCIES...
-- tpope/vim-dispatch
 - tpope/vim-unimpaired
-- vim-airline/vim-airline
 - w0rp/ale (LOOK AT SETTINGS: https://github.com/w0rp/ale)
 - ftplugin files
 
@@ -36,19 +33,10 @@ Typescript:
 - mhartington/nvim-typescript
 
 PLUGINS TO TRY OUT:
-- junegunn/gv.vim
-- tpope/vim-dispatch (READ ME: https://github.com/tpope/vim-dispatch) (MAKE FILETYPE COMMANDS FOR HOW TO RUN CODE)
 - tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
 - vimwiki/vimwiki
-- snippets + ultisnips (WATCH VIMCASTS FOR THIS)
-
-POTENTIAL NEW COLORSCHEMES:
-- lifepillar/vim-solarized8
-- markvincze/panda-vim (DEUS AIRLINE THEME)
 
 vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
 
 USE ALTERNATIVE KEYBINDINGS!
-- Ctrl-[ for go back to normal mode
 - ZZ for save and quit
-- :e for opening other files
