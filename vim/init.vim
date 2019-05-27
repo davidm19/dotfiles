@@ -63,3 +63,6 @@ set mouse=a
 set encoding=UTF-8
 set background=light
 highlight LineNr ctermfg=grey
+
+" Get filetype settings
+source $HOME/.dotfiles/vim/ft-settings.vim
