@@ -59,12 +59,6 @@ git_info() {
 
 }
 
-# Enable oh-my-zsh-style tab highlighting
-zstyle ':completion:*:*:git:*' script /usr/local/etc/bash_completion.d/git-completion.bash
-fpath=(/usr/local/share/zsh-completions $fpath)
-zmodload -i zsh/complist
-zstyle ':completion:*' menu select
-
 # Aliases
 # alias ls='ls --color=auto'
 alias ls='ls -G'
