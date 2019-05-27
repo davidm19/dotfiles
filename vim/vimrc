@@ -19,4 +19,4 @@ highlight LineNr ctermfg=grey
 
 "  PATHOGEN SETUP
 filetype plugin indent on
-execute pathogen#infect('~/.vim/bundle/{}')
+execute pathogen#infect('~/.vim/plugs/{}')

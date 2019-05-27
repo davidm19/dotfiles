@@ -59,7 +59,8 @@ git_info() {
 
 }
 
-alias ls='ls --color=auto'
+# alias ls='ls --color=auto'
+alias ls='ls -G'
 alias l="ls"
 alias config="bash ~/.dotfiles/update_dotfiles.sh"
 
