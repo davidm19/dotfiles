@@ -60,8 +60,11 @@ git_info() {
 }
 
 # Aliases
-# alias ls='ls --color=auto'
-alias ls='ls -G'
+if [[ "$OSTYPE" == "darwin"* ]]; then
+   alias ls='ls -G'
+else
+   alias ls='ls --color=auto'
+fi
 alias l="ls"
 alias config="bash ~/.dotfiles/update_dotfiles.sh"
 
