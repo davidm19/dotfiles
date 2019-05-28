@@ -12,12 +12,12 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
-static const char col_greyish[]     = "#8e8e8e";
+static const char slate[] 	    = "#3d3d3d";
 static const char col_whiteish[]    = "#b7b7b7";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_greyish, col_whiteish },
-	[SchemeSel]  = { col_greyish, col_whiteish,  col_whiteish },
+	[SchemeNorm] = { col_gray3, slate, col_whiteish },
+	[SchemeSel]  = { slate, col_whiteish,  col_whiteish },
 };
 
 /* tagging */
@@ -59,7 +59,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_greyish, "-sf", col_gray4, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", slate, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char *physlockcmd[] = { "/usr/bin/physlock", NULL };
 /* static const char *physlockcmd[] = { "/usr/bin/physlock && systemctl suspend", NULL }; TO BE USED ONLY IF YOU'RE ON AN ACTUAL COMPUTER AND NOT A VM */
