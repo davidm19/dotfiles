@@ -16,8 +16,8 @@ static const char slate[] 	    = "#3d3d3d";
 static const char col_whiteish[]    = "#b7b7b7";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, slate, col_whiteish },
-	[SchemeSel]  = { slate, col_whiteish,  col_whiteish },
+	[SchemeNorm] = { col_gray3, slate, slate },
+	[SchemeSel]  = { slate, col_whiteish,  slate },
 };
 
 /* tagging */
