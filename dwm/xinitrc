@@ -1,3 +1,4 @@
+redshift -t 6000:2000
 feh --bg-scale ~/wallpaper.jpg
 slstatus &
 exec dwm
