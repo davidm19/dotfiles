@@ -4,7 +4,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'airblade/vim-gitgutter'
 	Plug 'junegunn/gv.vim'
 	Plug 'Raimondi/delimitMate'
-	Plug 'Shougo/deoplete.nvim'
+	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 	Plug 'Shougo/deoplete-clangx'
 	Plug 'tpope/vim-commentary'
 	Plug 'tpope/vim-dispatch'
