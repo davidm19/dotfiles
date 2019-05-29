@@ -10,16 +10,18 @@ static const char *fonts[]          = { "curie:size=12" };
 static const char dmenufont[]       = "curie:size=13";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
+static const char col_gray3[]       = "#cccccc";
 static const char col_gray4[]       = "#dddddd";
 static const char col_cyan[]        = "#005577";
-static const char slate[] 	    = "#3d3d3d";
-static const char darker[]	    = "#0f0f0f";
+static const char slate1[] 	    = "#3d3d3d";
+static const char slate2[] 	    = "#303030";
+static const char darker1[]	    = "#0f0f0f";
+static const char darker2[]	    = "#0d0d0d";
 static const char yellow[]	    = "#ff000c";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, slate, darker },
-	[SchemeSel]  = { col_gray3, darker,  slate },
+	[SchemeNorm] = { col_gray3, slate2, darker1 },
+	[SchemeSel]  = { col_gray3, darker2,  slate1 },
 };
 
 /* tagging */
@@ -61,7 +63,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", slate, "-sf", col_gray4, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", darker1, "-nf", col_gray3, "-sb", slate2, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char *physlockcmd[] = { "/usr/bin/physlock", NULL };
 /* static const char *physlockcmd[] = { "/usr/bin/physlock && systemctl suspend", NULL }; TO BE USED ONLY IF YOU'RE ON AN ACTUAL COMPUTER AND NOT A VM */
