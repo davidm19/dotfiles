@@ -5,19 +5,19 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "curie:size=11" };
-static const char dmenufont[]       = "curie:size=12";
+static const char *fonts[]          = { "curie:size=12" };
+static const char dmenufont[]       = "curie:size=13";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
 static const char slate[] 	    = "#3d3d3d";
-static const char col_whiteish[]    = "#b7b7b7";
+static const char darker[]	    = "#0f0f0f";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, slate, slate },
-	[SchemeSel]  = { slate, col_whiteish,  slate },
+	[SchemeSel]  = { col_gray3, darker,  darker },
 };
 
 /* tagging */
