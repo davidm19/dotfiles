@@ -141,7 +141,7 @@ export LSCOLORS=ExFxCxDxbxegedabagaced
 
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1="$bluebold\u$redbold:$greenbold\w$yellow\$(__git_ps1) $reset$ "
+export PS1="$redbold\u$yellowbold\$(__git_ps1) $greenbold\w$reset » "
 
 export TERM=screen-256color
 #if the arrow doesn't work, just use a $
@@ -150,8 +150,3 @@ export TERM=screen-256color
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 export PATH
-
-# wal -Rq //MORE WAL
-
-# STARTX
-
