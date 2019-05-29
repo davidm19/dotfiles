@@ -70,3 +70,6 @@ alias config="bash ~/.dotfiles/update_dotfiles.sh"
 
 # Lucky PS1
 PS1='%{$fg_bold[red]%}%n%{$fg_bold[yellow]%}@%{$fg_bold[cyan]%}%m%{$reset_color%}:%{$fg_bold[green]%}%~%{$reset_color%}$(git_info)% %{$reset_color%}%{$reset_color%}% %% '
+
+# Light PS1 (for dwm purposes, I guess...)
+# PS1='%n $(git_info)% » '
