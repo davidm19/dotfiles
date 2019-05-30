@@ -7,7 +7,7 @@ alt + Return
 	st
 
 # program launcher
-alt + @space
+alt + d
 	rofi -show run
 
 # make sxhkd reload its configuration files:
@@ -19,7 +19,7 @@ alt + Escape
 #
 
 # quit/restart bspwm
-alt + alt + {q,r}
+super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
