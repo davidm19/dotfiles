@@ -334,10 +334,10 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date =
+date = " %Y-%m-%d"
 date-alt = " %Y-%m-%d"
 
-time = %H:%M
+time = %H:%M:%S
 time-alt = %H:%M:%S
 
 format-prefix = 
@@ -471,7 +471,7 @@ label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
 
 menu-0-0 = sleep
-menu-0-0-exec = systemctl suspend
+menu-0-0-exec = sflock && systemctl suspend
 menu-0-1 = reboot
 menu-0-1-exec = systemctl reboot
 menu-0-2 = shutdown
