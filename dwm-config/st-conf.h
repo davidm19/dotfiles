@@ -16,7 +16,7 @@ static int borderpx = 2;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/zsh";
+static char *shell = "/bin/bash";
 char *utmp = NULL;
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
@@ -178,12 +178,9 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ TERMMOD,		XK_Up,		zoom,		{.f = +1} },
-	{ TERMMOD,		XK_Down,	zoom,		{.f = -1} },
-	{ TERMMOD,		XK_J,		zoom,		{.f = +1} },
-	{ TERMMOD,		XK_K,		zoom,		{.f = -1} },
-	{ TERMMOD,		XK_U,		zoom,		{.f = +2} },
-	{ TERMMOD,		XK_D,		zoom,		{.f = -2} },
+	{ MODKEY,		XK_KP_Add,	zoom,		{.f = +1} },
+	{ MODKEY,		XK_KP_Subtract,	zoom,		{.f = -1} },
+	{ MODKEY,               XK_KP_0,        zoomreset,      {.f =  0} },
 };
 
 /*
