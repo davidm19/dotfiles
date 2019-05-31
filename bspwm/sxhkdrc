@@ -126,5 +126,5 @@ alt + {Left,Down,Up,Right}
 alt + shift + ctrl + l
 	sflock
 
-alt + shift + ctrl + ;
+alt + shift + ctrl + p
 	sflock && systemctl suspend
