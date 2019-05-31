@@ -54,12 +54,13 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-0 = Curie:pixelsize=10;1
+;wolfgang uses Fira code size 9!
 font-1 = Curie:fontformat=truetype:size=8:antialias=false;0
 font-2 = Curie:pixelsize=10;1
 
 modules-left = bspwm
-modules-center = 
-modules-right = pulseaudio xkeyboard memory date powermenu
+modules-center = date
+modules-right = pulseaudio xkeyboard memory powermenu
 
 tray-position = right
 tray-padding = 2
@@ -334,15 +335,13 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date = " %Y-%m-%d"
+date = %a
 date-alt = " %Y-%m-%d"
 
-time = %H:%M:%S
+time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
 
 label = %date% %time%
 
@@ -463,7 +462,9 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = "x"
+label-open = "⏻"
+;if this doesn't work, use this: ✖
+;if THAT didn't work, just use this: x
 label-open-foreground = ${colors.secondary}
 label-close =  cancel
 label-close-foreground = ${colors.secondary}
