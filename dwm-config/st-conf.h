@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "xos4 Terminus:size=10:antialias=true:autohint=true";
+static char *font = "Iosevka:size=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -16,7 +16,7 @@ static int borderpx = 2;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/bash";
+static char *shell = "/bin/zsh";
 char *utmp = NULL;
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
@@ -178,9 +178,12 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ MODKEY,		XK_KP_Add,	zoom,		{.f = +1} },
-	{ MODKEY,		XK_KP_Subtract,	zoom,		{.f = -1} },
-	{ MODKEY,               XK_KP_0,        zoomreset,      {.f =  0} },
+	{ TERMMOD,		XK_Up,		zoom,		{.f = +1} },
+	{ TERMMOD,		XK_Down,	zoom,		{.f = -1} },
+	{ TERMMOD,		XK_J,		zoom,		{.f = +1} },
+	{ TERMMOD,		XK_K,		zoom,		{.f = -1} },
+	{ TERMMOD,		XK_U,		zoom,		{.f = +2} },
+	{ TERMMOD,		XK_D,		zoom,		{.f = -2} },
 };
 
 /*
