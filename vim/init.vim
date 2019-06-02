@@ -30,6 +30,7 @@ nmap = <CR>
 " vim-gitgutter/airline settings
 let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1 " THIS IS WHAT ALLOWS POWERLINE ICONS IN LINUX NEOVIM. IF IT'S CAUSING YOU ANY PROBLEMS DISABLE THIS.
 
 " delimitMate Settings
 let delimitMate_expand_cr = 1
