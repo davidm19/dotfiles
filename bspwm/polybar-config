@@ -286,7 +286,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlp2s0
+interface = 
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -444,7 +444,7 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = "x"
+label-open = "⏻"
 ;if this doesn't work, use this: ✖
 ;if THAT didn't work, just use this: x
 label-open-foreground = ${colors.secondary}
