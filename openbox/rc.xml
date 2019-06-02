@@ -320,9 +320,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>st</name>
+          <name>new-terminal</name>
         </startupnotify>
-        <command>st</command>
+        <command>xfce4-terminal</command>
       </action>
     </keybind>
     <keybind key="A-d">
