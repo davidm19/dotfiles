@@ -1,0 +1,9 @@
+" KEYBINDINGS
+let mapleader = ";"
+
+nmap <silent> <leader>h :sp<CR>
+nmap <silent> <leader>v :vsp<CR>
+nmap <TAB> <C-w>
+inoremap jj <ESC>
+
+
