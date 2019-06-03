@@ -57,7 +57,7 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>curie</name>
+      <name>Iosevka</name>
       <size>8</size>
       <!-- font size in points -->
       <weight>bold</weight>
@@ -66,7 +66,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>curie</name>
+      <name>Iosevka</name>
       <size>8</size>
       <!-- font size in points -->
       <weight>bold</weight>
@@ -75,7 +75,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>curie</name>
+      <name>Iosevka</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>normal</weight>
@@ -84,7 +84,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>curie</name>
+      <name>Iosevka</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>normal</weight>
@@ -93,7 +93,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>curie</name>
+      <name>Iosevka</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>bold</weight>
@@ -102,7 +102,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>curie</name>
+      <name>Iosevka</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>bold</weight>
@@ -320,9 +320,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>st</name>
+          <name>new-terminal</name>
         </startupnotify>
-        <command>st</command>
+        <command>xfce4-terminal --hide-menubar</command>
       </action>
     </keybind>
     <keybind key="A-d">
