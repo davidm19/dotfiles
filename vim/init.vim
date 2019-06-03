@@ -2,8 +2,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 	Plug 'junegunn/fzf.vim'
 	Plug 'airblade/vim-gitgutter'
-	Plug 'junegunn/gv.vim'
-	" Plug 'w0rp/ale'
 	Plug 'Raimondi/delimitMate'
 	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 	Plug 'Shougo/deoplete-clangx'
