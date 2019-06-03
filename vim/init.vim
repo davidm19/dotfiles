@@ -72,6 +72,13 @@ highlight LineNr ctermfg=grey
 " How to set fugitive as git mergetool
 " git config --global mergetool.fugitive.cmd 'nvim -f -c "Gvdiff" "$MERGED"'
 " git config --global merge.tool fugitive
+" HOW TO MERGE:
+" STEP 1: BE IN THE MIDDLE BUFFER
+" STEP 2: NAVIGATE BETWEEN DIFFS USING ]c AND [c
+" STEP 3: COMMANDS
+" 	//2: take from file on the right
+" 	//3: take from file on the left
+" STEP 4: WHEN YOU'RE DONE, QUIT OUT OF ALL BUFFERS AND GIT COMMIT
 
 " Get filetype settings
 source $HOME/.dotfiles/vim/ft-settings.vim
