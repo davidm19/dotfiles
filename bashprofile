@@ -12,7 +12,6 @@ whitebold="\[\033[1;97m\]"
 bluebold="\[\033[1;96m\]"
 reset="\[\033[0m\]"
 
-# alias vim="nvim"
 alias l="ls"
 alias tmux="tmux -2"
 alias config="bash ~/.dotfiles/update_dotfiles.sh"
@@ -25,19 +24,9 @@ export EDITOR="$VISUAL"
 
 export TERM=screen-256color
 
-# whoiam=$(whoami)
-# date=$(date)
-# echo "Hello $whoiam. Today's date is: $date"
-
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
-# export PS1="$redbold\u$reset:$bluebold\w$yellow\$(__git_ps1) $reset$ "
-# export PS1="$redbold\u$whitebold:$bluebold\w$yellow\$(__git_ps1) $reset$ "
 export PS1="$red\u$yellow\$(__git_ps1) $reset$cyan\w$reset » "
-
-# PS1 ALTERNATIVES! (username:directory gitstatus $)
-# DIRECTORY BASENAME ONLY: export PS1="$redbold\u$reset:$cyan\W$yellow\$(__git_ps1) $reset$ "
-# FULL WORKING DIRECTORY PATH: export PS1="$redbold\u$reset:$cyan\w$yellow\$(__git_ps1) $reset$ "
 
 # Setting PATH for Python 3.7
 # The original version is saved in .bash_profile.pysave
