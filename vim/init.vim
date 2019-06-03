@@ -69,5 +69,9 @@ set encoding=UTF-8
 set background=light
 highlight LineNr ctermfg=grey
 
+" How to set fugitive as git mergetool
+" git config --global mergetool.fugitive.cmd 'nvim -f -c "Gvdiff" "$MERGED"'
+" git config --global merge.tool fugitive
+
 " Get filetype settings
 source $HOME/.dotfiles/vim/ft-settings.vim
