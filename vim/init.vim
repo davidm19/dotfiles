@@ -3,6 +3,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'junegunn/fzf.vim'
 	Plug 'airblade/vim-gitgutter'
 	Plug 'junegunn/gv.vim'
+	" Plug 'w0rp/ale'
 	Plug 'Raimondi/delimitMate'
 	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 	Plug 'Shougo/deoplete-clangx'
@@ -31,6 +32,9 @@ nmap = <CR>
 let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1 " THIS IS WHAT ALLOWS POWERLINE ICONS IN LINUX NEOVIM. IF IT'S CAUSING YOU ANY PROBLEMS DISABLE THIS.
+
+" let g:ale_sign_error = '✘'
+" let g:ale_sign_warning = '▲'
 
 " delimitMate Settings
 let delimitMate_expand_cr = 1

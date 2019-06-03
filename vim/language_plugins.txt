@@ -4,7 +4,6 @@
     - YOU MIGHT HAVE TO USE NEOVIM FOR THIS BECAUSE OF ALL THE DEPENDENCIES...
 - tpope/vim-unimpaired
 - w0rp/ale (LOOK AT SETTINGS: https://github.com/w0rp/ale)
-- ftplugin files
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
