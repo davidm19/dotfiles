@@ -10,7 +10,7 @@ dte() {
 
 mem() {
   mem=`free | awk '/Mem/ {printf "%d MiB/%d MiB\n", $3 / 1024.0, $2 / 1024.0 }'`
-    echo "Memory: $mem"
+  echo "MEM: $mem"
 }
 
 cpu(){
@@ -20,16 +20,12 @@ cpu(){
   read cpu a b c idle rest < /proc/stat
   total=$((a+b+c+idle))
   cpu=$((100*( (total-prevtotal) - (idle-previdle) ) / (total-prevtotal) ))
-  echo "CPU: $cpu%"
+  echo -e "CPU: $cpu%"
 }
 
-KBL(){
-  KBL="$(setxkbmap -query | awk 'FNR>2 {print $2}')"
-  echo "KBD: $KBL"
-}
 
 while true; do
-     xsetroot -name "$(cpu) | $(mem) | $(KBL) | $(dte)"
+     xsetroot -name "$(cpu) | $(mem) | $(dte)"
      sleep 1s    # Update time every one seconds
 done &
 
