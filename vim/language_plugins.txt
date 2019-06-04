@@ -30,7 +30,6 @@ Typescript:
 - mhartington/nvim-typescript
 
 PLUGINS TO TRY OUT:
-- tpope/vim-fugitive (WATCH VIMCASTS FOR THIS)
 - vimwiki/vimwiki
 
 vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
