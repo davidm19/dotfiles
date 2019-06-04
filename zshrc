@@ -71,5 +71,7 @@ alias config="bash ~/.dotfiles/update_dotfiles.sh"
 # Almighty PS1
 PS1='%{$fg_bold[red]%}%n%{$fg_bold[yellow]%}@%{$fg_bold[cyan]%}%m%{$reset_color%}:%{$fg_bold[green]%}%~%{$reset_color%}$(git_info)% %{$reset_color%}%{$reset_color%}% %% '
 
-# Light PS1 (for dwm purposes, I guess...)
+# Light PS1s (for minimal purposes, I guess... or for anything else)
 # PS1='%~ $(git_info)% » '
+# PS1='$(git_info)%%~>> '
+# PS1='.:[%n]::[$(git_info)]::[%~]$ '
