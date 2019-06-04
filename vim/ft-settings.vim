@@ -9,3 +9,6 @@ augroup filetypes
 	au Filetype python
 	   	\ let b:dispatch = 'python %'
 augroup END
+
+" here's how you'd set up dispatch for gcc/g++....
+" g++ % -o %:r && ./%:r
