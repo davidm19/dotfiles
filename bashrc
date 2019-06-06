@@ -13,7 +13,8 @@ bluebold="\[\033[1;96m\]"
 reset="\[\033[0m\]"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
-   alias ls='ls -G'
+   export CLICOLOR=1
+   export LSCOLORS=ExFxCxDxbxegedabagaced
 else
    alias ls='ls --color=auto'
 fi
@@ -32,8 +33,3 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1="$red\u$yellow\$(__git_ps1) $reset$cyan\w$reset » "
 # SERVER PS1
 # export PS1="$whitebold[$redbold\u$yellowbold@$bluebold\h$whitebold $greenbold\w$yellowbold\$(__git_ps1)$whitebold]$ $reset"
-
-# Setting PATH for Python 3.7
-# The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
-export PATH
