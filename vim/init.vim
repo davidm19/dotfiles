@@ -13,8 +13,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'tpope/vim-vinegar'
 	Plug 'vim-airline/vim-airline'
 	Plug 'ryanoasis/vim-devicons'
-
-	" vimwiki/vimwiki (org mode replacement)
 call plug#end()
 
 filetype plugin indent on
