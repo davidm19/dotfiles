@@ -1,7 +1,5 @@
 " KEYBINDINGS
 let mapleader = ";"
-nmap <silent> <leader>w :w<CR>
-nmap <silent> <leader>W :wa<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
 nmap <TAB> <C-w>
@@ -10,8 +8,8 @@ inoremap jj <ESC>
 " SETTINGS
 syntax on
 set number
-set autoindent
 set backspace=indent,eol,start
+set autoindent
 " set background=light
 " highlight LineNr ctermfg=grey
 set showcmd
