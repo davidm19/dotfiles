@@ -1,4 +1,5 @@
 " KEYBINDINGS
+let mapleader = ";"
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
 nmap <TAB> <C-w>
@@ -13,3 +14,6 @@ highlight LineNr ctermfg=grey
 "  PATHOGEN SETUP
 filetype plugin indent on
 execute pathogen#infect('$HOME/.vim/plugs/{}')
+
+" Get filetype settings
+source $HOME/.dotfiles/vim/ft-settings.vim
