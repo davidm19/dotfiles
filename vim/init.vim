@@ -59,7 +59,7 @@ inoremap jj <ESC>
 
 " SETTINGS
 syntax on
-set number relativenumber
+set number
 set backspace=indent,eol,start
 set showcmd
 set mouse=a

@@ -13,7 +13,7 @@ Plugin 'xolox/vim-misc' " DEPENDENCY: exuberant ctags
 Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'Shougo/deoplete.nvim' " 
-Plugin 'roxma/nvim-yarp' " If this doesn't endup working out, use ervandew/supertab
+Plugin 'roxma/nvim-yarp' " If this doesn't endup working out, use YCM
 Plugin 'roxma/vim-hug-neovim-rpc' " 
 Plugin 'w0rp/ale'
 Plugin 'rakr/vim-one'
@@ -100,7 +100,7 @@ let g:session_command_aliases = 1
 
 syntax on
 set ruler
-set number
+set number relativenumber
 
 let no_buffers_menu=1
 silent! colorscheme molokai
