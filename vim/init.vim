@@ -29,10 +29,7 @@ nmap = <CR>
 " airline settings
 let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1 " THIS IS WHAT ALLOWS POWERLINE ICONS IN LINUX NEOVIM. IF IT'S CAUSING YOU ANY PROBLEMS DISABLE THIS.
-
-" let g:ale_sign_error = '✘'
-" let g:ale_sign_warning = '▲'
+let g:airline_powerline_fonts = 1
 
 " delimitMate Settings
 let delimitMate_expand_cr = 1
@@ -47,14 +44,10 @@ nmap <C-c> :Buffers<CR>
 nmap <C-p> :Files<CR>
 
 " KEYBINDINGS
-nmap <silent> <leader>wq :wq<CR>
 nmap <silent> <leader>w :w<CR>
-nmap <silent> <leader>W :wa<CR>
-nmap <silent> <leader>q :q<CR>
-nmap <silent> <leader>Q :qa<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
-nmap <TAB> <C-w>
+nmap <silent> <TAB> <C-w>
 inoremap jj <ESC>
 
 " SETTINGS
