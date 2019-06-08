@@ -22,6 +22,7 @@ alias l="ls"
 alias tmux="tmux -2"
 alias config="bash ~/.dotfiles/update_dotfiles.sh"
 alias plug="bash ~/.update_plugin.sh"
+# alias fv="vim $(LOCATION OF FZF BINARY)"
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
