@@ -36,3 +36,4 @@ vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf
 
 USE ALTERNATIVE KEYBINDINGS!
 - ZZ for save and quit
+- Ctrl-R registers! (http://vimdoc.sourceforge.net/htmldoc/insert.html#i_CTRL-R)

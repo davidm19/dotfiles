@@ -8,6 +8,8 @@ augroup filetypes
 
 	au Filetype python
 	   	\ let b:dispatch = 'python %'
+	au Filetype c,cpp
+		\ set completeopt-=preview
 augroup END
 
 " here's how you'd set up dispatch for gcc/g++....

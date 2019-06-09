@@ -47,6 +47,8 @@ nmap <C-p> :Files<CR>
 nmap <silent> <leader>w :w<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
+nmap <silent> ]b :bnext<CR>
+nmap <silent> [b :bprevious<CR>
 nmap <silent> <TAB> <C-w>
 inoremap jj <ESC>
 
