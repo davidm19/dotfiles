@@ -59,6 +59,9 @@ set mouse=a
 set encoding=UTF-8
 set background=light
 highlight LineNr ctermfg=grey
+set cursorline
+highlight CursorLineNr ctermfg=brown
+highlight clear CursorLine
 
 " How to set fugitive as git mergetool
 " git config --global mergetool.fugitive.cmd 'nvim -f -c "Gvdiff" "$MERGED"'
