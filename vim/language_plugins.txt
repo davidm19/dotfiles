@@ -12,6 +12,7 @@ Haskell:
 	- tabs = spaces, 4 characters
 	- line lengths = 80
 	- dispatch = 'ghc % -o %:r && ./%:r'
+	- and if all else fails, here's UPenn's two cents... https://www.seas.upenn.edu/~cis552/12fa/styleguide.html
 
 
 --- LANGUAGE SPECIFIC PLUGINS ---

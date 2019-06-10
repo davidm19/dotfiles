@@ -27,7 +27,7 @@ let g:tablabel =
 
 "  PATHOGEN SETUP
 filetype plugin indent on
-execute pathogen#infect()
+execute pathogen#infect('~/.vim/pluggo/{}')
 
 " Get filetype settings
 source $HOME/.dotfiles/vim/ft-settings.vim
