@@ -1,3 +1,11 @@
+"
+" File: init.vim
+" Author: davidm19
+" Created: May 26th, 2019
+"
+
+" Section: Vim Plugins
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -12,9 +20,9 @@ Plugin 'tpope/vim-dispatch'
 Plugin 'xolox/vim-misc' " DEPENDENCY: exuberant ctags
 Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
-Plugin 'Shougo/deoplete.nvim' " 
-Plugin 'roxma/nvim-yarp' " If this doesn't endup working out, use YCM
-Plugin 'roxma/vim-hug-neovim-rpc' " 
+Plugin 'Shougo/deoplete.nvim'
+Plugin 'roxma/nvim-yarp' " If this doesn't end up working out, use YCM
+Plugin 'roxma/vim-hug-neovim-rpc'
 Plugin 'w0rp/ale'
 Plugin 'rakr/vim-one'
 Plugin 'vim-airline/vim-airline'
@@ -26,9 +34,7 @@ Plugin 'junegunn/goyo.vim'
 call vundle#end()
 filetype plugin indent on
 
-"
-" Plugin Settings
-"
+" Section: Plugin Settings
 
 nmap <silent> <C-t> :NERDTreeTabsToggle<CR>
 let g:nerdtree_tabs_open_on_console_startup = 1
@@ -50,9 +56,7 @@ let g:airline_theme='one'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
-"
-" General Settings
-"
+" Settings: General Settings
 
 colorscheme one
 let hr = (strftime('%H'))
