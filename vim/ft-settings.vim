@@ -1,3 +1,9 @@
+"
+" File: ft-settings.vim
+" Author: davidm19
+" Created: May 27, 2019
+"
+
 augroup filetypes
 	au!
 	au Filetype c
