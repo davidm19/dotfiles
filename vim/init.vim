@@ -15,6 +15,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
+filetype plugin on
 filetype plugin indent on
 let g:deoplete#enable_at_startup = 1
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"

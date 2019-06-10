@@ -13,7 +13,7 @@ highlight LineNr ctermfg=grey
 
 "  PATHOGEN SETUP
 filetype plugin indent on
-execute pathogen#infect('$HOME/.vim/plugs/{}')
+execute pathogen#infect('~/.vim/plugs/{}')
 
 " Get filetype settings
 source $HOME/.dotfiles/vim/ft-settings.vim

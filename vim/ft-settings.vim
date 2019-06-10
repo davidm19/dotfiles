@@ -1,16 +1,27 @@
 augroup filetypes
 	au!
+	au Filetype c
+		\ set completeopt-=preview |
+		\ setlocal tabstop=8 |
+		\ setlocal shiftwidth=8 |
+		\ setlocal softtabstop=8 |
+		\ setlocal textwidth=80 |
+		\ setlocal noexpandtab |
+		\ let b:dispatch = 'gcc % -o %:r && ./%:r'
+	au Filetype cpp
+		\ set completeopt-=preview |
+		\ let b:dispatch = 'g\++ % -o %:r && ./%:r'
 	au Filetype gitcommit 
-		\ setlocal 
-		\ spell 
-		\ spelllang=en_us 
+		\ setlocal
+		\ spell
+		\ spelllang=en_us
 		\ textwidth=72
-
 	au Filetype python
+		\ set tabstop=4 |
+		\ set softtabstop=4 |
+		\ set shiftwidth=4 |
+		\ set textwidth=79 |
+		\ set expandtab |
+		\ set autoindent |
 	   	\ let b:dispatch = 'python %'
-	au Filetype c,cpp
-		\ set completeopt-=preview
 augroup END
-
-" here's how you'd set up dispatch for gcc/g++....
-" g++ % -o %:r && ./%:r
