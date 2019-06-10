@@ -73,5 +73,4 @@ PS1='%{$fg_bold[red]%}%n%{$fg_bold[yellow]%}@%{$fg_bold[cyan]%}%m%{$reset_color%
 
 # Light PS1s (for minimal purposes, I guess... or for anything else)
 # PS1='%~ $(git_info)% » '
-# PS1='$(git_info)%%~>> '
-# PS1='.:[%n]::[$(git_info)]::[%~]$ '
+# PS1='$(git_info)% %~>> '
