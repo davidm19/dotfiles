@@ -3,6 +3,17 @@
 - tpope/vim-unimpaired
 - w0rp/ale (LOOK AT SETTINGS: https://github.com/w0rp/ale)
 
+--- FT-SETTINGS ---
+
+MORE SETTINGS! (FOR LANGUAGES YOU'LL NEVER USE)
+Go:
+	- lmao just use vim-go because of autoformat
+Haskell:
+	- tabs = spaces, 4 characters
+	- line lengths = 80
+	- dispatch = 'ghc % -o %:r && ./%:r'
+
+
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
 - justinmk/vim-syntax-extra (C)
