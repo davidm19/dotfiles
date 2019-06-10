@@ -32,5 +32,6 @@ export TERM=screen-256color
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1="$red\u$yellow\$(__git_ps1) $reset$cyan\w$reset » "
+
 # SERVER PS1
 # export PS1="$whitebold[$redbold\u$yellowbold@$bluebold\h$whitebold $greenbold\w$yellowbold\$(__git_ps1)$whitebold]$ $reset"
