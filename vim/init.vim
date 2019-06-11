@@ -12,7 +12,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'Raimondi/delimitMate'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'Shougo/deoplete-clangx'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-fugitive'
@@ -24,7 +23,6 @@ Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 " Section: Vim Plugin Settings
-
 filetype plugin on
 filetype plugin indent on
 let g:deoplete#enable_at_startup = 1
@@ -71,7 +69,6 @@ highlight LineNr ctermfg=grey
 set cursorline
 highlight CursorLineNr ctermfg=brown
 highlight clear CursorLine
-
 
 " Section: External Files
 source $HOME/.dotfiles/vim/ft-settings.vim

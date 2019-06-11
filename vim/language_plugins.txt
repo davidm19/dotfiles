@@ -7,7 +7,9 @@
 
 MORE SETTINGS! (FOR LANGUAGES YOU'LL NEVER USE)
 Go:
-	- lmao just use vim-go because of autoformat
+	- GoFMT will do all the formating for you, so no need to add any filetype specific settings
+	- set completeopt-=preview
+	- dispatch = 'go build % && ./%:r' OR you could use vim-go's go build/go run AS LONG AS THERE ARE NO C FILES IN YOUR CURRENT DIRECTORY
 Haskell:
 	- tabs = spaces, 4 characters
 	- line lengths = 80
@@ -24,7 +26,9 @@ C/C++:
 - vim-scripts/a.vim
 
 Go:
-- fatih/vim-go
+- Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+- Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
+- let g:deoplete#sources#go#gocode_binary = '/path/to/gocode (usually in go path)'
 
 Haskell:
 - eagletmt/neco-ghc
