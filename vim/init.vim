@@ -24,8 +24,6 @@ call plug#end()
 
 " Section: Vim Plugin Settings
 
-filetype plugin on
-filetype plugin indent on
 let g:deoplete#enable_at_startup = 1
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
