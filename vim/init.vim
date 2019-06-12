@@ -23,6 +23,7 @@ Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 " Section: Vim Plugin Settings
+
 filetype plugin on
 filetype plugin indent on
 let g:deoplete#enable_at_startup = 1
@@ -41,6 +42,7 @@ augroup mydelimitMate
 augroup END
 
 " Section: Keybindings
+
 let mapleader = ";"
 
 nmap <silent> <leader>w :w<CR>
@@ -57,6 +59,7 @@ nmap = <CR>
 inoremap jj <ESC>
 
 " Section: General Settings
+
 syntax on
 set number
 set backspace=indent,eol,start
@@ -71,4 +74,5 @@ highlight CursorLineNr ctermfg=brown
 highlight clear CursorLine
 
 " Section: External Files
+
 source $HOME/.dotfiles/vim/ft-settings.vim
