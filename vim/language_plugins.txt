@@ -2,6 +2,7 @@
 - ANOTHER WRAPPER FOR A CERTAIN LANGUAGE WITH DEOPLETE (e.g. davidhalter/jedi-vim FOR PYTHON OR eagletmt/neco-ghc FOR HASKELL OR ANOTHER ONE OF THOSE DEOPLETE (NECO) LANGUAGE WRAPPERS)
 - tpope/vim-unimpaired
 - w0rp/ale (LOOK AT SETTINGS: https://github.com/w0rp/ale)
+- this part from tpope's vimrc (https://github.com/tpope/tpope/blob/master/.vimrc#L343) and this guy's vimrc (https://github.com/DarkUlixes/dotfiles/blob/master/vimrc#L27)
 
 --- FT-SETTINGS ---
 
