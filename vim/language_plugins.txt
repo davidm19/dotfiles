@@ -50,6 +50,7 @@ Typescript:
 PLUGINS TO TRY OUT:
 - AndrewRadev/splitjoin.vim
 - godlygeek/tabular (http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
+- tpope/vim-endwise
 - vimwiki/vimwiki
 
 vimrc from the i3/C++ video: https://gist.github.com/anonymous/27648a4d6f4f271cf030d5207f7b80d1
