@@ -22,8 +22,6 @@ fi
 alias l="ls"
 alias tmux="tmux -2"
 alias config="bash ~/.dotfiles/update_dotfiles.sh"
-alias plug="bash ~/.update_plugin.sh"
-# alias fv="vim $(LOCATION OF FZF BINARY)" (most likely /usr/local/bin/)
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
@@ -34,10 +32,10 @@ source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 
 # Light PS1
-export PS1="$red\u$blue\$(__git_ps1) $reset$cyan\w$reset » "
+# export PS1="$red\u$blue\$(__git_ps1) $reset$cyan\w$reset » "
 
 # Dark PS1
-# export PS1="$red\u$yellow\$(__git_ps1) $reset$cyan\w$reset » "
+export PS1="$red\u$yellow\$(__git_ps1) $reset$cyan\w$reset » "
 
 # SERVER PS1
 # export PS1="$whitebold[$redbold\u$yellowbold@$bluebold\h$whitebold $greenbold\w$yellowbold\$(__git_ps1)$whitebold]$ $reset"

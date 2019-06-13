@@ -11,14 +11,19 @@ Go:
 	- GoFMT will do all the formating for you, so no need to add any filetype specific settings
 	- set completeopt-=preview
 	- dispatch = 'go build % && ./%:r' OR you could use vim-go's go build/go run AS LONG AS THERE ARE NO C FILES IN YOUR CURRENT DIRECTORY
+
 Haskell:
 	- tabs = spaces, 4 characters
 	- line lengths = 80
 	- dispatch = 'ghc % -o %:r && ./%:r'
 	- and if all else fails, here's UPenn's two cents... https://www.seas.upenn.edu/~cis552/12fa/styleguide.html
-Rust:
-	- Rust has RustFMT and you could use that...
 
+HTML:
+	- tabs = spaces, 2 characters
+	- line lengths = 80
+
+Javscript:
+	- Use vim-prettier
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
@@ -36,6 +41,17 @@ Go:
 Haskell:
 - eagletmt/neco-ghc
 - neovimhaskell/haskell.vim
+
+HTML:
+- alvan/vim-closetag
+- mattn/emmet.vim
+- tmhedberg/matchit
+
+Javascript (remember to install yarn, npm, and tern):
+- ** ANY PLUGIN RELATED TO A JAVASCRIPT FRAMEWORK!! (noopkat has ones on react and vue)
+- carlitux/deoplete-ternjs (needs tern installed globally)
+- pangloss/vim-javascript
+- prettier/vim-prettier
 
 Python:
 - davidhalter/jedi-vim

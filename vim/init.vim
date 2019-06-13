@@ -7,6 +7,7 @@
 " Section: Vim Plugins
 
 call plug#begin('~/.local/share/nvim/plugged')
+" Plugins: General
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
@@ -20,6 +21,10 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
+
+" Plugins: Language Specific
+" Nothing here quite yet!
+
 call plug#end()
 
 " Section: Vim Plugin Settings
