@@ -1,5 +1,7 @@
 --- OPTIONAL PLUGIN LIST ---
 - ANOTHER WRAPPER FOR A CERTAIN LANGUAGE WITH DEOPLETE (e.g. davidhalter/jedi-vim FOR PYTHON OR eagletmt/neco-ghc FOR HASKELL OR ANOTHER ONE OF THOSE DEOPLETE (NECO) LANGUAGE WRAPPERS)
+- tpope/vim-endwise
+- tpope/vim-rsi
 - tpope/vim-unimpaired
 - w0rp/ale (LOOK AT SETTINGS: https://github.com/w0rp/ale)
 - this part from tpope's vimrc (https://github.com/tpope/tpope/blob/master/.vimrc#L343) and this guy's vimrc (https://github.com/DarkUlixes/dotfiles/blob/master/vimrc#L27)
@@ -25,11 +27,14 @@ HTML:
 Javscript:
 	- Use vim-prettier
 
+Racket:
+	- tabs = spaces, 2 characters
+	- line lengths = 102
+
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
 - justinmk/vim-syntax-extra (C)
 - octol/vim-cpp-enhanced-highlight (C++)
-- rhysd/vim-clang-format
 - Shougo/deoplete-clangx
 - vim-scripts/a.vim
 
@@ -57,8 +62,9 @@ Python:
 - davidhalter/jedi-vim
 - Yggdroot/indentLine
 
-Rust:
-- racer-rust/vim-racer
+Racket:
+- luochen1990/rainbow
+- wlangstroth/vim-racket
 
 Typescript:
 - leafgarland/typescript-vim
