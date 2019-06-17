@@ -31,4 +31,16 @@ augroup filetypes
 		\ set expandtab |
 		\ set autoindent |
 	   	\ let b:dispatch = 'python %'
+	au Filetype html
+		\ set softtabstop=2 |
+		\ set shiftwidth=2 |
+		\ set textwidth=80 |
+		\ set expandtab |
+		\ set autoindent
+	au Filetype css
+		\ set softtabstop=2 |
+		\ set shiftwidth=2 |
+		\ set textwidth=80 |
+		\ set expandtab |
+		\ set autoindent
 augroup END

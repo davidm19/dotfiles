@@ -20,7 +20,7 @@ Haskell:
 	- dispatch = 'ghc % -o %:r && ./%:r'
 	- and if all else fails, here's UPenn's two cents... https://www.seas.upenn.edu/~cis552/12fa/styleguide.html
 
-HTML:
+HTML+CSS:
 	- tabs = spaces, 2 characters
 	- line lengths = 80
 
@@ -47,10 +47,13 @@ Haskell:
 - eagletmt/neco-ghc
 - neovimhaskell/haskell.vim
 
+HTML + CSS:
 HTML:
 - alvan/vim-closetag
 - mattn/emmet.vim
-- tmhedberg/matchit
+CSS:
+- ap/vim-css-color
+- JulesWang/css.vim
 
 Javascript (remember to install yarn, npm, and tern):
 - ** ANY PLUGIN RELATED TO A JAVASCRIPT FRAMEWORK!! (noopkat has ones on react and vue)
@@ -73,6 +76,7 @@ Typescript:
 PLUGINS TO TRY OUT:
 - AndrewRadev/splitjoin.vim
 - godlygeek/tabular (http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
+- irrationalistic/vim-tasks
 - tpope/vim-endwise
 - vimwiki/vimwiki
 

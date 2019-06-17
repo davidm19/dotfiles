@@ -23,7 +23,11 @@ Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
 
 " Plugins: Language Specific
-" Nothing here quite yet!
+" HTML and CSS
+Plug 'alvan/vim-closetag'
+Plug 'mattn/emmet-vim'
+Plug 'ap/vim-css-color'
+Plug 'JulesWang/css.vim'
 
 call plug#end()
 

@@ -61,7 +61,8 @@ git_info() {
 
 # Aliases
 if [[ "$OSTYPE" == "darwin"* ]]; then
-   alias ls='ls -G'
+   export CLICOLOR=1
+   export LSCOLORS=ExFxCxDxbxegedabagaced
 else
    alias ls='ls --color=auto'
 fi
@@ -72,5 +73,5 @@ alias config="bash ~/.dotfiles/update_dotfiles.sh"
 PS1='%{$fg_bold[red]%}%n%{$fg_bold[yellow]%}@%{$fg_bold[cyan]%}%m%{$reset_color%}:%{$fg_bold[green]%}%~%{$reset_color%}$(git_info)% %{$reset_color%}%{$reset_color%}% %% '
 
 # Light PS1s (for minimal purposes, I guess... or for anything else)
-# PS1='%~ $(git_info)% » '
+# PS1='%~ $(git_info)% ❯ '
 # PS1='$(git_info)% %~>> '
