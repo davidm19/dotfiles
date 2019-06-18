@@ -7,6 +7,7 @@
 " Section: Vim Plugins
 
 call plug#begin('~/.local/share/nvim/plugged')
+
 " Plugins: General
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -21,13 +22,24 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
+Plug 'AndrewRadev/splitjoin.vim'
+Plug 'godlygeek/tabular'
 
 " Plugins: Language Specific
+" C/C++
+Plug 'justinmk/vim-syntax-extra' " Extra C syntax highlighting
+Plug 'octol/vim-cpp-enhanced-highlight' " Extra C++ syntax highlighting
+Plug 'Shougo/deoplete-clangx' " Clang autocompletion
+Plug 'vim-scripts/a.vim' " Easy switching between header files and program files
+
 " HTML and CSS
-Plug 'alvan/vim-closetag'
-Plug 'mattn/emmet-vim'
-Plug 'ap/vim-css-color'
-Plug 'JulesWang/css.vim'
+Plug 'alvan/vim-closetag' " Easy tag closing
+Plug 'ap/vim-css-color' " Funny colors show up in CSS
+Plug 'JulesWang/css.vim' " Expanded syntax in CSS
+
+" Python
+Plug 'davidhalter/jedi-vim' " Intelligent Python autocompletion
+Plug 'Yggdroot/indentLine' " More visible line indentations
 
 call plug#end()
 
