@@ -4,6 +4,14 @@
 " Created: ~2018
 "
 
+" Section: Bootstrapping
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 " Section: Vim Plugins
 
 call plug#begin('~/.local/share/nvim/plugged')
@@ -94,7 +102,6 @@ highlight CursorLineNr ctermfg=brown
 highlight clear CursorLine
 
 highlight SignColumn ctermbg=black 
-" Make rest of sign gutter blend in with screen
 
 " Section: External Files
 
