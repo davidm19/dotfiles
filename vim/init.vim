@@ -11,7 +11,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Plugins: General
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'airblade/vim-gitgutter'
+Plug 'mhinz/vim-signify'
 Plug 'Raimondi/delimitMate'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tpope/vim-commentary'
@@ -22,7 +22,6 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
-Plug 'AndrewRadev/splitjoin.vim'
 Plug 'godlygeek/tabular'
 
 " Plugins: Language Specific
@@ -52,6 +51,8 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+
+let g:indentLine_enabled = 0
 
 let delimitMate_expand_cr = 1
 augroup mydelimitMate
@@ -91,6 +92,9 @@ highlight LineNr ctermfg=grey
 set cursorline
 highlight CursorLineNr ctermfg=brown
 highlight clear CursorLine
+
+highlight SignColumn ctermbg=black 
+" Make rest of sign gutter blend in with screen
 
 " Section: External Files
 
