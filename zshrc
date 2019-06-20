@@ -68,6 +68,7 @@ else
 fi
 alias l="ls"
 alias config="bash ~/.dotfiles/update_dotfiles.sh"
+# nice git log: git log --oneline --graph --all
 
 # Almighty PS1
 PS1='%{$fg_bold[red]%}%n%{$fg_bold[yellow]%}@%{$fg_bold[cyan]%}%m%{$reset_color%}:%{$fg_bold[green]%}%~%{$reset_color%}$(git_info)% %{$reset_color%}%{$reset_color%}% %% '
