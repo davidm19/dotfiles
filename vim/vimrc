@@ -56,6 +56,8 @@ set autoindent
 set showcmd
 set encoding=UTF-8
 
+runtime macros/matchit.vim
+
 " Section: External Files
 
 source $HOME/.dotfiles/vim/ft-settings.vim
