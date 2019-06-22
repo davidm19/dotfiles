@@ -103,6 +103,8 @@ highlight clear CursorLine
 
 highlight SignColumn ctermbg=black 
 
+runtime macros/matchit.vim
+
 " Section: External Files
 
 source $HOME/.dotfiles/vim/ft-settings.vim
