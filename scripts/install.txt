@@ -1,0 +1,2 @@
+Regular: bash -c "$(curl -LsS https://raw.githubusercontent.com/davidm19/swv3/master/setup.sh)"
+Server: bash -c "$(curl -LsS https://raw.githubusercontent.com/davidm19/swv3/master/setup.sh)"
