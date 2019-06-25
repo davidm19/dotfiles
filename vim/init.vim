@@ -43,9 +43,15 @@ Plug 'vim-scripts/a.vim' " Easy switching between header files and program files
 Plug 'davidhalter/jedi-vim' " Intelligent Python autocompletion
 Plug 'Yggdroot/indentLine' " More visible line indentations
 
+" Go
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
+
 call plug#end()
 
 " Section: Vim Plugin Settings
+
+let g:deoplete#sources#go#gocode_binary = '~/go/bin/gocode'
 
 let g:deoplete#enable_at_startup = 1
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
@@ -71,8 +77,8 @@ let mapleader = ";"
 nmap <silent> <leader>w :w<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
-nmap <silent> ]b :bnext<CR>
-nmap <silent> [b :bprevious<CR>
+" nmap <silent> ]b :bnext<CR>
+" nmap <silent> [b :bprevious<CR>
 nmap <C-c> :Buffers<CR>
 nmap <C-p> :Files<CR>
 

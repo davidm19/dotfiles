@@ -44,4 +44,6 @@ augroup filetypes
 		\ set textwidth=80 |
 		\ set expandtab |
 		\ set autoindent
+	au Filetype go
+		\ set completeopt-=preview
 augroup END

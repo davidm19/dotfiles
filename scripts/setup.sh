@@ -73,7 +73,6 @@ function pacman_packages() {
 		echo "Installing $program..."
 		sudo pacman -S --noconfirm "$program"
 	done
-
 }
 
 # Install yay

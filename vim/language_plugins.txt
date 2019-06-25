@@ -1,7 +1,6 @@
 --- OPTIONAL PLUGIN LIST ---
 - tpope/vim-endwise
 - tpope/vim-rsi
-- tpope/vim-unimpaired
 - w0rp/ale (LOOK AT SETTINGS: https://github.com/w0rp/ale) (gvimrc has good settings)
 - this part from tpope's vimrc (https://github.com/tpope/tpope/blob/master/.vimrc#L343) and this guy's vimrc (https://github.com/DarkUlixes/dotfiles/blob/master/vimrc#L27)
 
@@ -18,13 +17,6 @@ Haskell:
 	- line lengths = 80
 	- dispatch = 'ghc % -o %:r && ./%:r'
 	- and if all else fails, here's UPenn's two cents... https://www.seas.upenn.edu/~cis552/12fa/styleguide.html
-
-HTML+CSS:
-	- tabs = spaces, 2 characters
-	- line lengths = 80
-
-Javscript:
-	- Use vim-prettier
 
 Racket:
 	- tabs = spaces, 2 characters
