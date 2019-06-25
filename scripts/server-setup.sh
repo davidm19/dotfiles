@@ -53,3 +53,5 @@ function dotfile_setup() {
 	rm -rf "$HOME"/.dotfiles
 	printf "$BOLD_GREEN ** Done setting up server config."
 }
+
+dotfile_setup
