@@ -1,9 +1,8 @@
 --- OPTIONAL PLUGIN LIST ---
-- ANOTHER WRAPPER FOR A CERTAIN LANGUAGE WITH DEOPLETE (e.g. davidhalter/jedi-vim FOR PYTHON OR eagletmt/neco-ghc FOR HASKELL OR ANOTHER ONE OF THOSE DEOPLETE (NECO) LANGUAGE WRAPPERS)
 - tpope/vim-endwise
 - tpope/vim-rsi
 - tpope/vim-unimpaired
-- w0rp/ale (LOOK AT SETTINGS: https://github.com/w0rp/ale)
+- w0rp/ale (LOOK AT SETTINGS: https://github.com/w0rp/ale) (gvimrc has good settings)
 - this part from tpope's vimrc (https://github.com/tpope/tpope/blob/master/.vimrc#L343) and this guy's vimrc (https://github.com/DarkUlixes/dotfiles/blob/master/vimrc#L27)
 
 --- FT-SETTINGS ---
@@ -42,24 +41,11 @@ Go:
 - Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 - Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 - let g:deoplete#sources#go#gocode_binary = '/path/to/gocode (usually in go path)'
+- OR USE GOCODE PLUGIN (Plug 'nsf/gocode')???
 
 Haskell:
 - eagletmt/neco-ghc
 - neovimhaskell/haskell.vim
-
-HTML + CSS:
-HTML:
-- alvan/vim-closetag
-- mattn/emmet.vim
-CSS:
-- ap/vim-css-color
-- JulesWang/css.vim
-
-Javascript (remember to install yarn, npm, and tern):
-- ** ANY PLUGIN RELATED TO A JAVASCRIPT FRAMEWORK!! (noopkat has ones on react and vue)
-- carlitux/deoplete-ternjs (needs tern installed globally)
-- pangloss/vim-javascript
-- prettier/vim-prettier
 
 Python:
 - davidhalter/jedi-vim
@@ -68,10 +54,6 @@ Python:
 Racket:
 - junegunn/rainbow_parentheses.vim
 - wlangstroth/vim-racket
-
-Typescript:
-- leafgarland/typescript-vim
-- mhartington/nvim-typescript
 
 PLUGINS TO TRY OUT:
 - AndrewRadev/splitjoin.vim

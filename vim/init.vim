@@ -6,8 +6,8 @@
 
 " Section: Bootstrapping
 
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
+  silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
@@ -38,11 +38,6 @@ Plug 'justinmk/vim-syntax-extra' " Extra C syntax highlighting
 Plug 'octol/vim-cpp-enhanced-highlight' " Extra C++ syntax highlighting
 Plug 'Shougo/deoplete-clangx' " Clang autocompletion
 Plug 'vim-scripts/a.vim' " Easy switching between header files and program files
-
-" HTML and CSS
-Plug 'alvan/vim-closetag' " Easy tag closing
-Plug 'ap/vim-css-color' " Funny colors show up in CSS
-Plug 'JulesWang/css.vim' " Expanded syntax in CSS
 
 " Python
 Plug 'davidhalter/jedi-vim' " Intelligent Python autocompletion
