@@ -1,0 +1,13 @@
+https://www.reddit.com/r/unixporn/search/?q=exwm&restrict_sr=1
+
+MAKE AN EMACS CONFIGURATION! STOP WORRYING AND LEARN TO LOVE THE READLINE
+- line numbers
+- font at sizes 14 to 16
+- electric pair mode
+- nice theme
+- auto-complete + company mode
+- flycheck
+- remap M-x goto-line to something
+- modes for specific languages: autopep8, go-mode, etc
+** ABUSE TERMINALS
+** M-x COMPILE
