@@ -1,0 +1,165 @@
+remember wpa_supplicant for arch on wifi!!
+
+=====================
+======== DEs ========
+=====================
+1. ---- KDE ----
+Put bar on top, set size to 30, delete useless widgets (clipboard and such) and change KDE app launcher logo to arch (configure panel --> configure app --> change logo) (and add Icons Only Task Manager) (remember redshift control widget!)
+Theme: Aritim-Dark-KDE (Breeze dark if things get wonky, but just adjust the plasma theme to fedora 30 so SierraBreeze will work)
+Window Decorations: SierraBreeze
+Icons: Papirus
+Disable Tab bar (settings --> configure Konsole)
+You can (and should) still use ulauncher!
+Change desktop, screensaver and login manager wallpapers
+change all fonts (yes, even terminals. do size 11 for terminals, 10 everywhere else) to inconsolata
+BLUR KONSOLE! (change background color to #000000 and blur to anywhere from 18% to 36%) (and add a keyboard shortcut for opening it: go to settings --> global keyboard shortcuts and set it for konsole)
+How to add media key functionality: https://nallerooth.com/post/how_to_configure_spotify_hotkeys_in_kde/
+How to increase font size in console: Ctrl+Shift+Plus
+SDDM THEMES: https://store.kde.org/browse/cat/101/ord/rating/
+MORE COMPLICATED SDDM THEME: https://github.com/3ximus/aerial-sddm-theme
+LIGHTDM THEME: https://github.com/linuxmint/slick-greeter
+
+2. ---- GNOME ----
+OPTIONAL FOR UBUNTU: sudo apt remove gnome-shell-extension-ubuntu-dock
+Install ulauncher and have it start at startup
+
+papirus icons + osx-arc-dark theme
+
+Switch between workspaces:
+1. ctrl + alt + up/down
+2. Super (windows/macos command) + page up/down
+
+3. ---- MATE ----
+Change themes, icons, etc in (rclick--> change desktop background --> theme --> customize)
+Change fonts to Inconsolata Medium 11 (except for Window title, which is Inconsolata 12)
+Change terminal color to all black
+Disable sounds (sound --> Enable window and button sounds)
+Set preferred applications: Chromium (web browsers), xfce4-terminal (terminal)
+Use dconf-editor to remove desktop icons (dconf --> org --> mate --> caja)
+Startup applications also exist
+Changing workspaces is the same as in gnome
+
+
+4. ---- XFCE4 ----
+Theme: X-Arc-Shadow (Arc-Dark is fine too)
+Icons: Papirus-Dark (for Debian use Paper)
+Fonts: Inconsolata 11 (general settings (set title bar font in window manager tweaks, and set window theme to arc shadow as well))
+Remove desktop icons and panel
+LOCKING SCREEN ON STARTUP: https://askubuntu.com/questions/259190/xubuntu-no-password-request-after-suspension
+CHANGE SCREENLOCKER FROM XCREENLOCKER TO PHYSLOCK: https://forum.xfce.org/viewtopic.php?id=12362
+GIVE ROOT PERMISSIONS BACK TO xflock4: https://askubuntu.com/questions/193055/how-to-make-files-accessible-only-by-root
+CREATE KEYBOARD SHORTCUTS FOR CREATING TERMINALS AND SWITCHING WORKSPACES, GNOME STYLE
+WINDOW MANAGER --> ADVANCED: DISABLE "WITH A DRAGGED WINDOW"
+
+---- SETTINGS ----
+AUTOLOCK W/ PHYSLOCK/XAUTOLOCK: https://gist.github.com/victorhaggqvist/603125bbc0f61a787d89
+
+===============
+===== WMs =====
+===============
+ESSENTIAL WM APPS:
+- cmus
+- nnn (it's easier and more clearly documented than ranger IMO)
+- vim
+- feh
+- sflock
+- rofi/dmenu
+- zathura
+- leafpad (linux equivalent of textedit)
+
+1. ---- XMONAD ----
+XMONAD APPS:
+- xmonad + xmonad-contrib
+- xmobar
+- xfce4-terminal/st
+- xorg-xinit
+- rofi
+- redshift
+- feh
+- sflock
+- lxappearance
+
+2. ---- DWM ----
+DWM GOALS!
+- https://www.reddit.com/r/unixporn/comments/7euy6f/dwmvoid_my_lightweight_netbook/ (use curie font though! and maybe try this first and use navy blue/slate instead of green)
+- https://www.reddit.com/r/unixporn/comments/ap93zx/dwm_99_suckless/
+- https://www.reddit.com/r/unixporn/comments/9f5urg/dwm_using_tmux_for_window_titlebars/
+- https://www.reddit.com/r/unixporn/comments/b13ylk/dwm_transitioning_to_suckless/
+- https://www.reddit.com/r/UsabilityPorn/comments/bkn0jt/i3_towards_simplicity/ (not dwm but still pretty with bitmap fonts and everything)
+
+DWM APPS:
+- dwm + st
+- xorg-xinit
+- feh
+- redshift
+- sflock
+
+DWM TODOS:
+- give nnn a try (just gotta learn the keybindings and add them to the VimNotes repo) (add a keyboard shortcut to start it from the command line, just like you did for sflock)
+- dmenu network/power manager wut?? (power: https://github.com/ronniedroid/DotFiles/blob/master/home/Scripts/pmenu.sh)
+
+3. ---- BSPWM ----
+BSPWM GOALS:
+- https://www.reddit.com/r/unixporn/comments/bsd5gp/bspwm_btw_i_use_terminal_paddings/
+- https://www.reddit.com/r/unixporn/comments/asfrtv/bspwm_finally_made_the_switch_from_i3/
+- https://www.reddit.com/r/unixporn/comments/9sti1b/bspwm_pixel_art_gif_wallpapers_cozy/
+- https://www.reddit.com/r/unixporn/comments/7snf2z/bspwm_drawing_terminals/
+
+BSPWM APPS:
+- bspwm + sxhkd + libxcb dependencies
+- st
+- polybar + script + pulseaudio (spotify module: https://github.com/Jvanrhijn/polybar-spotify and cmus module: https://github.com/raytruong/polybar-cmus)
+- rofi
+- sflock
+- feh
+- redshift
+- emacs
+- cmus
+- xorg-xinit
+
+BSPWM NOTES:
+- bspwm can support multimonitor setups. here's the bspwm entry on arch linux for multimonitor setups https://wiki.archlinux.org/index.php/Bspwm#Note_for_multi-monitor_setups and here's a reddit thread helping someone do this. https://www.reddit.com/r/archlinux/comments/1xx7d9/some_help_with_configuring_bspwm_multiple/
+
+BSPWM TODO:
+- rofi network manager wut??
+
+4. ---- OPENBOX ----
+OPENBOX GOALS:
+- I haven't found any I like!
+
+OPENBOX APPS:
+- openbox + obconf + openbox-themes (AUR)
+- xinit
+- rofi
+- st
+- xfce4-terminal
+- tint2
+- and literally everything in the menus you haven't installed
+
+OPENBOX TIPS:
+- Change fonts in rc.xml (first: cp -R /etc/xdg/openbox ~/.config/ so you can access it in ~/.config/openbox folder)
+- tint2, like polybar, has its own folder in .config (and the config file is called tint2rc)
+
+
+=====================
+===== Ideal Env =====
+=====================
+- Computer: (identitcal) Ryzen 5, 16GB ram for home and work; Surface Go for travel
+- OS: (encrypted) Ubuntu at work, Arch (preferred)/Void/Debian/Gentoo (give it another try) at home
+- WM: Stock GNOME (dual monitor) at work, xmonad at home (split between dual and single)
+- Peripherals: Dell Ultrasharp monitors (both); Microsoft ergonomic keyboard/mouse (work), Razer Huntsman/Das Keyboard 4 Professional/Filco Majestouch Cherry Blue/(Realforce R2 if you have roommates/girlfriend) and Razer Naga (home)
+- Editor: neovim+tmux
+- Shell: zsh
+- Jarvis stand-sit desk at work
+
+HOSTNAMES (MAKE A GENERATOR! PASS PARAMETERS FOR WHICH ONE YOU WANT!):
+- (last names of) Characters from Shakespeare/significant literature works/significant or acclaimed movies (plainview, clemenza, deckard, etc (I LIKE THIS ONE!)) or movies from directors like kubrick (torrence, bowman/poole/floyd, mandrake), etc
+- famous authors (hemingway, etc)
+- Names of rivers/mountains
+- uc campus cities
+- small us cities/cities in california
+- streets/landmarks in san pedro (gaffey, southshores, cabrillo)
+- oldies pokemon cities/landmarks (kanto, johto, hoenn, sinnoh. NO MORE!)
+- small english or french cities (pau, villejuive, dedham, stratford)/counties (durham, manchester, normandy, brittany)
+
+- and if you really have no idea... https://www.reddit.com/r/linux/comments/64g54z/hostname_ideas/

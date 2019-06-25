@@ -1,0 +1,5 @@
+GNOME/XFCE4 Terminal: Iosevka Medium 14
+st/dwm:	Terminus
+iTerm2: Meslo Nerd (LG S DZ) 14
+GUI Text Editor: Menlo 14
+gVim (for some reason): Consolas
