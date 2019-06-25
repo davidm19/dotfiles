@@ -29,10 +29,7 @@ let mapleader = ";"
 
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
-" nmap <silent> ]b :bnext<CR>
-" nmap <silent> [b :bprevious<CR>
-nmap <C-c> :Buffers<CR>
-nmap <C-p> :Files<CR>
+nmap <C-c> :CtrlPBuffer<CR>
 
 nmap <silent> <TAB> <C-w>
 nmap = <CR>
