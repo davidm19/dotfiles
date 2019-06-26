@@ -12,7 +12,6 @@ function! s:PluginInstall()
   \ https://github.com/ctrlpvim/ctrlp.vim
   \ https://github.com/Raimondi/delimitMate
   \ https://github.com/tpope/vim-commentary
-  \ https://github.com/tpope/vim-flagship
   \ https://github.com/tpope/vim-fugitive
   \ | xargs -n1 git clone
   silent cd ~
@@ -31,11 +30,37 @@ execute pathogen#infect()
 
 nmap <C-c> :CtrlPBuffer<CR>
 
+" Section: Statusline
+" I guess credit where it's due...
+" - https://shapeshed.com/vim-statuslines/
+" - http://learnvimscriptthehardway.stevelosh.com/chapters/17.html
+" - https://github.com/tpope/vim-flagship
+
+highlight StatusLine ctermbg=white ctermfg=black
+
+function! GitBranch()
+  return system("git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n'")
+endfunction
+
+function! StatuslineGit()
+  let l:branchname = GitBranch()
+  return strlen(l:branchname) > 0?' Git('.l:branchname.') ':''
+endfunction
+
 set laststatus=2
-set showtabline=2
-autocmd User Flags call Hoist("global", "%{&ignorecase ? '[IC]' : ''}")
-let g:tablabel =
-      \ "%N%{flagship#tabmodified()} %{flagship#tabcwds('shorten',',')}"
+set statusline=
+
+set statusline+=%f
+set statusline+=\ %y
+set statusline+=%{StatuslineGit()}
+set statusline+=%m
+set statusline+=%r
+set statusline+=%=
+set statusline+=‹‹
+set statusline+=%l,%c
+set statusline+=\ ::
+set statusline+=\ %p%%
+set statusline+=\ ››
 
 " Section: Keybindings
 

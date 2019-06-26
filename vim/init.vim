@@ -28,8 +28,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
-Plug 'vim-airline/vim-airline'
-Plug 'ryanoasis/vim-devicons'
+" Plug 'vim-airline/vim-airline'
+" Plug 'ryanoasis/vim-devicons'
 Plug 'godlygeek/tabular'
 
 " Plugins: Language Specific
@@ -105,6 +105,36 @@ highlight clear CursorLine
 highlight SignColumn ctermbg=black 
 
 runtime macros/matchit.vim
+
+" Section: Statusline
+" I guess credit where it's due...
+" - https://shapeshed.com/vim-statuslines/
+" - http://learnvimscriptthehardway.stevelosh.com/chapters/17.html
+" - https://github.com/tpope/vim-flagship
+
+highlight StatusLine ctermbg=white ctermfg=black
+
+function! GitBranch()
+  return system("git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n'")
+endfunction
+
+function! StatuslineGit()
+  let l:branchname = GitBranch()
+  return strlen(l:branchname) > 0?' Git('.l:branchname.') ':''
+endfunction
+
+set laststatus=2
+set statusline=
+
+set statusline+=%f
+set statusline+=\ %y
+set statusline+=%{StatuslineGit()}
+set statusline+=%m
+set statusline+=%r
+set statusline+=%=
+set statusline+=\ %l,%c
+set statusline+=\ ::
+set statusline+=\ %p%%
 
 " Section: External Files
 
