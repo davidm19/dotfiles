@@ -19,7 +19,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Plugins: General
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'mhinz/vim-signify'
+Plug 'airblade/vim-gitgutter'
 Plug 'Raimondi/delimitMate'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tpope/vim-commentary'
@@ -101,8 +101,6 @@ highlight LineNr ctermfg=grey
 set cursorline
 highlight CursorLineNr ctermfg=brown
 highlight clear CursorLine
-
-highlight SignColumn ctermbg=black 
 
 runtime macros/matchit.vim
 
