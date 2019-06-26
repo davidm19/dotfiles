@@ -44,14 +44,15 @@ function shell_setup() {
 # Set up dotfiles
 function dotfile_setup() {
 	BOLD_GREEN="\033[1;92m"
+	RESET="\[\033[0m\]"
 
-	printf "$BOLD_GREEN ** Setting up server config..."
+	printf "$BOLD_GREEN ** Setting up server config...$RESET\n"
 	git clone https://github.com/davidm19/dotfiles.git "$HOME"/.dotfiles/
 	cat "$HOME"/.dotfiles/tmux.conf >"$HOME"/.tmux.conf
 	vim_setup
 	shell_setup
 	rm -rf "$HOME"/.dotfiles
-	printf "$BOLD_GREEN ** Done setting up server config."
+	printf "$BOLD_GREEN ** Done setting up server config.$RESET\n"
 }
 
 dotfile_setup
