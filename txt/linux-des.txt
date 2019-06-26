@@ -144,12 +144,12 @@ OPENBOX TIPS:
 =====================
 ===== Ideal Env =====
 =====================
-- Computer: (identitcal) Ryzen 5, 16GB ram for home and work; Surface Go for travel
-- OS: (encrypted) Ubuntu at work, Arch (preferred)/Void/Debian/Gentoo (give it another try) at home
-- WM: Stock GNOME (dual monitor) at work, xmonad at home (split between dual and single)
-- Peripherals: Dell Ultrasharp monitors (both); Microsoft ergonomic keyboard/mouse (work), Razer Huntsman/Das Keyboard 4 Professional/Filco Majestouch Cherry Blue/(Realforce R2 if you have roommates/girlfriend) and Razer Naga (home)
-- Editor: neovim+tmux
-- Shell: zsh
+- Computer:     (identitcal) Ryzen 5, 16GB ram for home and work; Surface Go for travel
+- OS:           (encrypted) Ubuntu at work, Arch (preferred)/Void/Debian/Gentoo (give it another try) at home
+- WM:           Stock GNOME (dual monitor) at work, xmonad at home (split between dual and single)
+- Peripherals:  Dell Ultrasharp monitors (both); Microsoft natural ergonomic keyboard and some ergonomic mouse (work), Filco Majestouch Cherry Blue/Leopold FC660M/Das Keyboard 4 Professional/Razer Huntsman/(Realforce R2 if you have roommates/girlfriend) and Razer Naga (home)
+- Editor:       neovim+tmux
+- Shell:        zsh
 - Jarvis stand-sit desk at work
 
 HOSTNAMES (MAKE A GENERATOR! PASS PARAMETERS FOR WHICH ONE YOU WANT!):
