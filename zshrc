@@ -14,7 +14,7 @@ git_info() {
 
   local AHEAD="%{$fg[white]%}⇡NUM%{$reset_color%}"
   local BEHIND="%{$fg[cyan]%}⇣NUM%{$reset_color%}"
-  local MERGING="%{$fg_bold[red]%}|MERGING|%{$reset_color%}"
+  local MERGING="%{$fg[red]%}|MERGING%{$reset_color%}"
   local UNTRACKED="#"
   local MODIFIED="%{$fg[yellow]%}*%{$reset_color%}"
   local STAGED="%{$fg[green]%}+%{$reset_color%}"
