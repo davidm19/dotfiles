@@ -87,7 +87,7 @@ function yay_setup() {
 # Install yay programs
 function yay_programs() {
 	yay -S spotify
-	yay -S nerd-fonts-complete
+	# yay -S nerd-fonts-complete
 	yay -S bdf-curie
 	sudo fc-cache -fv
 }
