@@ -36,6 +36,7 @@ function homebrew_packages() {
 	# Install cask programs
 	brew tap homebrew/cask-fonts
 	brew cask install font-meslo-nerd-font
+	brew cask install font-terminus
 	brew cask install java amethyst
 }
 
