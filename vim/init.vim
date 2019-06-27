@@ -28,8 +28,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
-" Plug 'vim-airline/vim-airline'
-" Plug 'ryanoasis/vim-devicons'
 Plug 'godlygeek/tabular'
 
 " Plugins: Language Specific
@@ -58,8 +56,6 @@ inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 let g:airline#extensions#hunks#non_zero_only = 1
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
 
 let g:indentLine_enabled = 0
 

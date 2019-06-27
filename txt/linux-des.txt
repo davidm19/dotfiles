@@ -147,7 +147,7 @@ OPENBOX TIPS:
 - Computer:     (identitcal) Ryzen 5, 16GB ram for home and work; Surface Go for travel
 - OS:           (encrypted) Ubuntu at work, Arch (preferred)/Void/Debian/Gentoo (give it another try) at home
 - WM:           Stock GNOME (dual monitor) at work, xmonad at home (split between dual and single)
-- Peripherals:  Dell Ultrasharp monitors (both); Microsoft natural ergonomic keyboard and some ergonomic mouse (work), Filco Majestouch Cherry Blue/Leopold FC660M/Das Keyboard 4 Professional/Razer Huntsman/(Realforce R2 if you have roommates/girlfriend) and Razer Naga (home)
+- Peripherals:  Dell Ultrasharp monitors (both); Microsoft natural ergonomic keyboard and some ergonomic mouse (work), Filco Majestouch Cherry Blue/Leopold FC660M/Das Keyboard 4 Professional/Razer Huntsman/(Realforce R2 if you have roommates/girlfriend)/(DIY KEYBOARD a la https://www.youtube.com/watch?v=0c8UdKX6GBA) and Razer Naga (home)
 - Editor:       neovim+tmux
 - Shell:        zsh
 - Jarvis stand-sit desk at work
