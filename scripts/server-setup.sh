@@ -15,7 +15,6 @@ function vim_setup() {
 		"tpope/vim-repeat"
 		"tpope/vim-surround"
 		"tpope/vim-vinegar"
-		"Valloric/YouCompleteMe" # If this doesn't work, switch to supertab
 	)
 
 	for PLUGIN in "${PLUGINS[@]}"; do
@@ -24,9 +23,6 @@ function vim_setup() {
 		git clone https://github.com/"$PLUGIN".git "$HOME"/.vim/bundle/"$PLUG_NAME"
 		echo -e "\n"
 	done
-
-	# Install YouCompleteMe
-	python "$HOME"/.vim/bundle/YouCompleteMe/install.py
 }
 
 # Set up shell configuration
