@@ -30,7 +30,8 @@ augroup filetypes
 		\ set textwidth=79 |
 		\ set expandtab |
 		\ set autoindent |
-	   	\ let b:dispatch = 'python %'
+	   	\ let b:dispatch = 'python %' |
+		\ IndentLinesEnable
 	au Filetype html
 		\ set softtabstop=2 |
 		\ set shiftwidth=2 |
@@ -43,4 +44,6 @@ augroup filetypes
 		\ set textwidth=80 |
 		\ set expandtab |
 		\ set autoindent
+	au Filetype go
+		\ set completeopt-=preview
 augroup END

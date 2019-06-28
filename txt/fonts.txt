@@ -1,0 +1,4 @@
+GNOME/XFCE4 Terminal: Iosevka Medium 14
+st/dwm:	Terminus/Curie
+iTerm2: Meslo Nerd (LG S DZ) 14 / Terminus 16 (un-anti-aliased)
+GUI Text Editor: Consolas 14

@@ -12,12 +12,12 @@ git_info() {
   local GIT_LOCATION=${$(git symbolic-ref -q HEAD || git name-rev --name-only --no-undefined --always HEAD)#(refs/heads/|tags/)}
   local GIT_LOCATION_NO_WHITESPACE="$(echo -e "${GIT_LOCATION}" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
 
-  local AHEAD="%{$fg_bold[white]%}⇡NUM%{$reset_color%}"
-  local BEHIND="%{$fg_bold[cyan]%}⇣NUM%{$reset_color%}"
-  local MERGING="%{$fg_bold[red]%}|MERGING|%{$reset_color%}"
+  local AHEAD="%{$fg[white]%}⇡NUM%{$reset_color%}"
+  local BEHIND="%{$fg[cyan]%}⇣NUM%{$reset_color%}"
+  local MERGING="%{$fg[red]%}|MERGING%{$reset_color%}"
   local UNTRACKED="#"
-  local MODIFIED="%{$fg_bold[yellow]%}*%{$reset_color%}"
-  local STAGED="%{$fg_bold[green]%}+%{$reset_color%}"
+  local MODIFIED="%{$fg[yellow]%}*%{$reset_color%}"
+  local STAGED="%{$fg[green]%}+%{$reset_color%}"
 
   local -a DIVERGENCES
   local -a FLAGS
@@ -51,7 +51,7 @@ git_info() {
 
   local -a GIT_INFO
   GIT_INFO+=( "(" )
-  GIT_INFO+=( "%{$fg_bold[magenta]%}$GIT_LOCATION_NO_WHITESPACE%{$reset_color%}" )
+  GIT_INFO+=( "%{$fg[magenta]%}$GIT_LOCATION_NO_WHITESPACE%{$reset_color%}" )
   [ -n "$GIT_STATUS" ] && GIT_INFO+=( "$GIT_STATUS" )
   [[ ${#DIVERGENCES[@]} -ne 0 ]] && GIT_INFO+=( "${(j::)DIVERGENCES}" )
   [[ ${#FLAGS[@]} -ne 0 ]] && GIT_INFO+=( "${(j::)FLAGS}" )
@@ -67,11 +67,8 @@ else
    alias ls='ls --color=auto'
 fi
 alias l="ls"
-alias config="bash ~/.dotfiles/update_dotfiles.sh"
+alias config="bash ~/.dotfiles/scripts/update_dotfiles.sh"
+# nice git log: git log --oneline --graph --all
 
 # Almighty PS1
-PS1='%{$fg_bold[red]%}%n%{$fg_bold[yellow]%}@%{$fg_bold[cyan]%}%m%{$reset_color%}:%{$fg_bold[green]%}%~%{$reset_color%}$(git_info)% %{$reset_color%}%{$reset_color%}% %% '
-
-# Light PS1s (for minimal purposes, I guess... or for anything else)
-# PS1='%~ $(git_info)% ❯ '
-# PS1='$(git_info)% %{$fg_bold[blue]%}%~%{$fg_bold[yellow]%}>>%{$reset_color%} '
+PS1='%{$fg[red]%}%n%{$fg[yellow]%}@%{$fg[cyan]%}%m%{$reset_color%}:%{$fg[green]%}%~%{$reset_color%}$(git_info)% %% '

@@ -21,7 +21,7 @@ else
 fi
 alias l="ls"
 alias tmux="tmux -2"
-alias config="bash ~/.dotfiles/update_dotfiles.sh"
+alias config="bash ~/.dotfiles/scripts/update_dotfiles.sh"
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
@@ -35,7 +35,7 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # export PS1="$red\u$blue\$(__git_ps1) $reset$cyan\w$reset » "
 
 # Dark PS1
-export PS1="$red\u$yellow\$(__git_ps1) $reset$cyan\w$reset » "
+# export PS1="$red\u$yellow\$(__git_ps1) $reset$cyan\w$reset » "
 
 # SERVER PS1
-# export PS1="$whitebold[$redbold\u$yellowbold@$bluebold\h$whitebold $greenbold\w$yellowbold\$(__git_ps1)$whitebold]$ $reset"
+# export PS1="[$red\u$yellow@$cyan\h$reset $green\w$yellow\$(__git_ps1)$reset]$ "

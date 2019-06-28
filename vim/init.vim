@@ -4,6 +4,14 @@
 " Created: ~2018
 "
 
+" Section: Bootstrapping
+
+if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
+  silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 " Section: Vim Plugins
 
 call plug#begin('~/.local/share/nvim/plugged')
@@ -20,9 +28,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
-Plug 'vim-airline/vim-airline'
-Plug 'ryanoasis/vim-devicons'
-Plug 'AndrewRadev/splitjoin.vim'
 Plug 'godlygeek/tabular'
 
 " Plugins: Language Specific
@@ -32,26 +37,27 @@ Plug 'octol/vim-cpp-enhanced-highlight' " Extra C++ syntax highlighting
 Plug 'Shougo/deoplete-clangx' " Clang autocompletion
 Plug 'vim-scripts/a.vim' " Easy switching between header files and program files
 
-" HTML and CSS
-Plug 'alvan/vim-closetag' " Easy tag closing
-Plug 'ap/vim-css-color' " Funny colors show up in CSS
-Plug 'JulesWang/css.vim' " Expanded syntax in CSS
-
 " Python
 Plug 'davidhalter/jedi-vim' " Intelligent Python autocompletion
 Plug 'Yggdroot/indentLine' " More visible line indentations
 
+" Go
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
+
 call plug#end()
 
 " Section: Vim Plugin Settings
+
+let g:deoplete#sources#go#gocode_binary = '~/go/bin/gocode'
 
 let g:deoplete#enable_at_startup = 1
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 let g:airline#extensions#hunks#non_zero_only = 1
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
+
+let g:indentLine_enabled = 0
 
 let delimitMate_expand_cr = 1
 augroup mydelimitMate
@@ -67,8 +73,8 @@ let mapleader = ";"
 nmap <silent> <leader>w :w<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
-nmap <silent> ]b :bnext<CR>
-nmap <silent> [b :bprevious<CR>
+" nmap <silent> ]b :bnext<CR>
+" nmap <silent> [b :bprevious<CR>
 nmap <C-c> :Buffers<CR>
 nmap <C-p> :Files<CR>
 
@@ -86,11 +92,22 @@ set showcmd
 set mouse=a
 set encoding=UTF-8
 
-set background=light
 highlight LineNr ctermfg=grey
 set cursorline
-highlight CursorLineNr ctermfg=brown
+
+" Light:
+" set background=light
+" highlight CursorLineNr ctermfg=brown
+
+" Dark:
+set background=dark
+highlight CursorLineNr ctermfg=yellow
+
 highlight clear CursorLine
+
+runtime macros/matchit.vim
+
+highlight StatusLine ctermbg=white ctermfg=black
 
 " Section: External Files
 
