@@ -31,20 +31,9 @@ Plug 'tpope/vim-vinegar'
 Plug 'godlygeek/tabular'
 
 " Plugins: Language Specific
-" C/C++
-Plug 'justinmk/vim-syntax-extra' " Extra C syntax highlighting
-Plug 'octol/vim-cpp-enhanced-highlight' " Extra C++ syntax highlighting
-Plug 'Shougo/deoplete-clangx' " Clang autocompletion
-Plug 'vim-scripts/a.vim' " Easy switching between header files and program files
-
 " Python
 Plug 'davidhalter/jedi-vim' " Intelligent Python autocompletion
 Plug 'Yggdroot/indentLine' " More visible line indentations
-
-" Go
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
-
 call plug#end()
 
 " Section: Vim Plugin Settings
