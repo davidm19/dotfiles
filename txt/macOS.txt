@@ -11,4 +11,9 @@ Needed apps:
 - Flux
 - Amethyst
 
-AND BTW EMACS LOOKS GOOD IN TERMINUS FONT...
+i don't know where to add this but... GAMES!
+- Chess
+- Go (?)
+- Gomoku
+
+- MORE STRATEGY THINGIES!!
