@@ -17,7 +17,7 @@ augroup filetypes
 	au Filetype cpp
 		\ set completeopt-=preview |
 		\ let b:dispatch = 'g\++ % -o %:r && ./%:r'
-		" TODO: Google standards
+		" TODO: Lookie here: https://isocpp.org/wiki/faq/coding-standards
 	au Filetype gitcommit 
 		\ setlocal
 		\ spell
