@@ -29,16 +29,16 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'godlygeek/tabular'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'AndrewRadev/splitjoin.vim'
 
 " Plugins: Language Specific
 " Python
-Plug 'davidhalter/jedi-vim' " Intelligent Python autocompletion
-Plug 'Yggdroot/indentLine' " More visible line indentations
+Plug 'davidhalter/jedi-vim'
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
 " Section: Vim Plugin Settings
-
-let g:deoplete#sources#go#gocode_binary = '~/go/bin/gocode'
 
 let g:deoplete#enable_at_startup = 1
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
@@ -86,11 +86,11 @@ set hlsearch
 highlight LineNr ctermfg=grey
 set cursorline
 " Light:
-" set background=light
-" highlight CursorLineNr ctermfg=brown
+set background=light
+highlight CursorLineNr ctermfg=brown
 " Dark:
-set background=dark
-highlight CursorLineNr ctermfg=yellow
+" set background=dark
+" highlight CursorLineNr ctermfg=yellow
 highlight clear CursorLine
 
 runtime macros/matchit.vim
