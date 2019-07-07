@@ -18,6 +18,8 @@ augroup filetypes
 		\ set completeopt-=preview |
 		\ let b:dispatch = 'g\++ % -o %:r && ./%:r'
 		" TODO: Lookie here: https://isocpp.org/wiki/faq/coding-standards
+		" To be honest, you know OOP in Java more than OOP in C++, so
+		" honestly I don't think C++ is worth it...
 	au Filetype gitcommit 
 		\ setlocal
 		\ spell

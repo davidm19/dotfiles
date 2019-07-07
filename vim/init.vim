@@ -75,7 +75,7 @@ inoremap jj <ESC>
 " Section: General Settings
 
 syntax on
-set number
+set number relativenumber
 set backspace=indent,eol,start
 set showcmd
 set mouse=a
@@ -83,15 +83,9 @@ set encoding=UTF-8
 set incsearch
 set hlsearch
 
-highlight LineNr ctermfg=grey
-set cursorline
-" Light:
 set background=light
-highlight CursorLineNr ctermfg=brown
-" Dark:
-" set background=dark
-" highlight CursorLineNr ctermfg=yellow
-highlight clear CursorLine
+
+highlight LineNr ctermfg=grey
 
 runtime macros/matchit.vim
 
