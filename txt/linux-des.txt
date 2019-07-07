@@ -150,7 +150,7 @@ OPENBOX TIPS:
 - Peripherals:  Dell Ultrasharp monitors (both); Microsoft natural ergonomic keyboard and some ergonomic mouse (work), Filco Majestouch Cherry Blue/Leopold FC660M/Das Keyboard 4 Professional/Razer Huntsman/(Realforce R2 if you have roommates/girlfriend)/(DIY KEYBOARD a la https://www.youtube.com/watch?v=0c8UdKX6GBA) and Razer Naga (home)
 - Editor:       neovim+tmux
 - Shell:        zsh
-- Jarvis stand-sit desk at work
+- Jarvis/GeekDesk stand-sit desk at work
 
 HOSTNAMES (MAKE A GENERATOR! PASS PARAMETERS FOR WHICH ONE YOU WANT!):
 - (last names of) Characters from Shakespeare/significant literature works/significant or acclaimed movies (plainview, clemenza, deckard, etc (I LIKE THIS ONE!)) or movies from directors like kubrick (torrence, bowman/poole/floyd, mandrake), etc
