@@ -34,18 +34,4 @@ augroup filetypes
 		\ set autoindent |
 	   	\ let b:dispatch = 'python %' |
 		\ IndentLinesEnable
-	au Filetype html
-		\ set softtabstop=2 |
-		\ set shiftwidth=2 |
-		\ set textwidth=80 |
-		\ set expandtab |
-		\ set autoindent
-	au Filetype css
-		\ set softtabstop=2 |
-		\ set shiftwidth=2 |
-		\ set textwidth=80 |
-		\ set expandtab |
-		\ set autoindent
-	au Filetype go
-		\ set completeopt-=preview
 augroup END

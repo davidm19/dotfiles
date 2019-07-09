@@ -2,6 +2,7 @@
 - tpope/vim-endwise
 - tpope/vim-rsi
 - w0rp/ale (LOOK AT SETTINGS: https://github.com/w0rp/ale) (gvimrc has good settings)
+- SirVer/ultisnips + honza/vim-snippets
 - this part from tpope's vimrc (https://github.com/tpope/tpope/blob/master/.vimrc#L343) and this guy's vimrc (https://github.com/DarkUlixes/dotfiles/blob/master/vimrc#L27)
 
 --- FT-SETTINGS ---
@@ -18,9 +19,8 @@ Haskell:
 	- dispatch = 'ghc % -o %:r && ./%:r'
 	- and if all else fails, here's UPenn's two cents... https://www.seas.upenn.edu/~cis552/12fa/styleguide.html
 
-Racket:
-	- tabs = spaces, 2 characters
-	- line lengths = 102
+Markdown:
+	- goooooogle: https://github.com/google/styleguide/blob/gh-pages/docguide/style.md
 
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
@@ -39,17 +39,16 @@ Haskell:
 - eagletmt/neco-ghc
 - neovimhaskell/haskell.vim
 
+Markdown:
+- junegunn/goyo.vim (and remember settings)
+- set noshowmode
+- suan/vim-instant-markdown
+
 Python:
 - davidhalter/jedi-vim
 - Yggdroot/indentLine
 
-Racket:
-- junegunn/rainbow_parentheses.vim
-- wlangstroth/vim-racket
-
 PLUGINS TO TRY OUT:
-- AndrewRadev/splitjoin.vim
-- godlygeek/tabular (http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
 - irrationalistic/vim-tasks
 - tpope/vim-endwise
 - vimwiki/vimwiki
