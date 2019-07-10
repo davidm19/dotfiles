@@ -11,6 +11,7 @@ greenbold="\[\033[1;92m\]"
 green="\[\033[0;32m\]"
 whitebold="\[\033[1;97m\]"
 bluebold="\[\033[1;96m\]"
+magenta="\e[38;5;125m"
 reset="\[\033[0m\]"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -31,11 +32,8 @@ export TERM=screen-256color
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 
-# Light PS1
-# export PS1="$red\u$blue\$(__git_ps1) $reset$cyan\w$reset » "
-
-# Dark PS1
-# export PS1="$red\u$yellow\$(__git_ps1) $reset$cyan\w$reset » "
+# PS1
+export PS1="$cyan\u$reset@$green\h$reset:$yellow\w$magenta\$(__git_ps1)$reset$ "
 
 # SERVER PS1
-# export PS1="[$red\u$yellow@$cyan\h$reset $green\w$yellow\$(__git_ps1)$reset]$ "
+# export PS1="[$red\u$yellow@$cyan\h$reset:$green\w$yellow\$(__git_ps1)$reset]$ "
