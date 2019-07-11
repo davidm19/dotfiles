@@ -32,6 +32,9 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'godlygeek/tabular'
 Plug 'AndrewRadev/splitjoin.vim'
 
+" Plug 'SirVer/ultisnips'
+" Plug 'honza/vim-snippets'
+
 " Plugins: Language Specific
 " Python
 Plug 'davidhalter/jedi-vim'
