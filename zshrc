@@ -1,6 +1,6 @@
 # Adapted from Josh Dick's own git prompt.
 setopt prompt_subst
-autoload -U colors && colors # Enable colors in prompt
+autoload -Uz colors && colors # Enable colors in prompt
 
 # Echoes information about Git repository status when inside a Git repository
 git_info() {
@@ -71,4 +71,4 @@ alias config="bash ~/.dotfiles/scripts/update_dotfiles.sh"
 # nice git log: git log --oneline --graph --all
 
 # Almighty PS1
-PS1='%{$fg[red]%}%n%{$fg[yellow]%}@%{$fg[cyan]%}%m%{$reset_color%}:%{$fg[green]%}%~%{$reset_color%}$(git_info)% %% '
+PS1='%{$fg[red]%}%n%{$fg[yellow]%}@%{$fg[cyan]%}%m%{$reset_color%}:%{$fg[green]%}%~%{$reset_color%}$(git_info)% %# '
