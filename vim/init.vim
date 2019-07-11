@@ -28,8 +28,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
-Plug 'godlygeek/tabular'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'godlygeek/tabular'
 Plug 'AndrewRadev/splitjoin.vim'
 
 " Plugins: Language Specific
