@@ -90,6 +90,7 @@ function yay_programs() {
 	yay -S spotify
 	# yay -S nerd-fonts-complete
 	yay -S bdf-curie
+	yay -S gohufont
 	sudo fc-cache -fv
 }
 
