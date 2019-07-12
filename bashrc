@@ -33,7 +33,7 @@ source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 
 # PS1
-export PS1="$cyan\u$reset@$green\h$reset:$yellow\w$magenta\$(__git_ps1)$reset$ "
+export PS1="$cyan\u$reset@$green\h$reset:$yellow\w$magenta\$(__git_ps1)$reset\$ "
 
 # SERVER PS1
-# export PS1="[$red\u$yellow@$cyan\h$reset:$green\w$yellow\$(__git_ps1)$reset]$ "
+# export PS1="[$red\u$yellow@$cyan\h$reset:$green\w$yellow\$(__git_ps1)$reset]\$ "
