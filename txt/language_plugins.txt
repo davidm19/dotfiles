@@ -19,9 +19,6 @@ Haskell:
 	- dispatch = 'ghc % -o %:r && ./%:r'
 	- and if all else fails, here's UPenn's two cents... https://www.seas.upenn.edu/~cis552/12fa/styleguide.html
 
-Markdown:
-	- goooooogle: https://github.com/google/styleguide/blob/gh-pages/docguide/style.md
-
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
 - justinmk/vim-syntax-extra (C)
