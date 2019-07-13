@@ -19,7 +19,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Plugins: General
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'airblade/vim-gitgutter'
 Plug 'Raimondi/delimitMate'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tpope/vim-commentary'
@@ -32,6 +31,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'godlygeek/tabular'
 Plug 'AndrewRadev/splitjoin.vim'
 
+" Plug 'junegunn/goyo.vim'
 " Plug 'SirVer/ultisnips'
 " Plug 'honza/vim-snippets'
 

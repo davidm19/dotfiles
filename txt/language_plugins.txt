@@ -40,7 +40,7 @@ Haskell:
 - neovimhaskell/haskell.vim
 
 Markdown:
-- junegunn/goyo.vim (and remember settings)
+- junegunn/goyo.vim (no settings necessary)
 - set noshowmode
 - suan/vim-instant-markdown
 
