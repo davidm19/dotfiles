@@ -34,4 +34,11 @@ augroup filetypes
 		\ set autoindent |
 	   	\ let b:dispatch = 'python %' |
 		\ IndentLinesEnable
+	au Filetype markdown
+		\ Goyo |
+		\ hi StatusLineNC ctermfg=white |
+		\ set nonu |
+		\ set expandtab |
+		\ set autoindent |
+		\ set noshowmode
 augroup END
