@@ -16,7 +16,7 @@ reset="\[\033[0m\]"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
    export CLICOLOR=1
-   export LSCOLORS=ExFxCxDxbxegedabagaced
+   export LSCOLORS=exfxcxdxBxegxfabagacha
 else
    alias ls='ls --color=auto'
 fi
