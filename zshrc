@@ -73,3 +73,4 @@ alias config="bash ~/.dotfiles/scripts/update_dotfiles.sh"
 # Almighty PS1 CHOOSE ONE BEFORE SCHOOL YEAR STARTS
 # PS1='%{$fg[cyan]%}%n%{$fg[yellow]%}%{$reset_color%}:%{$fg[magenta]%}%~%{$reset_color%}$(git_info)% %# '
 # export PS1='%F{196}%n%F{226}@%F{51}%m%F{249}:%F{226}%~%f$(git_info)% %# '
+# export PS1='%F{196}%n%F{226}:%F{51}%~%f$(git_info)% %# '
