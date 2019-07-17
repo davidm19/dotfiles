@@ -12,11 +12,11 @@ git_info() {
   local GIT_LOCATION=${$(git symbolic-ref -q HEAD || git name-rev --name-only --no-undefined --always HEAD)#(refs/heads/|tags/)}
   local GIT_LOCATION_NO_WHITESPACE="$(echo -e "${GIT_LOCATION}" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
 
-  local AHEAD="%{$fg[white]%}⇡NUM%{$reset_color%}"
-  local BEHIND="%{$fg[cyan]%}⇣NUM%{$reset_color%}"
+  local AHEAD="⇡NUM"
+  local BEHIND="%{$fg[magenta]%}⇣NUM%{$reset_color%}"
   local MERGING="%{$fg[red]%}|MERGING%{$reset_color%}"
   local UNTRACKED="#"
-  local MODIFIED="%{$fg[yellow]%}*%{$reset_color%}"
+  local MODIFIED="%{$fg[cyan]%}*%{$reset_color%}"
   local STAGED="%{$fg[green]%}+%{$reset_color%}"
 
   local -a DIVERGENCES
@@ -51,7 +51,7 @@ git_info() {
 
   local -a GIT_INFO
   GIT_INFO+=( "(" )
-  GIT_INFO+=( "%{$fg[magenta]%}$GIT_LOCATION_NO_WHITESPACE%{$reset_color%}" )
+  GIT_INFO+=( "%{$fg[yellow]%}$GIT_LOCATION_NO_WHITESPACE%{$reset_color%}" )
   [ -n "$GIT_STATUS" ] && GIT_INFO+=( "$GIT_STATUS" )
   [[ ${#DIVERGENCES[@]} -ne 0 ]] && GIT_INFO+=( "${(j::)DIVERGENCES}" )
   [[ ${#FLAGS[@]} -ne 0 ]] && GIT_INFO+=( "${(j::)FLAGS}" )
@@ -72,5 +72,5 @@ alias config="bash ~/.dotfiles/scripts/update_dotfiles.sh"
 
 # Almighty PS1 CHOOSE ONE BEFORE SCHOOL YEAR STARTS
 # PS1='%{$fg[cyan]%}%n%{$fg[yellow]%}%{$reset_color%}:%{$fg[magenta]%}%~%{$reset_color%}$(git_info)% %# '
-# export PS1='%F{196}%n%F{226}@%F{51}%m%F{249}:%F{226}%~%f$(git_info)% %# '
+# export PS1='%F{196}%n%F{226}@%F{51}%m%F{226}:%F{226}%~%f$(git_info)% %# '
 # export PS1='%F{196}%n%F{226}:%F{51}%~%f$(git_info)% %# '
