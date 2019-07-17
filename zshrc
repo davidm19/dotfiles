@@ -70,5 +70,6 @@ alias l="ls"
 alias config="bash ~/.dotfiles/scripts/update_dotfiles.sh"
 # nice git log: git log --oneline --graph --all
 
-# Almighty PS1
-PS1='%{$fg[red]%}%n%{$fg[yellow]%}@%{$fg[cyan]%}%m%{$reset_color%}:%{$fg[green]%}%~%{$reset_color%}$(git_info)% %# '
+# Almighty PS1 CHOOSE ONE BEFORE SCHOOL YEAR STARTS
+# PS1='%{$fg[cyan]%}%n%{$fg[yellow]%}%{$reset_color%}:%{$fg[magenta]%}%~%{$reset_color%}$(git_info)% %# '
+# export PS1='%F{196}%n%F{249}@%F{51}%m%F{249}:%F{226}%~%f$(git_info)% %# '
