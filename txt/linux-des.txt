@@ -147,7 +147,7 @@ OPENBOX TIPS:
 - Computer:     (identical) Ryzen 5, 16GB ram for home and work; Surface Go for travel
 - OS:           (encrypted) Fedora/Pop!_OS at work, Arch (preferred)/Debian/Void/Gentoo (give it another try) at home (and Alpine for the families)
 - WM:           Stock GNOME (dual monitor) at work, KDE OR xmonad at home (split between dual and single)
-- Peripherals:  Dell Ultrasharp monitors (both); Kinesis Split/Ergodox EZ/Ergodox DIY (https://www.ergodox.io/) and Anker ergonomic mouse (work), Filco Majestouch Cherry Blue/Leopold FC660M/Das Keyboard 4 Professional/(Rubber domes if you have roommates/girlfriend)/(DIY: https://www.youtube.com/watch?v=0c8UdKX6GBA) and same Anker ergonomic mouse (home)
+- Peripherals:  Dell Ultrasharp monitors (both); Kinesis Split/Ergodox EZ and Anker ergonomic mouse (work), Filco Majestouch Cherry Blue/CODE TKL Blue/Leopold FC660M/Das Keyboard 4 Professional/(Rubber domes if you have roommates/girlfriend)/(DIY: https://www.youtube.com/watch?v=0c8UdKX6GBA) and same Anker ergonomic mouse (home)
 - Editor:       neovim+tmux
 - Shell:        zsh
 - Jarvis/GeekDesk stand-sit desk at work
