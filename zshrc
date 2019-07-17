@@ -72,4 +72,3 @@ alias config="bash ~/.dotfiles/scripts/update_dotfiles.sh"
 
 # Almighty PS1
 PS1='%{$fg[red]%}%n%{$fg[yellow]%}@%{$fg[cyan]%}%m%{$reset_color%}:%{$fg[green]%}%~%{$reset_color%}$(git_info)% %# '
-
