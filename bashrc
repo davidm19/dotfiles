@@ -22,7 +22,6 @@ else
 fi
 alias l="ls"
 alias tmux="tmux -2"
-alias config="bash ~/.dotfiles/scripts/update_dotfiles.sh"
 
 export VISUAL=vim
 export EDITOR="$VISUAL"

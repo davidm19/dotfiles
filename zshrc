@@ -67,7 +67,6 @@ else
    alias ls='ls --color=auto'
 fi
 alias l="ls"
-alias config="bash ~/.dotfiles/scripts/update_dotfiles.sh"
 # nice git log: git log --oneline --graph --all
 
 # Almighty PS1 CHOOSE ONE BEFORE SCHOOL YEAR STARTS
