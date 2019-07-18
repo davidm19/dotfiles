@@ -47,6 +47,7 @@ Python:
 
 PLUGINS TO TRY OUT:
 - irrationalistic/vim-tasks
+- mtth/scratch.vim
 - tpope/vim-endwise
 - vimwiki/vimwiki
 
