@@ -1,5 +1,5 @@
 "
-" File: vimrc (server)
+" File: vimrc
 " Author: davidm19
 " Created: May 3rd, 2019
 "
@@ -13,7 +13,6 @@ function! s:PluginInstall()
   \ https://github.com/Raimondi/delimitMate
   \ https://github.com/tpope/vim-commentary
   \ https://github.com/tpope/vim-fugitive
-  \ https://github.com/fholgado/minibufexpl.vim
   \ | xargs -n1 git clone
   silent cd ~
 endfunction

@@ -30,10 +30,9 @@ Plug 'tpope/vim-vinegar'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'godlygeek/tabular'
 Plug 'AndrewRadev/splitjoin.vim'
-
-" Plug 'junegunn/goyo.vim'
-" Plug 'SirVer/ultisnips'
-" Plug 'honza/vim-snippets'
+Plug 'junegunn/goyo.vim'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 
 " Plugins: Language Specific
 " Python
@@ -65,8 +64,6 @@ let mapleader = ";"
 nmap <silent> <leader>w :w<CR>
 nmap <silent> <leader>h :sp<CR>
 nmap <silent> <leader>v :vsp<CR>
-" nmap <silent> ]b :bnext<CR>
-" nmap <silent> [b :bprevious<CR>
 nmap <C-c> :Buffers<CR>
 nmap <C-p> :Files<CR>
 
