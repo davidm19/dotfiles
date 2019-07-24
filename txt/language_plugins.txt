@@ -19,6 +19,9 @@ Haskell:
 	- dispatch = 'ghc % -o %:r && ./%:r'
 	- and if all else fails, here's UPenn's two cents... https://www.seas.upenn.edu/~cis552/12fa/styleguide.html
 
+Javascript:
+	- HEY! DO ME! DO ME!
+
 --- LANGUAGE SPECIFIC PLUGINS ---
 C/C++:
 - justinmk/vim-syntax-extra (C)
@@ -35,6 +38,14 @@ Go:
 Haskell:
 - eagletmt/neco-ghc
 - neovimhaskell/haskell.vim
+
+Javascript/Typescript (VET THESE!):
+- bigfish/vim-js-context-coloring
+- leafgarland/typescript-vim
+- neoclide/vim-jsx-improve
+- pangloss/vim-javascript
+- posva/vim-vue
+- prettier/vim-prettier
 
 Markdown:
 - junegunn/goyo.vim (no settings necessary)
