@@ -14,8 +14,7 @@ Change desktop, screensaver and login manager wallpapers
 change all fonts (yes, even terminals. do size 11 for terminals, 10 everywhere else) to inconsolata
 BLUR KONSOLE! (change background color to #000000 and blur to anywhere from 18% to 36%) (and add a keyboard shortcut for opening it: go to settings --> global keyboard shortcuts and set it for konsole)
 How to add media key functionality: https://nallerooth.com/post/how_to_configure_spotify_hotkeys_in_kde/
-How to increase font size in console: Ctrl+Shift+Plus
-SDDM THEMES: https://store.kde.org/browse/cat/101/ord/rating/
+How to increase font size in console: Ctrl+Shift+Plus SDDM THEMES: https://store.kde.org/browse/cat/101/ord/rating/
 MORE COMPLICATED SDDM THEME: https://github.com/3ximus/aerial-sddm-theme
 LIGHTDM THEME: https://github.com/linuxmint/slick-greeter
 
@@ -146,8 +145,8 @@ OPENBOX TIPS:
 =====================
 - Computer:     (identical) Ryzen 5, 16GB ram for home and work; Surface Go for travel
 - OS:           (encrypted) Fedora/Pop!_OS at work, Arch (preferred)/Debian/Void/Gentoo (give it another try) at home (and Alpine for the families)
-- WM:           xmonad at home/work (if not, just use stock GNOME) (split between dual and single)
-- Peripherals:  Dell Ultrasharp monitors, like these: https://www.dell.com/en-us/shop/dell-ultrasharp-24-monitor-u2419h/apd/210-arcf/monitors-monitor-accessories (both); Kinesis Split/Ergodox EZ and Anker ergonomic mouse (work), Filco Majestouch Cherry Blue/CODE TKL Blue/Leopold FC660M/Das Keyboard 4 Professional/(Rubber domes if you have roommates/girlfriend)/(DIY: https://www.youtube.com/watch?v=0c8UdKX6GBA) and same Anker ergonomic mouse (home)
+- WM:           xmonad at home/work (if not, just use stock GNOME at work) (dual at work, single at home)
+- Peripherals:  Dell Ultrasharp monitors, like these: https://www.dell.com/en-us/shop/dell-ultrasharp-24-monitor-u2419h/apd/210-arcf/monitors-monitor-accessories (both); Kinesis Split/Ergodox EZ and Anker ergonomic mouse (work), Filco Majestouch Cherry Blue/Leopold FC660M/(Sub-$100 rubber domes if you have roommates/girlfriend) and same Anker ergonomic mouse (home)
 - Editor:       neovim+tmux
 - Shell:        zsh
 - Jarvis/GeekDesk stand-sit desk at work

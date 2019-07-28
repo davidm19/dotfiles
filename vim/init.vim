@@ -1,7 +1,7 @@
 "
-" File: init.vim
-" Author: davidm19
-" Created: ~2018
+" File:     init.vim
+" Author:   davidm19
+" Created:  ~2018
 "
 
 " Section: Bootstrapping
@@ -38,6 +38,7 @@ Plug 'honza/vim-snippets'
 " Python
 Plug 'davidhalter/jedi-vim'
 Plug 'Yggdroot/indentLine'
+
 call plug#end()
 
 " Section: Vim Plugin Settings
