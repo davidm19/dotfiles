@@ -93,6 +93,8 @@ runtime macros/matchit.vim
 highlight StatusLine ctermbg=white ctermfg=black
 
 set list listchars=tab:\ \ ,trail:·
+" Change trail to highlight red,
+" Space to dot? Add others to listchars?
 
 " Section: External Files
 
