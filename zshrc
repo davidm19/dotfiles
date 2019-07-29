@@ -71,6 +71,6 @@ alias l="ls"
 
 # Almighty PS1 CHOOSE ONE BEFORE SCHOOL YEAR STARTS
 # PS1='%{$fg[cyan]%}%n%{$fg[yellow]%}%{$reset_color%}:%{$fg[magenta]%}%~%{$reset_color%}$(git_info)% %# ' Magenta
-# export PS1='%F{196}%n%F{226}@%F{51}%m%F{226}:%F{226}%~%f$(git_info)% %# '
-# export PS1='%F{196}%n%F{226}:%F{51}%~%f$(git_info)% %# '
-# another prompt: %~ [yellow] git:(git status) [green, magenta for git branch] >>> [cyan, blue, red]
+# export PS1='%F{196}%n%F{226}@%F{51}%m%F{226}:%F{226}%~%f$(git_info)%%{$reset_color%} %# '
+# export PS1='%F{196}%n%F{226}:%F{51}%~%f$(git_info)%%{$reset_color%} %# '
+# export PS1='[%F{196}%n%F{226}:%F{51}%~%f$(git_info)%%{$reset_color%} ]%# '
