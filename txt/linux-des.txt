@@ -149,7 +149,7 @@ OPENBOX TIPS:
 - Peripherals:  Dell Ultrasharp monitors, like these: https://www.dell.com/en-us/shop/dell-ultrasharp-24-monitor-u2419h/apd/210-arcf/monitors-monitor-accessories (both); Kinesis Split/Ergodox EZ and Anker ergonomic mouse (work), Filco Majestouch Cherry Blue/Leopold FC660M/(Sub-$100 rubber domes if you have roommates/girlfriend) and same Anker ergonomic mouse (home)
 - Editor:       neovim+tmux
 - Shell:        zsh
-- Jarvis/GeekDesk stand-sit desk at work
+- Jarvis/GeekDesk/Flexispot stand-sit desk at work
 
 HOSTNAMES (MAKE A GENERATOR! PASS PARAMETERS FOR WHICH ONE YOU WANT!):
 - (last names of) Characters from Shakespeare/significant literature works/significant or acclaimed movies (plainview, clemenza, deckard, etc (I LIKE THIS ONE!)) or movies from directors like kubrick (torrence, bowman/poole/floyd, mandrake), etc
